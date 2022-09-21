@@ -1,0 +1,43 @@
+$aqua: #00fefc
+$steel-pink: #D025B9
+$oxford-blue: #02223C
+$snow: #FCF7F8
+$rich-black-fogra-29: #000914
+
+$roboto: 'Roboto', sans-serif
+    
+.nav-bar-container
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    border-bottom: 15px solid $aqua
+    background-color: $snow
+    .title-nav-bar
+        font-family: $roboto
+        font-size: 48px
+        margin: 40px
+    .theme-switch
+        margin: 40px
+        display: flex
+        justify-content: space-between
+        border: solid 3px $oxford-blue
+        border-radius: 50px
+        background-color: $oxford-blue
+        width: 140px
+        height: 50px
+        .theme-key
+            all: unset
+            .switch-theme-icon
+                margin:  0px 0px
+                cursor: pointer
+                font-size: 32px
+                padding: 5px
+                color: $snow
+                border: solid 2px $oxford-blue
+                border-radius: 50px
+            .actived-theme
+                background-color: $aqua
+                padding: 7px
+                width: 60px
+                align-self: left

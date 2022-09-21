@@ -1,0 +1,41 @@
+.nav-bar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 15px solid #00fefc;
+  background-color: #FCF7F8;
+}
+.nav-bar-container .title-nav-bar {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  margin: 40px;
+}
+.nav-bar-container .theme-switch {
+  margin: 40px;
+  display: flex;
+  justify-content: space-between;
+  border: solid 3px #02223C;
+  border-radius: 50px;
+  background-color: #02223C;
+  width: 140px;
+  height: 50px;
+}
+.nav-bar-container .theme-switch .theme-key {
+  all: unset;
+}
+.nav-bar-container .theme-switch .theme-key .switch-theme-icon {
+  margin: 0px 0px;
+  cursor: pointer;
+  font-size: 32px;
+  padding: 5px;
+  color: #FCF7F8;
+  border: solid 2px #02223C;
+  border-radius: 50px;
+}
+.nav-bar-container .theme-switch .theme-key .actived-theme {
+  background-color: #00fefc;
+  padding: 7px;
+  width: 60px;
+  align-self: left;
+}/*# sourceMappingURL=styles.css.map */
