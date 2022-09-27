@@ -4,7 +4,7 @@ import AnalogClock from "../AnalogClock";
 
 function Carousel() {
     return (
-        <>
+        <div className="carousel-background">
             <div className="carousel-container">
                 <div>
                     <AnalogClock />
@@ -15,7 +15,7 @@ function Carousel() {
                     </p>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 
