@@ -1,10 +1,12 @@
 import React from "react";
 import './styles.css'
 import AnalogClock from "../AnalogClock";
+import useTime from "../hooks/useTime";
 
 function Carousel() {
+    const dayTime = useTime()
     return (
-        <div className="carousel-background">
+        <div className={dayTime}>
             <div className="carousel-container">
                 <div>
                     <AnalogClock />
