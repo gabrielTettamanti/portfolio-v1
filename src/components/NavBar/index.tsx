@@ -6,7 +6,7 @@ import './styles.css'
 
 function NavBar() {
     return (
-        <>
+        <header>
             <nav className="nav-bar-container">
                 <div>
                     <h1 className="title-nav-bar">Gabriel Tettamanti Development</h1>
@@ -27,12 +27,12 @@ function NavBar() {
                     >
                         <FontAwesomeIcon 
                             icon={faMoon}
-                            className='switch-theme-icon'
+                            className='switch-theme-icon off-theme'
                         />
                     </button>
                 </div>
             </nav>
-        </>
+        </header>
     );
 };
 

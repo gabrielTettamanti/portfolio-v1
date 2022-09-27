@@ -5,8 +5,15 @@ $snow: #FCF7F8
 $rich-black-fogra-29: #000914
 
 $roboto: 'Roboto', sans-serif
+
+@mixin background-hover
+    transition: 0.5s
+    &:hover
+        background-color: $aqua
     
 .nav-bar-container
+    width: 100vw
+    height: 12.5vh
     display: flex
     flex-direction: row
     justify-content: space-between
@@ -41,3 +48,5 @@ $roboto: 'Roboto', sans-serif
                 padding: 7px
                 width: 60px
                 align-self: left
+            .off-theme
+                @include background-hover

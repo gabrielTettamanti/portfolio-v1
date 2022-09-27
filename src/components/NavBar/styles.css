@@ -1,4 +1,6 @@
 .nav-bar-container {
+  width: 100vw;
+  height: 12.5vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,4 +40,10 @@
   padding: 7px;
   width: 60px;
   align-self: left;
+}
+.nav-bar-container .theme-switch .theme-key .off-theme {
+  transition: 0.5s;
+}
+.nav-bar-container .theme-switch .theme-key .off-theme:hover {
+  background-color: #00fefc;
 }/*# sourceMappingURL=styles.css.map */

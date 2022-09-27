@@ -1,0 +1,43 @@
+$aqua: #00fefc
+$steel-pink: #D025B9
+$oxford-blue: #02223C
+$snow: #FCF7F8
+$rich-black-fogra-29: #000914
+
+$roboto: 'Roboto', sans-serif
+
+@mixin background-hover
+    transition: 0.5s
+    &:hover
+        color: $snow
+        background-color: $oxford-blue
+    
+.contact-container
+    width: 100vw
+    height: 12.5vh
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    border-top: 15px solid $aqua
+    background-color: $snow
+    .contact-buttons
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        margin: 40px
+        background-color: $snow
+        .contact-button
+            margin: 0px 0px 0px 40px
+            font-family: $roboto
+            font-size: 26px
+            color: $oxford-blue
+            padding: 6px
+            border-radius: 30px
+            @include background-hover
+        .contact-icon
+            font-size: 50px
+        .cv-p
+            font-size: 29px
+            font-weight: 500

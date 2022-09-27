@@ -1,0 +1,17 @@
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #02223C;
+  height: 70vh;
+}
+.carousel-container .carousel-text {
+  width: 50%;
+}
+.carousel-container .carousel-text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #FCF7F8;
+}/*# sourceMappingURL=styles.css.map */
