@@ -1,6 +1,6 @@
 .nav-bar-container-white-theme {
   width: 100vw;
-  height: 12.5vh;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,14 +33,11 @@
   font-size: 32px;
   padding: 5px;
   color: #FCF7F8;
-  border: solid 2px #02223C;
   border-radius: 50px;
 }
 .nav-bar-container-white-theme .theme-switch .theme-key .actived-theme {
   background-color: #00fefc;
-  padding: 7px;
   width: 60px;
-  align-self: left;
   cursor: not-allowed;
 }
 .nav-bar-container-white-theme .theme-switch .theme-key .off-theme {
@@ -52,7 +49,7 @@
 
 .nav-bar-container-dark-theme {
   width: 100vw;
-  height: 12.5vh;
+  height: 15vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -71,9 +68,9 @@
   margin: 40px;
   display: flex;
   justify-content: space-between;
-  border: solid 3px #02223C;
+  border: solid 3px #FCF7F8;
   border-radius: 50px;
-  background-color: #02223C;
+  background-color: #FCF7F8;
   width: 140px;
   height: 50px;
 }
@@ -85,15 +82,12 @@
   cursor: pointer;
   font-size: 32px;
   padding: 5px;
-  color: #FCF7F8;
-  border: solid 2px #02223C;
+  color: #000914;
   border-radius: 50px;
 }
 .nav-bar-container-dark-theme .theme-switch .theme-key .actived-theme {
   background-color: #D025B9;
-  padding: 7px;
   width: 60px;
-  align-self: left;
   cursor: not-allowed;
 }
 .nav-bar-container-dark-theme .theme-switch .theme-key .off-theme {
