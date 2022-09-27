@@ -34,6 +34,7 @@ function NavBar() {
                     </button>
                 </div>
             </nav>
+            <div className="background-header-filling"/>
         </header>
     );
 };

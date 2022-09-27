@@ -1,4 +1,5 @@
 .nav-bar-container-white-theme {
+  position: fixed;
   width: 100vw;
   height: 15vh;
   display: flex;
@@ -47,7 +48,13 @@
   background-color: #00fefc;
 }
 
+.background-header-filling {
+  height: 15vh;
+  width: 100vw;
+}
+
 .nav-bar-container-dark-theme {
+  position: fixed;
   width: 100vw;
   height: 15vh;
   display: flex;

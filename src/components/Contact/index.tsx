@@ -9,24 +9,26 @@ import useTime from "../hooks/useTime";
 function Contact() {
     const dayTime = useTime()
     return (
-        <footer className={`contact-container-${dayTime}`}>
-            <div>
-
+        <footer>
+            <div className={`contact-container-${dayTime}`}>
+                <div>
+                </div>
+                <address className="contact-buttons">
+                    <a href="">
+                        <p className="contact-button cv-p">Curriculum Vitae</p>
+                    </a>
+                    <a href="">
+                        <FontAwesomeIcon icon={faInstagram} className="contact-button contact-icon" />
+                    </a>
+                    <a href="">
+                        <FontAwesomeIcon icon={faEnvelope} className="contact-button contact-icon" />
+                    </a>
+                    <a href="">
+                        <FontAwesomeIcon icon={faGithub} className="contact-button contact-icon" />
+                    </a>
+                </address>
             </div>
-            <address className="contact-buttons">
-                <a href="">
-                    <p className="contact-button cv-p">Curriculum Vitae</p>
-                </a>
-                <a href="">
-                    <FontAwesomeIcon icon={faInstagram} className="contact-button contact-icon" />
-                </a>
-                <a href="">
-                    <FontAwesomeIcon icon={faEnvelope} className="contact-button contact-icon" />
-                </a>
-                <a href="">
-                    <FontAwesomeIcon icon={faGithub} className="contact-button contact-icon" />
-                </a>
-            </address>
+            <div className="background-footer-filling"/>
         </footer>
     );
 };
