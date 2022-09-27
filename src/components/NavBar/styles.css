@@ -40,6 +40,7 @@
   padding: 7px;
   width: 60px;
   align-self: left;
+  cursor: not-allowed;
 }
 .nav-bar-container .theme-switch .theme-key .off-theme {
   transition: 0.5s;
