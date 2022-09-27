@@ -4,10 +4,12 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import {  } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import './styles.css'
+import useTime from "../hooks/useTime";
 
 function Contact() {
+    const dayTime = useTime()
     return (
-        <footer className="contact-container">
+        <footer className={`contact-container-${dayTime}`}>
             <div>
 
             </div>

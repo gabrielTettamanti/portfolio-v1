@@ -1,4 +1,4 @@
-.contact-container {
+.contact-container-white-theme {
   width: 100vw;
   height: 12.5vh;
   display: flex;
@@ -8,7 +8,7 @@
   border-top: 15px solid #00fefc;
   background-color: #FCF7F8;
 }
-.contact-container .contact-buttons {
+.contact-container-white-theme .contact-buttons {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -16,7 +16,7 @@
   margin: 40px;
   background-color: #FCF7F8;
 }
-.contact-container .contact-buttons .contact-button {
+.contact-container-white-theme .contact-buttons .contact-button {
   margin: 0px 0px 0px 40px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
@@ -25,14 +25,53 @@
   border-radius: 30px;
   transition: 0.5s;
 }
-.contact-container .contact-buttons .contact-button:hover {
+.contact-container-white-theme .contact-buttons .contact-button:hover {
   color: #FCF7F8;
   background-color: #02223C;
 }
-.contact-container .contact-buttons .contact-icon {
+.contact-container-white-theme .contact-buttons .contact-icon {
   font-size: 50px;
 }
-.contact-container .contact-buttons .cv-p {
+.contact-container-white-theme .contact-buttons .cv-p {
+  font-size: 29px;
+  font-weight: 500;
+}
+
+.contact-container-dark-theme {
+  width: 100vw;
+  height: 12.5vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 15px solid #D025B9;
+  background-color: #000914;
+}
+.contact-container-dark-theme .contact-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  background-color: #000914;
+}
+.contact-container-dark-theme .contact-buttons .contact-button {
+  margin: 0px 0px 0px 40px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  color: #FCF7F8;
+  padding: 6px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.contact-container-dark-theme .contact-buttons .contact-button:hover {
+  color: #000914;
+  background-color: #FCF7F8;
+}
+.contact-container-dark-theme .contact-buttons .contact-icon {
+  font-size: 50px;
+}
+.contact-container-dark-theme .contact-buttons .cv-p {
   font-size: 29px;
   font-weight: 500;
 }/*# sourceMappingURL=styles.css.map */

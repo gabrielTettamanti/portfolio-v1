@@ -6,13 +6,18 @@ $rich-black-fogra-29: #000914
 
 $roboto: 'Roboto', sans-serif
 
-@mixin background-hover
+@mixin background-snow-hover
     transition: 0.5s
     &:hover
         color: $snow
         background-color: $oxford-blue
+@mixin background-pink-hover
+    transition: 0.5s
+    &:hover
+        color: $rich-black-fogra-29
+        background-color: $snow
     
-.contact-container
+.contact-container-white-theme
     width: 100vw
     height: 12.5vh
     display: flex
@@ -35,7 +40,37 @@ $roboto: 'Roboto', sans-serif
             color: $oxford-blue
             padding: 6px
             border-radius: 30px
-            @include background-hover
+            @include background-snow-hover
+        .contact-icon
+            font-size: 50px
+        .cv-p
+            font-size: 29px
+            font-weight: 500
+
+.contact-container-dark-theme
+    width: 100vw
+    height: 12.5vh
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    border-top: 15px solid $steel-pink
+    background-color: $rich-black-fogra-29
+    .contact-buttons
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        margin: 40px
+        background-color: $rich-black-fogra-29
+        .contact-button
+            margin: 0px 0px 0px 40px
+            font-family: $roboto
+            font-size: 26px
+            color: $snow
+            padding: 6px
+            border-radius: 30px
+            @include background-pink-hover
         .contact-icon
             font-size: 50px
         .cv-p
