@@ -1,6 +1,5 @@
 .background-header-filling {
   height: 15vh;
-  max-height: 140px;
   width: 100vh;
   border-bottom: 15px solid white;
 }
@@ -10,7 +9,6 @@
   z-index: 100;
   width: 100vw;
   height: 15vh;
-  max-height: 140px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -62,7 +60,6 @@
   z-index: 100;
   width: 100vw;
   height: 15vh;
-  max-height: 140px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
