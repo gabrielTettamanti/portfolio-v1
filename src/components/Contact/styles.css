@@ -2,6 +2,7 @@
   height: 15vh;
   max-height: 140px;
   width: 100vw;
+  border-top: 15px solid white;
 }
 
 .contact-container-white-theme {

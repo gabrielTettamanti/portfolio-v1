@@ -1,7 +1,8 @@
 .background-header-filling {
   height: 15vh;
   max-height: 140px;
-  width: 100vw;
+  width: 100vh;
+  border-bottom: 15px solid white;
 }
 
 .nav-bar-container-white-theme {
