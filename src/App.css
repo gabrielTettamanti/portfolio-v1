@@ -12,5 +12,6 @@ a {
 .App {
   height: 100vh;
   text-align: center;
+  background-color: rgb(255, 0, 0);
 }
 
