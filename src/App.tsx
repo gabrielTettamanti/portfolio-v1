@@ -11,8 +11,10 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Carousel />
-      <RepositoriesList />
+      <main>
+        <Carousel />
+        <RepositoriesList />
+      </main>
       <Contact />
     </div>
   );
