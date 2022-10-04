@@ -15,6 +15,7 @@
   justify-content: space-between;
   align-items: center;
   border-top: 15px solid #00fefc;
+  box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FCF7F8;
 }
 .contact-container-white-theme .contact-buttons {

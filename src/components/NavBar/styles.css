@@ -14,6 +14,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 15px solid #00fefc;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FCF7F8;
 }
 .nav-bar-container-white-theme .title-nav-bar {
@@ -65,6 +66,7 @@
   justify-content: space-between;
   align-items: center;
   border-bottom: 15px solid #D025B9;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #000914;
 }
 .nav-bar-container-dark-theme .title-nav-bar {
