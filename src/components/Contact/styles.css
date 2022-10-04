@@ -38,6 +38,7 @@
 .contact-container-white-theme .contact-buttons .contact-button:hover {
   color: #FCF7F8;
   background-color: #02223C;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-container-white-theme .contact-buttons .contact-icon {
   font-size: 50px;
@@ -58,6 +59,7 @@
   justify-content: space-between;
   align-items: center;
   border-top: 15px solid #D025B9;
+  box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #000914;
 }
 .contact-container-dark-theme .contact-buttons {
@@ -80,6 +82,7 @@
 .contact-container-dark-theme .contact-buttons .contact-button:hover {
   color: #000914;
   background-color: #FCF7F8;
+  box-shadow: 0 10px 16px 0 rgba(252, 247, 248, 0.1254901961), 0 6px 20px 0 rgba(252, 247, 248, 0.0980392157);
 }
 .contact-container-dark-theme .contact-buttons .contact-icon {
   font-size: 50px;
