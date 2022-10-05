@@ -82,7 +82,7 @@
 .contact-container-dark-theme .contact-buttons .contact-button:hover {
   color: #000914;
   background-color: #FCF7F8;
-  box-shadow: 0 10px 16px 0 rgba(252, 247, 248, 0.1254901961), 0 6px 20px 0 rgba(252, 247, 248, 0.0980392157);
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-container-dark-theme .contact-buttons .contact-icon {
   font-size: 50px;
