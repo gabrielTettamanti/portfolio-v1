@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from 'aos'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  } from '@fortawesome/free-solid-svg-icons'
 import {  } from '@fortawesome/free-regular-svg-icons'
@@ -6,10 +7,17 @@ import { faJs, faNode, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icon
 import './styles.css'
 
 export default () => {
+
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        });
+      }, []);
+
     return (
         <div className="repositories-list">
             <h2 className="repositories-list-title">Proyectos</h2>
-            <div className="repository">
+            <div className="repository" data-aos="fade-right">
                 <img src="/static/media/sunrise.913e3d46a8873355b5fe.jpg" alt="Foto del proyecto" className="repository-view"/>
                 <div className="repository-info">
                     <h3 className="repository-title">Repositorio de ejemplo</h3>
@@ -22,7 +30,7 @@ export default () => {
                     </p>
                 </div>
             </div>    
-            <div className="repository">
+            <div className="repository" data-aos="fade-right">
                 <img src="/static/media/sunrise.913e3d46a8873355b5fe.jpg" alt="Foto del proyecto" className="repository-view"/>
                 <div className="repository-info">
                     <h3 className="repository-title">Repositorio de ejemplo</h3>
@@ -35,7 +43,7 @@ export default () => {
                     </p>
                 </div>
             </div>   
-            <div className="repository">
+            <div className="repository" data-aos="fade-right">
                 <img src="/static/media/sunrise.913e3d46a8873355b5fe.jpg" alt="Foto del proyecto" className="repository-view"/>
                 <div className="repository-info">
                     <h3 className="repository-title">Repositorio de ejemplo</h3>
