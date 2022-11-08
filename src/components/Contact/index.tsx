@@ -13,7 +13,7 @@ function Contact() {
             <div className={`contact-container-${dayTime}`}>
                 <div className="contact-buttons">
                 </div>
-                <a href="">
+                <a href="#repositories-list">
                     <FontAwesomeIcon icon={faArrowDown} className="arrow-down-scroller" />
                 </a>
                 <address className="contact-buttons">
