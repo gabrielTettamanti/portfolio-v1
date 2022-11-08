@@ -1,13 +1,13 @@
 .background-footer-filling {
   height: 15vh;
-  width: 100vw;
+  width: 100%;
   border-top: 15px solid white;
 }
 
 .contact-container-white-theme {
   position: fixed;
   z-index: 100;
-  width: 100vw;
+  width: 100%;
   bottom: 0%;
   height: 15vh;
   display: flex;
@@ -51,7 +51,7 @@
 .contact-container-dark-theme {
   position: fixed;
   z-index: 100;
-  width: 100vw;
+  width: 100%;
   bottom: 0%;
   height: 15vh;
   display: flex;
