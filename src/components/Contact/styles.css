@@ -18,6 +18,16 @@
   box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FCF7F8;
 }
+.contact-container-white-theme .arrow-down-scroller {
+  padding: 5.14px 9px;
+  font-size: 30px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.contact-container-white-theme .arrow-down-scroller:hover {
+  background-color: #00fefc;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .contact-container-white-theme .contact-buttons {
   display: flex;
   flex-direction: row;
@@ -25,9 +35,11 @@
   align-items: center;
   margin: 40px;
   background-color: #FCF7F8;
+  width: 45%;
+  max-width: 576px;
 }
 .contact-container-white-theme .contact-buttons .contact-button {
-  margin: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 30px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
   color: #02223C;
@@ -44,7 +56,7 @@
   font-size: 50px;
 }
 .contact-container-white-theme .contact-buttons .cv-p {
-  font-size: 29px;
+  font-size: 26px;
   font-weight: 500;
 }
 
@@ -62,6 +74,16 @@
   box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #000914;
 }
+.contact-container-dark-theme .arrow-down-scroller {
+  padding: 5.14px 9px;
+  font-size: 30px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.contact-container-dark-theme .arrow-down-scroller:hover {
+  background-color: #D025B9;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .contact-container-dark-theme .contact-buttons {
   display: flex;
   flex-direction: row;
@@ -69,9 +91,11 @@
   align-items: center;
   margin: 40px;
   background-color: #000914;
+  width: 40%;
+  max-width: 576px;
 }
 .contact-container-dark-theme .contact-buttons .contact-button {
-  margin: 0px 0px 0px 40px;
+  margin: 0px 0px 0px 30px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
   color: #FCF7F8;
@@ -80,14 +104,13 @@
   transition: 0.5s;
 }
 .contact-container-dark-theme .contact-buttons .contact-button:hover {
-  color: #000914;
-  background-color: #FCF7F8;
+  background-color: #D025B9;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-container-dark-theme .contact-buttons .contact-icon {
   font-size: 50px;
 }
 .contact-container-dark-theme .contact-buttons .cv-p {
-  font-size: 29px;
+  font-size: 26px;
   font-weight: 500;
 }/*# sourceMappingURL=styles.css.map */

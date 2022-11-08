@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import {  } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './styles.css'
@@ -11,8 +11,11 @@ function Contact() {
     return (
         <footer>
             <div className={`contact-container-${dayTime}`}>
-                <div>
+                <div className="contact-buttons">
                 </div>
+                <a href="">
+                    <FontAwesomeIcon icon={faArrowDown} className="arrow-down-scroller" />
+                </a>
                 <address className="contact-buttons">
                     <a href="">
                         <p className="contact-button cv-p">Curriculum Vitae</p>

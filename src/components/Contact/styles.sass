@@ -18,6 +18,16 @@ $roboto: 'Roboto', sans-serif
         color: $rich-black-fogra-29
         background-color: $snow
         box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+@mixin background-aqua-hover
+    transition: 0.5s
+    &:hover
+        background-color: $aqua
+        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+@mixin background-pink-hover
+    transition: 0.5s
+    &:hover
+        background-color: $steel-pink
+        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
                 
 .background-footer-filling
     height: 15vh
@@ -37,6 +47,11 @@ $roboto: 'Roboto', sans-serif
     border-top: 15px solid $aqua
     box-shadow: 10px 0 16px 0 rgb(0 0 0 / 20%), 6px 0 20px 0 rgb(0 0 0 / 19%)
     background-color: $snow
+    .arrow-down-scroller
+        padding: 5.14px 9px
+        font-size: 30px
+        border-radius: 20px
+        @include background-aqua-hover
     .contact-buttons
         display: flex
         flex-direction: row
@@ -44,8 +59,10 @@ $roboto: 'Roboto', sans-serif
         align-items: center
         margin: 40px
         background-color: $snow
+        width: 45%
+        max-width: 576px
         .contact-button
-            margin: 0px 0px 0px 40px
+            margin: 0px 0px 0px 30px
             font-family: $roboto
             font-size: 26px
             color: $oxford-blue
@@ -55,7 +72,7 @@ $roboto: 'Roboto', sans-serif
         .contact-icon
             font-size: 50px
         .cv-p
-            font-size: 29px
+            font-size: 26px
             font-weight: 500
 
 .contact-container-dark-theme
@@ -71,6 +88,11 @@ $roboto: 'Roboto', sans-serif
     border-top: 15px solid $steel-pink
     box-shadow: 10px 0 16px 0 rgb(0 0 0 / 20%), 6px 0 20px 0 rgb(0 0 0 / 19%)
     background-color: $rich-black-fogra-29
+    .arrow-down-scroller
+        padding: 5.14px 9px
+        font-size: 30px
+        border-radius: 20px
+        @include background-pink-hover
     .contact-buttons
         display: flex
         flex-direction: row
@@ -78,8 +100,10 @@ $roboto: 'Roboto', sans-serif
         align-items: center
         margin: 40px
         background-color: $rich-black-fogra-29
+        width: 40%
+        max-width: 576px
         .contact-button
-            margin: 0px 0px 0px 40px
+            margin: 0px 0px 0px 30px
             font-family: $roboto
             font-size: 26px
             color: $snow
@@ -89,5 +113,5 @@ $roboto: 'Roboto', sans-serif
         .contact-icon
             font-size: 50px
         .cv-p
-            font-size: 29px
+            font-size: 26px
             font-weight: 500
