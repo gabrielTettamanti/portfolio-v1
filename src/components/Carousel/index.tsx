@@ -8,10 +8,10 @@ function Carousel() {
     return (
         <div className={`carousel-background-${dayTime}`}>
             <div className="carousel-container">
-                <div>
+                <div data-aos="fade-right">
                     <AnalogClock />
                 </div>
-                <div className="carousel-text">
+                <div className="carousel-text" data-aos="fade-left">
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic officia illo maiores error, aliquid atque quod neque omnis, nobis tempore porro quos laudantium commodi iusto cupiditate maxime distinctio beatae delectus?
                     </p>

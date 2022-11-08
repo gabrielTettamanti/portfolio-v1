@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import AOS from 'aos'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  } from '@fortawesome/free-solid-svg-icons'
 import {  } from '@fortawesome/free-regular-svg-icons'
@@ -7,13 +6,6 @@ import { faJs, faNode, faCss3, faHtml5 } from '@fortawesome/free-brands-svg-icon
 import './styles.css'
 
 export default () => {
-
-    useEffect(() => {
-        AOS.init({
-          duration : 2000
-        });
-      }, []);
-
     return (
         <div className="repositories-list" data-aos="fade-up">
             <h2 className="repositories-list-title">Proyectos</h2>

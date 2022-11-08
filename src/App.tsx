@@ -1,5 +1,5 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useEffect} from 'react';
+import AOS from 'aos'
 import './App.css';
 import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
@@ -8,6 +8,13 @@ import AnalogClock from './components/AnalogClock';
 import RepositoriesList from './components/RepositoriesList';
 
 function App() {
+
+  useEffect(() => {
+      AOS.init({
+        duration : 2000
+      });
+    }, []);
+
   return (
     <div className="App">
       <NavBar />
