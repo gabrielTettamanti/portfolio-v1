@@ -7,7 +7,7 @@ import './styles.css'
 
 export default () => {
     return (
-        <div className="repositories-list" id="repositories-list">
+        <div className="repositories-list" id="repositories-list" data-aos="fade-down">
             <h2 className="repositories-list-title">Proyectos</h2>
             <div className="repository" data-aos="fade-right">
                 <img src="/static/media/sunrise.913e3d46a8873355b5fe.jpg" alt="Foto del proyecto" className="repository-view"/>
