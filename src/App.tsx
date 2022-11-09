@@ -6,13 +6,14 @@ import Carousel from './components/Carousel';
 import Contact from './components/Contact'
 import AnalogClock from './components/AnalogClock';
 import RepositoriesList from './components/RepositoriesList';
+import useScrollDetector from './components/hooks/useScrollDetector';
 
 function App() {
 
   useEffect(() => {
-      AOS.init({
-        duration : 2000
-      });
+    AOS.init({
+      duration : 2000
+    });
     }, []);
 
   return (

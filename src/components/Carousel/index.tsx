@@ -6,7 +6,7 @@ import useTime from "../hooks/useTime";
 function Carousel() {
     const dayTime = useTime()
     return (
-        <div className={`carousel-background-${dayTime}`}>
+        <div className={`carousel-background-${dayTime} home-intro`}>
             <div className="carousel-container">
                 <div data-aos="fade-right">
                     <AnalogClock />
