@@ -37,11 +37,11 @@
   align-items: center;
   margin: 40px;
   background-color: #FCF7F8;
-  width: 45%;
+  width: 35%;
   max-width: 576px;
 }
 .contact-container-white-theme .contact-buttons .contact-button {
-  margin: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 0px;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #02223C;
@@ -95,11 +95,11 @@
   align-items: center;
   margin: 40px;
   background-color: #000914;
-  width: 40%;
+  width: 35%;
   max-width: 576px;
 }
 .contact-container-dark-theme .contact-buttons .contact-button {
-  margin: 0px 0px 0px 30px;
+  margin: 0px 0px 0px 0px;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: #FCF7F8;

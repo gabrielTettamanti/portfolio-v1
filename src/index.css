@@ -1,3 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+
 html {
     scroll-behavior: smooth;
+}
+  
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.App {
+  width: 100%;
+  text-align: center;
+}
+
+body::-webkit-scrollbar {
+  width: 0em;
 }

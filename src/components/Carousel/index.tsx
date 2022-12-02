@@ -2,11 +2,13 @@ import React from "react";
 import './styles.css'
 import AnalogClock from "../AnalogClock";
 import useTime from "../hooks/useTime";
+import useAOS from "../hooks/useAOS";
 
 function Carousel() {
     const dayTime = useTime()
+    useAOS()
     return (
-        <div className={`carousel-background-${dayTime} home-intro`}>
+        <section className={`carousel-background-${dayTime} home-intro`}>
             <div className="carousel-container">
                 <div data-aos="fade-right">
                     <AnalogClock />
@@ -17,7 +19,7 @@ function Carousel() {
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

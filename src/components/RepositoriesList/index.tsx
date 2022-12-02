@@ -7,7 +7,7 @@ import './styles.css'
 
 export default () => {
     return (
-        <div className="repositories-list" id="repositories-list" 
+        <section className="repositories-list" id="repositories-list" 
         // data-aos="fade-down"
         >
             <h2 className="repositories-list-title">Proyectos</h2>
@@ -56,6 +56,6 @@ export default () => {
                     </p>
                 </div>
             </div>   
-        </div>
+        </section>
     )
 }
