@@ -11,9 +11,9 @@ function NavBar() {
         <header>
             <nav className={`nav-bar-container-${dayTime}`}>
                 <div>
-                    <h1 className="title-nav-bar">Gabriel Tettamanti Development</h1>
+                    <h1 className="title-nav-bar">Gabriel Tettamanti</h1>
                 </div>
-                <div
+                {/* <div
                     className="theme-switch"
                 >
                     <button
@@ -32,7 +32,7 @@ function NavBar() {
                             className='switch-theme-icon off-theme'
                         />
                     </button>
-                </div>
+                </div> */}
             </nav>
             <div className="background-header-filling"/>
         </header>

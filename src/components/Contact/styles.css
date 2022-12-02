@@ -1,5 +1,6 @@
 .background-footer-filling {
-  height: 15vh;
+  height: 8vh;
+  max-heigth: 50px;
   width: 100%;
   border-top: 15px solid white;
 }
@@ -9,12 +10,13 @@
   z-index: 100;
   width: 100%;
   bottom: 0%;
-  height: 15vh;
+  height: 8vh;
+  max-heigth: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-top: 15px solid #00fefc;
+  border-top: 5px solid #00fefc;
   box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #FCF7F8;
 }
@@ -41,7 +43,7 @@
 .contact-container-white-theme .contact-buttons .contact-button {
   margin: 0px 0px 0px 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   color: #02223C;
   padding: 6px;
   border-radius: 30px;
@@ -53,10 +55,11 @@
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-container-white-theme .contact-buttons .contact-icon {
-  font-size: 50px;
+  font-size: 33px;
 }
 .contact-container-white-theme .contact-buttons .cv-p {
-  font-size: 26px;
+  white-space: nowrap;
+  font-size: 20px;
   font-weight: 500;
 }
 
@@ -65,12 +68,13 @@
   z-index: 100;
   width: 100%;
   bottom: 0%;
-  height: 15vh;
+  height: 8vh;
+  max-heigth: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-top: 15px solid #D025B9;
+  border-top: 5px solid #D025B9;
   box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #000914;
 }
@@ -97,7 +101,7 @@
 .contact-container-dark-theme .contact-buttons .contact-button {
   margin: 0px 0px 0px 30px;
   font-family: "Roboto", sans-serif;
-  font-size: 26px;
+  font-size: 20px;
   color: #FCF7F8;
   padding: 6px;
   border-radius: 30px;
@@ -108,9 +112,15 @@
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .contact-container-dark-theme .contact-buttons .contact-icon {
-  font-size: 50px;
+  font-size: 33px;
 }
 .contact-container-dark-theme .contact-buttons .cv-p {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: 500;
+}
+
+@media only screen and (max-width: 1024px) {
+  .arrow-down-scroller {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */

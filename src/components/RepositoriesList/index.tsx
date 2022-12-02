@@ -7,9 +7,13 @@ import './styles.css'
 
 export default () => {
     return (
-        <div className="repositories-list" id="repositories-list" data-aos="fade-down">
+        <div className="repositories-list" id="repositories-list" 
+        // data-aos="fade-down"
+        >
             <h2 className="repositories-list-title">Proyectos</h2>
-            <div className="repository" data-aos="fade-right">
+            <div className="repository" 
+            // data-aos="fade-right"
+            >
                 <img src="/static/media/sunrise.913e3d46a8873355b5fe.jpg" alt="Foto del proyecto" className="repository-view"/>
                 <div className="repository-info">
                     <h3 className="repository-title">Repositorio de ejemplo</h3>
@@ -22,7 +26,9 @@ export default () => {
                     </p>
                 </div>
             </div>    
-            <div className="repository" data-aos="fade-right">
+            <div className="repository" 
+            // data-aos="fade-right"
+            >
                 <img src="/static/media/sunrise.913e3d46a8873355b5fe.jpg" alt="Foto del proyecto" className="repository-view"/>
                 <div className="repository-info">
                     <h3 className="repository-title">Repositorio de ejemplo</h3>
@@ -35,7 +41,9 @@ export default () => {
                     </p>
                 </div>
             </div>   
-            <div className="repository" data-aos="fade-right">
+            <div className="repository" 
+            // data-aos="fade-right"
+            >
                 <img src="/static/media/sunrise.913e3d46a8873355b5fe.jpg" alt="Foto del proyecto" className="repository-view"/>
                 <div className="repository-info">
                     <h3 className="repository-title">Repositorio de ejemplo</h3>

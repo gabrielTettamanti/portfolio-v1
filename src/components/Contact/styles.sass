@@ -30,7 +30,8 @@ $roboto: 'Roboto', sans-serif
         box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
                 
 .background-footer-filling
-    height: 15vh
+    height: 8vh
+    max-heigth: 50px
     width: 100%
     border-top: 15px solid white
   
@@ -39,12 +40,13 @@ $roboto: 'Roboto', sans-serif
     z-index: 100
     width: 100%
     bottom: 0%
-    height: 15vh
+    height: 8vh
+    max-heigth: 50px
     display: flex
     flex-direction: row
     justify-content: space-between
     align-items: center
-    border-top: 15px solid $aqua
+    border-top: 5px solid $aqua
     box-shadow: 10px 0 16px 0 rgb(0 0 0 / 20%), 6px 0 20px 0 rgb(0 0 0 / 19%)
     background-color: $snow
     .arrow-down-scroller
@@ -64,15 +66,16 @@ $roboto: 'Roboto', sans-serif
         .contact-button
             margin: 0px 0px 0px 30px
             font-family: $roboto
-            font-size: 26px
+            font-size: 20px
             color: $oxford-blue
             padding: 6px
             border-radius: 30px
             @include background-snow-hover
         .contact-icon
-            font-size: 50px
+            font-size: 33px
         .cv-p
-            font-size: 26px
+            white-space: nowrap
+            font-size: 20px
             font-weight: 500
 
 .contact-container-dark-theme
@@ -80,12 +83,13 @@ $roboto: 'Roboto', sans-serif
     z-index: 100
     width: 100%
     bottom: 0%
-    height: 15vh
+    height: 8vh
+    max-heigth: 50px
     display: flex
     flex-direction: row
     justify-content: space-between
     align-items: center
-    border-top: 15px solid $steel-pink
+    border-top: 5px solid $steel-pink
     box-shadow: 10px 0 16px 0 rgb(0 0 0 / 20%), 6px 0 20px 0 rgb(0 0 0 / 19%)
     background-color: $rich-black-fogra-29
     .arrow-down-scroller
@@ -105,13 +109,17 @@ $roboto: 'Roboto', sans-serif
         .contact-button
             margin: 0px 0px 0px 30px
             font-family: $roboto
-            font-size: 26px
+            font-size: 20px
             color: $snow
             padding: 6px
             border-radius: 30px
             @include background-pink-hover
         .contact-icon
-            font-size: 50px
+            font-size: 33px
         .cv-p
-            font-size: 26px
+            font-size: 18px
             font-weight: 500
+
+@media only screen and (max-width: 1024px)
+    .arrow-down-scroller
+        display: none
