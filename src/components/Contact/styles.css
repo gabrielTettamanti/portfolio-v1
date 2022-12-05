@@ -82,6 +82,7 @@
   padding: 5.14px 9px;
   font-size: 30px;
   border-radius: 20px;
+  color: #FCF7F8;
   transition: 0.5s;
 }
 .contact-container-dark-theme .arrow-down-scroller:hover {

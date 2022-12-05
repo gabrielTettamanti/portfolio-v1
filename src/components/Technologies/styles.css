@@ -1,3 +1,26 @@
-.technologies .technology-logo {
-  height: 50px;
+.technologies {
+  background-color: #FCF7F8;
+  padding: 40px 0;
+}
+.technologies .tech-section-title {
+  font-size: 48px;
+}
+.technologies .tech-group {
+  width: 90%;
+  margin: auto;
+  max-width: 1150px;
+  padding: 30px 40px;
+  border-bottom: 2px solid #02223C;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.technologies .tech-group .tech-name {
+  font-size: 28px;
+}
+.technologies .tech-group .logos-group .technology-logo {
+  max-height: 60px;
+  max-width: 90px;
+  margin: 25px;
 }/*# sourceMappingURL=styles.css.map */

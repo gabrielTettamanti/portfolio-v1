@@ -21,7 +21,7 @@ root.render(
         <NavBar />
         <main>
           <Carousel />
-           <Routes>
+          <Routes>
            <Route path='/' element={<RepositoriesList />} />
            <Route path='/technologies' element={<Technologies />} />
           </Routes>
