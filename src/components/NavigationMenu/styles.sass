@@ -1,0 +1,27 @@
+$aqua: #00fefc
+$steel-pink: #D025B9
+$oxford-blue: #02223C
+$snow: #FCF7F8
+$rich-black-fogra-29: #000914
+
+@mixin background-aqua-hover
+    transition: 0.5s
+    &:hover
+        background-color: $aqua
+        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+    
+.navigation-menu
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+    background-color: $snow
+    padding: 10px
+    border-top: 1px solid $oxford-blue
+    border-bottom: 1px solid $oxford-blue
+    box-shadow: 10px 10px 16px 0 rgb(0 0 0 / 20%), 6px 6px 20px 0 rgb(0 0 0 / 19%)
+    .menu-option
+        font-size: 18px
+        font-weight: 500
+        padding: 6px
+        border-radius: 30px
+        @include background-aqua-hover

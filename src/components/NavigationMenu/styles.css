@@ -1,0 +1,21 @@
+.navigation-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #FCF7F8;
+  padding: 10px;
+  border-top: 1px solid #02223C;
+  border-bottom: 1px solid #02223C;
+  box-shadow: 10px 10px 16px 0 rgba(0, 0, 0, 0.2), 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navigation-menu .menu-option {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 6px;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.navigation-menu .menu-option:hover {
+  background-color: #00fefc;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}/*# sourceMappingURL=styles.css.map */

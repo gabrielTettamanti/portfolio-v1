@@ -10,6 +10,7 @@ import useScrollDetector from './components/hooks/useScrollDetector';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import Technologies from './components/Technologies';
+import NavigationMenu from './components/NavigationMenu';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -21,6 +22,7 @@ root.render(
         <NavBar />
         <main>
           <Carousel />
+          <NavigationMenu />
           <Routes>
            <Route path='/' element={<RepositoriesList />} />
            <Route path='/technologies' element={<Technologies />} />
