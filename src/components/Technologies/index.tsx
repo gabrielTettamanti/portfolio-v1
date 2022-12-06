@@ -2,10 +2,10 @@ import React from "react";
 
 import jsLogo from '../../assets/images/tecnologies/languages/javascript.png'
 import tsLogo from '../../assets/images/tecnologies/languages/typescript.png'
-import pyLogo from '../../assets/images/tecnologies/languages/python.jpg'
+import pyLogo from '../../assets/images/tecnologies/languages/python.png'
 import goLogo from '../../assets/images/tecnologies/languages/go.png'
-import cssLogo from '../../assets/images/tecnologies/languages/css.jpg'
-import htmlLogo from '../../assets/images/tecnologies/languages/html.jpg'
+import cssLogo from '../../assets/images/tecnologies/languages/css.png'
+import htmlLogo from '../../assets/images/tecnologies/languages/html.png'
 import nextLogo from '../../assets/images/tecnologies/frontend/next.png'
 import solidLogo from '../../assets/images/tecnologies/frontend/solid.png'
 import reactLogo from '../../assets/images/tecnologies/frontend/react.png'
