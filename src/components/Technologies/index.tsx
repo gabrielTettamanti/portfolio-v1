@@ -20,6 +20,8 @@ import TailwindLogo from '../../assets/images/tecnologies/styles/tailwind.png'
 import BootstrapLogo from '../../assets/images/tecnologies/styles/bootstrap.webp'
 import GitLogo from '../../assets/images/tecnologies/tools/git.png'
 import DockerLogo from '../../assets/images/tecnologies/tools/docker.png'
+import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
+import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
 
 import './styles.css'
 
@@ -70,6 +72,8 @@ export default () => {
                     <img src={BootstrapLogo} alt="Bootstrap" className="technology-logo" />
                     <img src={GitLogo} alt="Git" className="technology-logo" />
                     <img src={DockerLogo} alt="Docker" className="technology-logo" />
+                    <img src={ViteLogo} alt="Vite" className="technology-logo" />
+                    <img src={WebpackLogo} alt="Webpack" className="technology-logo" />
                 </div>
             </div>
         </section>
