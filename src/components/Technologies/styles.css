@@ -22,8 +22,9 @@
 .technologies .tech-group .logos-group {
   display: flex;
   align-items: center;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .technologies .tech-group .logos-group .technology-logo {
   max-height: 80px;
