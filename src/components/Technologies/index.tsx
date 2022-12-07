@@ -22,6 +22,7 @@ import GitLogo from '../../assets/images/tecnologies/tools/git.png'
 import DockerLogo from '../../assets/images/tecnologies/tools/docker.png'
 import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
 import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
+import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 
 import './styles.css'
 
@@ -74,6 +75,7 @@ export default () => {
                     <img src={DockerLogo} alt="Docker" className="technology-logo" />
                     <img src={ViteLogo} alt="Vite" className="technology-logo" />
                     <img src={WebpackLogo} alt="Webpack" className="technology-logo" />
+                    <img src={SassLogo} alt="Sass" className="technology-logo" />
                 </div>
             </div>
         </section>
