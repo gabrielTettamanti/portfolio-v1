@@ -69,13 +69,13 @@ export default () => {
                 <h3 className="tech-name">Tools</h3>
                 <div className="logos-group">
                     <img src={JestLogo} alt="Jest" className="technology-logo" />
+                    <img src={SassLogo} alt="Sass" className="technology-logo" />
                     <img src={TailwindLogo} alt="Tailwind" className="technology-logo" />
                     <img src={BootstrapLogo} alt="Bootstrap" className="technology-logo" />
                     <img src={GitLogo} alt="Git" className="technology-logo" />
                     <img src={DockerLogo} alt="Docker" className="technology-logo" />
                     <img src={ViteLogo} alt="Vite" className="technology-logo" />
                     <img src={WebpackLogo} alt="Webpack" className="technology-logo" />
-                    <img src={SassLogo} alt="Sass" className="technology-logo" />
                 </div>
             </div>
         </section>
