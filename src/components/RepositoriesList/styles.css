@@ -1,6 +1,7 @@
 .repositories-list {
   background-color: #FCF7F8;
   padding: 40px 0;
+  min-height: 80vh;
 }
 .repositories-list .repositories-list-title {
   font-size: 48px;
