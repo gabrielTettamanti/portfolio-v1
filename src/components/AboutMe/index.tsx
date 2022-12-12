@@ -11,7 +11,7 @@ export default () => {
           className="about-me-photo"
         />
         <div>
-          <h2 className="about-me-title">Gabriel Tettamanti</h2>
+          <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit.
             Voluptatibus, magnam. Velit voluptatem esse nostrum consectetur
