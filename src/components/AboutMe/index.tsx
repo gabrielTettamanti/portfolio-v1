@@ -5,13 +5,14 @@ import UNLPLogo from "../../assets/images/education/unlp.webp";
 import DHLogo from "../../assets/images/education/digitalhouse.svg";
 import freeCodeCampLogo from "../../assets/images/education/freecodecamp.jpg";
 import HarvardLogo from "../../assets/images/education/harvard.png";
+import myPhoto from "../../assets/images/me/myphoto.jpg";
 
 export default () => {
   return (
     <section className="about-me">
       <div className="personal-description">
         <img
-          src="/static/media/sunrise.913e3d46a8873355b5fe.jpg"
+          src={myPhoto}
           alt=""
           className="about-me-photo"
         />
