@@ -33,7 +33,7 @@ export default () => {
         <h3 className="education-title">Estudios</h3>
         <ul className="education-list">
           <li className="education-list-item">
-            <h4 className="education-years">2021 - 2022</h4>
+            <h4 className="education-years">2022</h4>
             <div className="education-names">
               <div className="education-institutions">
                 <p className="education-name">
@@ -72,7 +72,7 @@ export default () => {
             </div>
           </li>
           <li className="education-list-item">
-            <h4 className="education-years">2021 - 2022</h4>
+            <h4 className="education-years">2017 - 2020</h4>
             <div className="education-names">
               <div className="education-institutions">
                 <p className="education-name">
@@ -82,6 +82,7 @@ export default () => {
                   src={UNLPLogo}
                   alt="UNLP logo"
                   className="education-logo"
+                  id="unlp-logo"
                 />
               </div>
             </div>
