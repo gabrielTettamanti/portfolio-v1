@@ -1,6 +1,11 @@
 import React from "react";
 import "./styles.css";
 
+import UNLPLogo from "../../assets/images/education/unlp.webp";
+import DHLogo from "../../assets/images/education/digitalhouse.svg";
+import freeCodeCampLogo from "../../assets/images/education/freecodecamp.jpg";
+import HarvardLogo from "../../assets/images/education/harvard.png";
+
 export default () => {
   return (
     <section className="about-me">
@@ -25,23 +30,61 @@ export default () => {
         </div>
       </div>
       <div className="education">
-        <h3 className="education-title">Educacion</h3>
+        <h3 className="education-title">Estudios</h3>
         <ul className="education-list">
           <li className="education-list-item">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            (31/12/2022 - 31/12/2022)
+            <h4 className="education-years">2021 - 2022</h4>
+            <div className="education-names">
+              <div className="education-institutions">
+                <p className="education-name">
+                  Harvard University | CS50's Web Programming with Python and
+                  JavaScript
+                </p>
+                <img
+                  src={HarvardLogo}
+                  alt="Harvard University logo"
+                  className="education-logo"
+                  id="harvard-university-logo"
+                />
+              </div>
+              <div className="education-institutions">
+                <p className="education-name">
+                  freeCodeCamp | Front End Development Libraries
+                </p>
+                <img
+                  src={freeCodeCampLogo}
+                  alt="freeCodeCamp logo"
+                  className="education-logo"
+                  id="freecodecamp-logo"
+                />
+              </div>
+              <div className="education-institutions">
+                <p className="education-name">
+                  Digital House | Full Stack Web Development
+                </p>
+                <img
+                  src={DHLogo}
+                  alt="Digital House logo"
+                  className="education-logo"
+                  id="dh-logo"
+                />
+              </div>
+            </div>
           </li>
           <li className="education-list-item">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            (31/12/2022 - 31/12/2022)
-          </li>
-          <li className="education-list-item">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            (31/12/2022 - 31/12/2022)
-          </li>
-          <li className="education-list-item">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            (31/12/2022 - 31/12/2022)
+            <h4 className="education-years">2021 - 2022</h4>
+            <div className="education-names">
+              <div className="education-institutions">
+                <p className="education-name">
+                  Universidad Nacional de La Plata | Licenciatura en Economía
+                </p>
+                <img
+                  src={UNLPLogo}
+                  alt="UNLP logo"
+                  className="education-logo"
+                />
+              </div>
+            </div>
           </li>
         </ul>
       </div>

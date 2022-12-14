@@ -37,9 +37,45 @@
   font-size: 28px;
 }
 .about-me .education .education-list {
+  width: 100%;
   margin: 15px;
 }
 .about-me .education .education-list .education-list-item {
   font-size: 18px;
-  margin: 10px;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #02223C;
+}
+.about-me .education .education-list .education-list-item .education-years {
+  font-weight: 600;
+  font-size: 24px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+  font-weight: 500;
+  font-size: 18px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions .education-logo {
+  max-height: 80px;
+  max-width: 110px;
+  margin: 10px 0px 10px 40px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
+  background-color: #000;
+  padding: 5px;
+  max-width: 200px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions #freecodecamp-logo {
+  max-width: 200px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions #harvard-university-logo {
+  max-width: 200px;
 }/*# sourceMappingURL=styles.css.map */
