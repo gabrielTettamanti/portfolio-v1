@@ -76,4 +76,83 @@
   background-color: #000;
   padding: 5px;
   max-width: 200px;
+}
+
+.langs-container {
+  max-width: 1150px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  list-style: none;
+}
+.langs-container .langs-title {
+  text-align: center;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.langs-container .langs-list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.langs-container .langs-list-item .langs-name {
+  font-weight: 600;
+  font-size: 20px;
+}
+.langs-container .langs-list-item .bar {
+  width: 90%;
+  background-color: #EEE;
+  padding: 2px;
+  border-radius: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #FFF;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  letter-spacing: 0.12em;
+}
+.langs-container .langs-list-item .bar::before {
+  content: attr(data-skill);
+  background-color: #f3b0ff;
+  display: inline-block;
+  padding: 5px 0 5px 10px;
+  border-radius: inherit;
+  animation: load 2s 0s;
+  -webkit-animation: load 2s 0s;
+  -moz-animation: load 2s 0s;
+  -o-animation: load 2s 0s;
+}
+.langs-container .langs-list-item .bar.front::before {
+  background-color: #ffcc33;
+}
+.langs-container .langs-list-item .bar.back::before {
+  background-color: #a6cfe3;
+}
+.langs-container .langs-list-item .bar.learning::before {
+  width: calc(20% - 10px);
+}
+.langs-container .langs-list-item .bar.basic::before {
+  width: calc(40% - 10px);
+}
+.langs-container .langs-list-item .bar.intermediate::before {
+  width: calc(60% - 10px);
+}
+.langs-container .langs-list-item .bar.advanced::before {
+  width: calc(80% - 10px);
+}
+.langs-container .langs-list-item .bar.expert::before {
+  width: calc(100% - 10px);
+}
+
+@keyframes load {
+  from {
+    width: 0%;
+  }
+}
+@-webkit-keyframes load {
+  from {
+    width: 0%;
+  }
 }/*# sourceMappingURL=styles.css.map */

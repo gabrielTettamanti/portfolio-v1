@@ -68,3 +68,70 @@ $rich-black-fogra-29: #000914
                             background-color: #000
                             padding: 5px
                             max-width: 200px
+.langs-container
+    max-width: 1150px
+    width: 90%
+    margin: 0 auto
+    text-align: left
+    list-style: none
+    .langs-title
+        text-align: center
+        margin: 10px
+        font-weight: 600
+        font-size: 28px
+    .langs-list-item
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .langs-name
+            font-weight: 600
+            font-size: 20px
+        .bar
+            width: 90%
+            background-color: #EEE
+            padding: 2px
+            border-radius: 15px
+            margin-bottom: 5px
+            font-size: 16px
+            color: #FFF
+            font-weight: bold
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5)
+            white-space: nowrap
+            letter-spacing: 0.12em
+        .bar::before
+            content:  attr(data-skill)
+            background-color: #f3b0ff
+            display: inline-block
+            padding: 5px 0 5px 10px
+            border-radius: inherit
+            animation: load 2s 0s
+            -webkit-animation: load 2s 0s
+            -moz-animation: load 2s 0s
+            -o-animation: load 2s 0s
+        .bar.front::before
+            background-color: #ffcc33
+        .bar.back::before
+            background-color: #a6cfe3
+        .bar.learning::before
+            width: calc(20% - 10px)
+        .bar.basic::before
+            width: calc(40% - 10px)
+        .bar.intermediate::before
+            width: calc(60% - 10px)
+        .bar.advanced::before
+            width: calc(80% - 10px)
+        .bar.expert::before
+            width: calc(100% - 10px)
+
+@keyframes load
+  from 
+    width: 0%
+@-webkit-keyframes load
+  from 
+    width: 0%
+@-moz-keyframes load
+  from 
+    width: 0%
+@-o-keyframes load
+  from 
+    width: 0%

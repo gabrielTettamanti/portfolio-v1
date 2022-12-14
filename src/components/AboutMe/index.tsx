@@ -89,6 +89,34 @@ export default () => {
           </li>
         </ul>
       </div>
+      {/* <div className="">
+        <h3 className="">Idiomas</h3>
+        <ul>
+          <li>Español</li>
+          <li>Ingles</li>
+          <li>Alemán</li>
+          <li>Japonés</li>
+        </ul>
+      </div> */}
+      <ul className="langs-container">
+        <h3 className="langs-title">Idiomas</h3>
+        <li className="langs-list-item">
+          <p className="langs-name">Español</p>
+          <div className="bar front expert" data-skill="Native"></div>
+        </li>
+        <li className="langs-list-item">
+          <p className="langs-name">Inglés</p>
+          <div className="bar front advanced" data-skill="Upper intermediate"></div>
+        </li>
+        <li className="langs-list-item">
+          <p className="langs-name">Alemán</p>
+          <div className="bar back intermediate" data-skill="Intermediate"></div>
+        </li>
+        <li className="langs-list-item">
+          <p className="langs-name">Japonés</p>
+          <div className="bar learning" data-skill="Elementary"></div>
+        </li>
+      </ul>
     </section>
   );
 };
