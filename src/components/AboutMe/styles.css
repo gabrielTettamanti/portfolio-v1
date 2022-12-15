@@ -62,6 +62,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 71px;
 }
 .about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
   font-weight: 500;
