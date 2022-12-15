@@ -55,7 +55,8 @@ export default () => {
                         <FontAwesomeIcon icon={faHtml5} className="repository-technology" />
                     </p>
                 </div>
-            </div>   
+            </div> 
+            <div>EXPERIMENTS & OPEN SOURCE Web is fun.</div>  
         </section>
     )
 }
