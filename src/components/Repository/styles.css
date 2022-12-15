@@ -19,7 +19,6 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  height: 250px;
 }
 .repository .repository-info .repository-title {
   font-size: 28px;
@@ -27,15 +26,19 @@
 .repository .repository-info .repository-detail {
   font-size: 18px;
   width: 90%;
-  margin: 25px;
+  margin: 5px 5px 15px 5px;
+}
+.repository .repository-info .repository-technologies-title {
+  font-size: 18px;
 }
 .repository .repository-info .repository-technologies-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 90%;
-  margin: 0px 10px;
+  flex-wrap: wrap;
+  width: 80%;
 }
 .repository .repository-info .repository-technologies-container .repository-technology {
-  max-height: 50px;
+  max-height: 40px;
+  margin: 5px 10px;
 }/*# sourceMappingURL=styles.css.map */
