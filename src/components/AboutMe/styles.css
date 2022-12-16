@@ -214,4 +214,107 @@
   from {
     width: 0%;
   }
+}
+@media (max-width: 880px) {
+  .about-me .personal-description .about-me-text {
+    width: 95%;
+  }
+  .about-me .education .education-list .education-list-item {
+    flex-direction: column;
+  }
+  .about-me .education .education-list .education-list-item .education-years {
+    font-weight: 500;
+    font-size: 24px;
+  }
+  .about-me .education .education-list .education-list-item .education-names {
+    width: 90%;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+    margin: 0 15px 0 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-logo {
+    max-height: 80px;
+    max-width: 200px;
+    margin: 10px 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
+    background-color: #000;
+    padding: 5px;
+    max-width: 200px;
+  }
+  .langs-container .langs-title {
+    margin: 10px auto;
+    font-size: 28px;
+    text-transform: uppercase;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 160px;
+    text-align: center;
+  }
+  .langs-container .langs-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+  .langs-container .langs-list-item .langs-name {
+    margin: 0 0 5px 0;
+    font-weight: 500;
+  }
+  .langs-container .langs-list-item .bar {
+    width: 100%;
+  }
+}
+@media (max-width: 642px) {
+  .about-me .personal-description .about-me-photo {
+    display: none;
+  }
+  .about-me .personal-description .about-me-text {
+    font-size: 18px;
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+  }
+  .langs-container .langs-list-item .bar {
+    font-size: 14px;
+  }
+}
+@media (max-width: 600px) {
+  .about-me .personal-description .about-me-title {
+    font-size: 22px;
+  }
+  .about-me .personal-description .about-me-title:before {
+    top: 40px;
+  }
+  .about-me .personal-description .about-me-text {
+    font-size: 14px;
+  }
+  .about-me .education .education-title {
+    font-size: 22px;
+  }
+  .about-me .education .education-list .education-list-item .education-years {
+    font-size: 20px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+    font-size: 14px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions .education-logo {
+    max-height: 40px;
+    max-width: 160px;
+    margin: 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .education-institutions #dh-logo {
+    background-color: #000;
+    padding: 5px;
+    max-width: 160px;
+  }
+  .langs-container .langs-title {
+    font-size: 22px;
+  }
+  .langs-container .langs-list-item .langs-name {
+    font-size: 20px;
+  }
+  .langs-container .langs-list-item .bar {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=styles.css.map */

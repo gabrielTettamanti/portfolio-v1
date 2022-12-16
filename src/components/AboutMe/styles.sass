@@ -188,3 +188,106 @@ $rich-black-fogra-29: #000914
 @-o-keyframes load
   from 
     width: 0%
+
+@media (max-width: 880px)
+    .about-me
+        .personal-description
+            .about-me-photo
+            .about-me-title
+            .about-me-text
+                width: 95%
+        .education
+            .education-title
+            .education-list
+                .education-list-item
+                    flex-direction: column
+                    .education-years
+                        font-weight: 500
+                        font-size: 24px
+                    .education-names
+                        width: 90%
+                        .education-institutions
+                            .education-name
+                                margin: 0 15px 0 0px
+                            .education-logo
+                                max-height: 80px
+                                max-width: 200px
+                                margin: 10px 0px
+                            #dh-logo
+                                background-color: #000
+                                padding: 5px
+                                max-width: 200px
+    .langs-container
+        .langs-title
+            margin: 10px auto
+            font-size: 28px
+            text-transform: uppercase
+            width: fit-content
+            width:160px
+            text-align: center
+        .langs-list-item
+            display: flex
+            justify-content: space-between
+            align-items: center
+            flex-direction: column
+            .langs-name
+                margin: 0 0 5px 0
+                font-weight: 500
+            .bar
+                width: 100%
+
+@media (max-width: 642px)
+    .about-me
+        .personal-description
+            .about-me-photo
+                display: none
+            .about-me-title
+            .about-me-text
+                font-size: 18px
+                width: 100%
+                margin: 25px 0px 0px 0px
+    .langs-container
+        .langs-title
+        .langs-list-item
+            .langs-name
+            .bar
+                font-size: 14px
+
+@media (max-width: 600px)
+    .about-me
+        .personal-description
+            .about-me-photo
+            .about-me-title
+                font-size: 22px
+            .about-me-title:before
+                top: 40px
+            .about-me-text
+                font-size: 14px
+        .education
+            .education-title
+                font-size:22px
+            .education-list
+                .education-list-item
+                    .education-years
+                        font-size: 20px
+                    .education-names
+                        .education-institutions
+                            .education-name
+                                font-size: 14px
+                            .education-logo
+                                max-height: 40px
+                                max-width: 160px
+                                margin: 0px
+                            #dh-logo
+                                background-color: #000
+                                padding: 5px
+                                max-width: 160px
+    .langs-container
+        .langs-title
+            font-size: 22px
+        .langs-title:before
+        .langs-list-item
+            .langs-name
+                font-size: 20px
+            .bar
+                font-size: 12px
