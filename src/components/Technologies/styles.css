@@ -32,7 +32,7 @@
   width: 90%;
   margin: auto;
   max-width: 1150px;
-  padding: 10px 40px;
+  padding: 5px 40px;
   border-bottom: 2px solid #02223C;
   display: flex;
   flex-direction: row;
@@ -40,7 +40,7 @@
   align-items: center;
 }
 .technologies .tech-group .tech-name {
-  font-size: 28px;
+  font-size: 1.5rem;
 }
 .technologies .tech-group .logos-group {
   display: flex;
@@ -50,9 +50,9 @@
   justify-content: flex-end;
 }
 .technologies .tech-group .logos-group .technology-logo {
-  max-height: 80px;
-  max-width: 110px;
-  margin: 25px;
+  max-height: 3rem;
+  max-width: 6rem;
+  margin: 15px;
   padding: 4px;
   border: solid 4px #FCF7F8;
   border-radius: 10px;
@@ -62,4 +62,25 @@
   background-color: #00fefc;
   border: solid 4px #00fefc;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 600px) {
+  .technologies .tech-section-title {
+    font-size: 28px;
+    padding: 20px 0 0 0;
+  }
+  .technologies .tech-group {
+    margin: auto;
+    padding: 0px 0px;
+    border-bottom: 1px solid #02223C;
+    flex-direction: column;
+  }
+  .technologies .tech-group .tech-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin: 5px 0 0px 0;
+  }
+  .technologies .tech-group .logos-group {
+    justify-content: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
