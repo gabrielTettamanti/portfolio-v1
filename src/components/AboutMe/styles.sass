@@ -20,6 +20,26 @@ $rich-black-fogra-29: #000914
             box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
         .about-me-title
             font-size: 28px
+            text-align: center
+            text-transform: uppercase
+        .about-me-title:before 
+            width: 50px
+            height: 5px
+            display: block
+            content: ""
+            position: relative
+            top: 47px
+            background-color: $aqua
+            margin: auto
+        .about-me-title:after 
+            width: 70%
+            height: 1px
+            display: block
+            content: ""
+            position: relative
+            top: 10px
+            background-color: $aqua
+            margin: auto
         .about-me-text
             font-size: 18px
             width: 100%
@@ -34,8 +54,30 @@ $rich-black-fogra-29: #000914
         margin: auto
         padding: 40px 0 0 0
         .education-title
-            margin: 20px 0 0 0
-            font-size: 28px
+            font-size:28px
+            letter-spacing:1px
+            text-transform: uppercase
+            width:160px
+            text-align: center
+            margin:auto
+            white-space: nowrap
+        .education-title:before
+            background-color: $aqua
+            content: ''
+            display: block
+            height: 3px
+            width: 35%
+            margin-bottom: 1px
+            position: relative
+            left: 65%
+            bottom:0
+        .education-title:after 
+            background-color: $aqua
+            content: ''
+            display: block
+            height: 3px
+            margin-top: 1px
+            width: 35%
         .education-list
             width: 100%
             margin: 0 15px
@@ -76,10 +118,20 @@ $rich-black-fogra-29: #000914
     text-align: left
     list-style: none
     .langs-title
-        text-align: center
-        margin: 10px
-        font-weight: 600
+        margin: 10px auto
         font-size: 28px
+        text-transform: uppercase
+        width: fit-content
+        width:160px
+        text-align: center
+    .langs-title:before 
+        background-color: $aqua
+        border-radius: 0.25rem
+        content: ''
+        display: block
+        height: 3px
+        width: 35%
+        margin-bottom: 1px
     .langs-list-item
         display: flex
         justify-content: space-between

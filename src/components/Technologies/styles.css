@@ -5,6 +5,28 @@
 }
 .technologies .tech-section-title {
   font-size: 48px;
+  padding: 40px 0 0 0;
+  width: 95%;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: grid;
+  grid-template-columns: 1fr -webkit-max-content 1fr;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-template-rows: 27px 0;
+  grid-gap: 20px;
+  align-items: center;
+}
+.technologies .tech-section-title:after, .technologies .tech-section-title:before {
+  content: " ";
+  display: block;
+  border-bottom: 1px solid #00fefc;
+  border-top: 1px solid #00fefc;
+  height: 5px;
+  background-color: #FCF7F8;
 }
 .technologies .tech-group {
   width: 90%;

@@ -90,15 +90,6 @@ export default () => {
           </li>
         </ul>
       </div>
-      {/* <div className="">
-        <h3 className="">Idiomas</h3>
-        <ul>
-          <li>Español</li>
-          <li>Ingles</li>
-          <li>Alemán</li>
-          <li>Japonés</li>
-        </ul>
-      </div> */}
       <ul className="langs-container">
         <h3 className="langs-title">Idiomas</h3>
         <li className="langs-list-item">

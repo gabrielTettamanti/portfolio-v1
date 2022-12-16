@@ -12,7 +12,7 @@ export default () => {
       className="repositories-list"
       id="repositories-list"
     >
-      <h2 className="repositories-list-title">Desarrollos</h2>
+      <h2 className="repositories-list-title" id="developments-title">Desarrollos</h2>
       {repositoriesData.map(data => {
         return (
           <Repository
@@ -23,7 +23,7 @@ export default () => {
         );
       })}
       <div>
-      <h2 className="repositories-list-title">Experimentos y codigo abierto</h2>
+      <h2 className="repositories-list-title" id="experiments-title">Experimentos y codigo abierto<span>Web is fun</span></h2>
         {experimentsData.map(data => {
           return (
             <Repository
