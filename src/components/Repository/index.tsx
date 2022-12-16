@@ -5,7 +5,6 @@ interface repositoriesData {
   title: string,
   description: string,
   technologies: string[],
-  type: string
 }
 
 export default (props: repositoriesData) => {

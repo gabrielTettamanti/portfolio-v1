@@ -4,6 +4,7 @@ import "./styles.css";
 import Repository from "../Repository";
 
 import repositoriesData from '../../assets/data/repositoriesData'
+import experimentsData from '../../assets/data/experimentsData'
 
 export default () => {
   return (
@@ -18,19 +19,17 @@ export default () => {
             title = {data.title}
             description = {data.description}
             technologies = {data.technologies}
-            type = {data.type}
           />
         );
       })}
       <div>
       <h2 className="repositories-list-title">Experimentos y codigo abierto</h2>
-        {repositoriesData.map(data => {
+        {experimentsData.map(data => {
           return (
             <Repository
               title = {data.title}
               description = {data.description}
               technologies = {data.technologies}
-              type = {data.type}
             />
           );
         })}
