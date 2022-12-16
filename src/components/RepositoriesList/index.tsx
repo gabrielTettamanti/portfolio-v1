@@ -11,7 +11,7 @@ export default () => {
       className="repositories-list"
       id="repositories-list"
     >
-      <h2 className="repositories-list-title">Proyectos</h2>
+      <h2 className="repositories-list-title">Desarrollos</h2>
       {repositoriesData.map(data => {
         return (
           <Repository
