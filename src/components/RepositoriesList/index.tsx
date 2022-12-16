@@ -18,10 +18,23 @@ export default () => {
             title = {data.title}
             description = {data.description}
             technologies = {data.technologies}
+            type = {data.type}
           />
         );
       })}
-      <div>EXPERIMENTS & OPEN SOURCE Web is fun.</div>
+      <div>
+      <h2 className="repositories-list-title">Experimentos y codigo abierto</h2>
+        {repositoriesData.map(data => {
+          return (
+            <Repository
+              title = {data.title}
+              description = {data.description}
+              technologies = {data.technologies}
+              type = {data.type}
+            />
+          );
+        })}
+      </div>
     </section>
   );
 };

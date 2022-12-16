@@ -4,12 +4,13 @@ import './styles.css'
 interface repositoriesData {
   title: string,
   description: string,
-  technologies: string[]
+  technologies: string[],
+  type: string
 }
 
 export default (props: repositoriesData) => {
     return (
-        <div
+      <div
         className="repository"
       >
         <img
