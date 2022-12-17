@@ -115,3 +115,36 @@ $rich-black-fogra-29: #000914
             background-color: $oxford-blue
             border-bottom-left-radius: 20px
             box-shadow: 0px 10px 0px 0px $snow
+
+@media (max-width: 600px)
+    .navigation-menu
+        height: 40px
+        .menu-option
+            .link-option
+                font-size: 14px
+                padding: 5px
+            .unactive
+            .project
+                top: 19px
+            .project::before
+                display: none
+            .project::after
+                display: none
+            .tech
+                top: 19px
+            .tech::before
+                display: none
+            .tech::after
+                display: none
+            .aboutme
+                top: 19px
+            .aboutme::before
+                display: none
+            .aboutme::after
+                display: none
+
+@media (max-width: 320px)
+    .navigation-menu
+        .menu-option
+            .link-option
+                font-size: 12px

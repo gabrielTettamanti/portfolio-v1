@@ -119,4 +119,46 @@
   background-color: #02223C;
   border-bottom-left-radius: 20px;
   box-shadow: 0px 10px 0px 0px #FCF7F8;
+}
+
+@media (max-width: 600px) {
+  .navigation-menu {
+    height: 40px;
+  }
+  .navigation-menu .menu-option .link-option {
+    font-size: 14px;
+    padding: 5px;
+  }
+  .navigation-menu .menu-option .project {
+    top: 19px;
+  }
+  .navigation-menu .menu-option .project::before {
+    display: none;
+  }
+  .navigation-menu .menu-option .project::after {
+    display: none;
+  }
+  .navigation-menu .menu-option .tech {
+    top: 19px;
+  }
+  .navigation-menu .menu-option .tech::before {
+    display: none;
+  }
+  .navigation-menu .menu-option .tech::after {
+    display: none;
+  }
+  .navigation-menu .menu-option .aboutme {
+    top: 19px;
+  }
+  .navigation-menu .menu-option .aboutme::before {
+    display: none;
+  }
+  .navigation-menu .menu-option .aboutme::after {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .navigation-menu .menu-option .link-option {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=styles.css.map */
