@@ -59,7 +59,7 @@ $roboto: 'Roboto', sans-serif
         flex-direction: row
         justify-content: space-between
         align-items: center
-        margin: 40px
+        margin: 0px 40px 0px 0px
         background-color: $snow
         width: 35%
         max-width: 576px
@@ -122,5 +122,28 @@ $roboto: 'Roboto', sans-serif
             font-weight: 500
 
 @media (max-width: 1024px)
-    .arrow-down-scroller
-        display: none
+    .contact-container-white-theme
+        .arrow-down-scroller
+            display: none
+        .contact-buttons
+            margin: 0px 40px 0px 0px
+            width: 50%
+            .contact-button
+            .contact-icon
+            .cv-p
+
+@media (max-width: 768px)
+    .contact-container-white-theme
+        height: 6vh
+        flex-direction: column
+        .arrow-down-scroller
+        .contact-buttons
+            margin: 0px 0px 0px 0px
+            width: 90%
+            justify-content: space-around
+            .contact-button
+            .contact-icon
+                font-size: 28px
+            .cv-p
+                font-size: 16px
+                font-weight: 500

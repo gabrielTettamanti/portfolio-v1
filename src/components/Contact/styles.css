@@ -35,7 +35,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 40px;
+  margin: 0px 40px 0px 0px;
   background-color: #FCF7F8;
   width: 35%;
   max-width: 576px;
@@ -121,7 +121,29 @@
 }
 
 @media (max-width: 1024px) {
-  .arrow-down-scroller {
+  .contact-container-white-theme .arrow-down-scroller {
     display: none;
+  }
+  .contact-container-white-theme .contact-buttons {
+    margin: 0px 40px 0px 0px;
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .contact-container-white-theme {
+    height: 6vh;
+    flex-direction: column;
+  }
+  .contact-container-white-theme .contact-buttons {
+    margin: 0px 0px 0px 0px;
+    width: 90%;
+    justify-content: space-around;
+  }
+  .contact-container-white-theme .contact-buttons .contact-icon {
+    font-size: 28px;
+  }
+  .contact-container-white-theme .contact-buttons .cv-p {
+    font-size: 16px;
+    font-weight: 500;
   }
 }/*# sourceMappingURL=styles.css.map */
