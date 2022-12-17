@@ -131,7 +131,7 @@
 }
 @media (max-width: 768px) {
   .contact-container-white-theme {
-    height: 6vh;
+    height: 7vh;
     flex-direction: column;
   }
   .contact-container-white-theme .contact-buttons {
