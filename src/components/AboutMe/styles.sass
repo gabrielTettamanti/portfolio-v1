@@ -290,4 +290,31 @@ $rich-black-fogra-29: #000914
             .langs-name
                 font-size: 20px
             .bar
-                font-size: 12px
+                font-size: 14px
+            .bar.learning::before
+                width: calc(30% - 10px)
+
+@media (max-width: 420px)
+.about-me
+    .personal-description
+        .about-me-photo
+        .about-me-title
+            font-size: 22px
+        .about-me-title:before
+            top: 40px
+        .about-me-text
+            font-size: 14px
+    .education
+        .education-title
+            font-size:22px
+        .education-list
+                .education-list-item
+                    .education-years
+                    .education-names
+                        width: 95%
+                        .education-institutions
+                            flex-direction: column
+                            height: fit-content
+                            margin: 20px
+                            .education-name
+                                margin: 0 0 5px 0

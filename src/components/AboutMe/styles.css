@@ -315,6 +315,34 @@
     font-size: 20px;
   }
   .langs-container .langs-list-item .bar {
-    font-size: 12px;
+    font-size: 14px;
   }
+  .langs-container .langs-list-item .bar.learning::before {
+    width: calc(30% - 10px);
+  }
+}
+.about-me .personal-description .about-me-title {
+  font-size: 22px;
+}
+.about-me .personal-description .about-me-title:before {
+  top: 40px;
+}
+.about-me .personal-description .about-me-text {
+  font-size: 14px;
+}
+.about-me .education .education-title {
+  font-size: 22px;
+}
+.about-me .education .education-list .education-list-item .education-names {
+  width: 95%;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions {
+  flex-direction: column;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 20px;
+}
+.about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
+  margin: 0 0 5px 0;
 }/*# sourceMappingURL=styles.css.map */
