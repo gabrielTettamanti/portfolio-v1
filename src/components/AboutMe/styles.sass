@@ -88,6 +88,7 @@ $rich-black-fogra-29: #000914
                 list-style: none
                 display: flex
                 justify-content: space-between
+                flex-direction: row
                 align-items: center
                 border-bottom: 2px solid $oxford-blue
                 .education-years
@@ -295,26 +296,26 @@ $rich-black-fogra-29: #000914
                 width: calc(30% - 10px)
 
 @media (max-width: 420px)
-.about-me
-    .personal-description
-        .about-me-photo
-        .about-me-title
-            font-size: 22px
-        .about-me-title:before
-            top: 40px
-        .about-me-text
-            font-size: 14px
-    .education
-        .education-title
-            font-size:22px
-        .education-list
-                .education-list-item
-                    .education-years
-                    .education-names
-                        width: 95%
-                        .education-institutions
-                            flex-direction: column
-                            height: fit-content
-                            margin: 20px
-                            .education-name
-                                margin: 0 0 5px 0
+    .about-me
+        .personal-description
+            .about-me-photo
+            .about-me-title
+                font-size: 22px
+            .about-me-title:before
+                top: 40px
+            .about-me-text
+                font-size: 14px
+        .education
+            .education-title
+                font-size:22px
+            .education-list
+                    .education-list-item
+                        .education-years
+                        .education-names
+                            width: 95%
+                            .education-institutions
+                                flex-direction: column
+                                height: fit-content
+                                margin: 20px
+                                .education-name
+                                    margin: 0 0 5px 0
