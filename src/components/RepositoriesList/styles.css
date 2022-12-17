@@ -55,4 +55,10 @@
   border-top: 1px solid #00fefc;
   height: 5px;
   background-color: #FCF7F8;
+}
+
+@media (max-width: 600px) {
+  .repositories-list .repositories-list-title {
+    font-size: 28px;
+  }
 }/*# sourceMappingURL=styles.css.map */
