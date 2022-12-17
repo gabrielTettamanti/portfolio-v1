@@ -15,7 +15,7 @@ $rich-black-fogra-29: #000914
     padding: 50px 40px
     border-bottom: 2px solid $oxford-blue
     .repository-view
-        height: 250px
+        height: auto
         width: 40%
         box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
     .repository-info
@@ -40,4 +40,35 @@ $rich-black-fogra-29: #000914
             .repository-technology
                 max-height: 40px
                 margin: 5px 10px
-                
+
+@media (max-width: 768px)
+    .repository
+        flex-direction: column-reverse
+        .repository-view
+            height: auto
+            width: 90%
+            margin: 15px 0 0 0
+        .repository-info
+            .repository-title
+            .repository-detail
+                width: 100%
+                margin: 10px 0px 20px 0px
+            .repository-technologies-title
+                margin: 0px 0px 10px 0px
+            .repository-technologies-container
+                width: 100%
+
+@media (max-width: 600px)
+    .repository
+        .repository-view
+        .repository-info
+            .repository-title
+                font-size: 22px
+            .repository-detail
+                font-size: 14px
+            .repository-technologies-title
+                font-size: 18px
+            .repository-technologies-container
+                .repository-technology
+                    max-height: 30px
+                    margin: 5px 5px

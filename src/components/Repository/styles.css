@@ -10,7 +10,7 @@
   border-bottom: 2px solid #02223C;
 }
 .repository .repository-view {
-  height: 250px;
+  height: auto;
   width: 40%;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -41,4 +41,40 @@
 .repository .repository-info .repository-technologies-container .repository-technology {
   max-height: 40px;
   margin: 5px 10px;
+}
+
+@media (max-width: 768px) {
+  .repository {
+    flex-direction: column-reverse;
+  }
+  .repository .repository-view {
+    height: auto;
+    width: 90%;
+    margin: 15px 0 0 0;
+  }
+  .repository .repository-info .repository-detail {
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+  }
+  .repository .repository-info .repository-technologies-title {
+    margin: 0px 0px 10px 0px;
+  }
+  .repository .repository-info .repository-technologies-container {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .repository .repository-info .repository-title {
+    font-size: 22px;
+  }
+  .repository .repository-info .repository-detail {
+    font-size: 14px;
+  }
+  .repository .repository-info .repository-technologies-title {
+    font-size: 18px;
+  }
+  .repository .repository-info .repository-technologies-container .repository-technology {
+    max-height: 30px;
+    margin: 5px 5px;
+  }
 }/*# sourceMappingURL=styles.css.map */
