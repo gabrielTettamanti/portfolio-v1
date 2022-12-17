@@ -23,10 +23,10 @@
   font-family: "Roboto", sans-serif;
   font-size: 35px;
   font-weight: 500;
-  margin: 40px;
+  margin: 0px 0px 0px 40px;
 }
 .nav-bar-container-white-theme .theme-switch {
-  margin: 40px;
+  margin: 0px 40px 0px 0px;
   display: flex;
   justify-content: space-between;
   border: solid 3px #02223C;
@@ -76,11 +76,11 @@
   font-family: "Roboto", sans-serif;
   font-size: 35px;
   font-weight: 500;
-  margin: 40px;
+  margin: 0px 0px 0px 40px;
   color: #FCF7F8;
 }
 .nav-bar-container-dark-theme .theme-switch {
-  margin: 40px;
+  margin: 0px 40px 0px 0px;
   display: flex;
   justify-content: space-between;
   border: solid 3px #FCF7F8;
@@ -110,4 +110,28 @@
 }
 .nav-bar-container-dark-theme .theme-switch .theme-key .off-theme:hover {
   background-color: #D025B9;
+}
+
+@media (max-width: 768px) {
+  .background-header-filling {
+    height: 7vh;
+  }
+  .nav-bar-container-white-theme {
+    height: 7vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-bar-container-white-theme .title-nav-bar {
+    font-size: 28px;
+    margin: 0;
+  }
+  .nav-bar-container-dark-theme {
+    height: 7vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .nav-bar-container-dark-theme .title-nav-bar {
+    font-size: 28px;
+    margin: 0;
+  }
 }/*# sourceMappingURL=styles.css.map */

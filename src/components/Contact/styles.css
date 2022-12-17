@@ -94,7 +94,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 40px;
+  margin: 0px 40px 0px 0px;
   background-color: #000914;
   width: 35%;
   max-width: 576px;
