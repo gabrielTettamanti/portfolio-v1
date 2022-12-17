@@ -3,6 +3,7 @@
   max-heigth: 50px;
   width: 100%;
   border-top: 15px solid white;
+  min-height: 49px;
 }
 
 .contact-container-white-theme {
@@ -12,6 +13,7 @@
   bottom: 0%;
   height: 8vh;
   max-heigth: 50px;
+  min-height: 49px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -70,6 +72,7 @@
   bottom: 0%;
   height: 8vh;
   max-heigth: 50px;
+  min-height: 49px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
