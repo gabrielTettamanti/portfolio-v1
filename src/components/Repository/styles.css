@@ -64,6 +64,10 @@
   }
 }
 @media (max-width: 600px) {
+  .repository {
+    width: 90%;
+    padding: 15px 0px 30px 0px;
+  }
   .repository .repository-info .repository-title {
     font-size: 22px;
   }
