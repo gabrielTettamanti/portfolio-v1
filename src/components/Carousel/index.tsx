@@ -10,10 +10,10 @@ function Carousel() {
     return (
         <section className={`carousel-background-${dayTime} home-intro`}>
             <div className="carousel-container">
-                <div data-aos="fade-right">
+                <div data-aos="zoom-in">
                     <AnalogClock />
                 </div>
-                <div className="carousel-text" data-aos="fade-left">
+                <div className="carousel-text" data-aos="zoom-in">
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic officia illo maiores error, aliquid atque quod neque omnis, nobis tempore porro quos laudantium commodi iusto cupiditate maxime distinctio beatae delectus?
                     </p>
