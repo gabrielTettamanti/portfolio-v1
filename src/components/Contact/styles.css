@@ -133,6 +133,7 @@
   .contact-container-white-theme {
     height: 7vh;
     flex-direction: column;
+    justify-content: center;
   }
   .contact-container-white-theme .contact-buttons {
     margin: 0px 0px 0px 0px;
