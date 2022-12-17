@@ -131,9 +131,33 @@ $roboto: 'Roboto', sans-serif
             .contact-button
             .contact-icon
             .cv-p
+    .contact-container-dark-theme
+        .arrow-down-scroller
+            display: none
+        .contact-buttons
+            margin: 0px 40px 0px 0px
+            width: 50%
+            .contact-button
+            .contact-icon
+            .cv-p
 
 @media (max-width: 768px)
     .contact-container-white-theme
+        height: 7vh
+        flex-direction: column
+        justify-content: center
+        .arrow-down-scroller
+        .contact-buttons
+            margin: 0px 0px 0px 0px
+            width: 90%
+            justify-content: space-around
+            .contact-button
+            .contact-icon
+                font-size: 28px
+            .cv-p
+                font-size: 16px
+                font-weight: 500
+    .contact-container-dark-theme
         height: 7vh
         flex-direction: column
         justify-content: center
