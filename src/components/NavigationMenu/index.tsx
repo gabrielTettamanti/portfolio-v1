@@ -15,6 +15,7 @@ export default () => {
     if(path == '') setStatus({ project: "project", tech: "unactive", aboutme: "unactive" });
     if(path == 'technologies') setStatus({ project: "unactive", tech: "tech", aboutme: "unactive" });
     if(path == 'aboutme') setStatus({ project: "unactive", tech: "unactive", aboutme: "aboutme" });
+    if(path != '' && path != 'technologies' && path != 'aboutme') setStatus({ project: "unactive", tech: "unactive", aboutme: "unactive" });
   }, []);
 
   const handleStatus = (option: string) => {
