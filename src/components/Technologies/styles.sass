@@ -48,18 +48,21 @@ $rich-black-fogra-29: #000914
             flex-direction: row
             flex-wrap: wrap
             justify-content: flex-end
-            .technology-logo
-                max-height: 3rem
-                max-width: 6rem
+            .tech-link
                 margin: 15px
                 padding: 4px
                 border: solid 4px $snow
                 border-radius: 10px
                 transition: 0.5s
+                display: flex
+                align-items: center
                 &:hover
                     background-color: $aqua
                     border: solid 4px $aqua
                     box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+                .technology-logo
+                    max-height: 2rem
+                    max-width: 5rem
 
 @media (max-width: 600px)
     .technologies

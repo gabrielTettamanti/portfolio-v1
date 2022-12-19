@@ -33,49 +33,95 @@ export default () => {
             <div className="tech-group">
                 <h3 className="tech-name">Languages</h3>
                 <div className="logos-group">
-                    <img src={jsLogo} alt="Javascript" className="technology-logo" />
-                    <img src={tsLogo} alt="TypeScript" className="technology-logo" />
-                    <img src={pyLogo} alt="Python" className="technology-logo" />
-                    <img src={goLogo} alt="Go" className="technology-logo" />
-                    <img src={htmlLogo} alt="HTML" className="technology-logo" />
-                    <img src={cssLogo} alt="CSS" className="technology-logo" />
+                    <a href="" className="tech-link">
+                        <img src={jsLogo} alt="Javascript" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={tsLogo} alt="TypeScript" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={pyLogo} alt="Python" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={goLogo} alt="Go" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={htmlLogo} alt="HTML" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={cssLogo} alt="CSS" className="technology-logo" />
+                    </a>
                 </div>
             </div>
             <div className="tech-group">
                 <h3 className="tech-name">Frontend</h3>
                 <div className="logos-group">
-                    <img src={nextLogo} alt="Next" className="technology-logo" />
-                    <img src={solidLogo} alt="Solid" className="technology-logo" />
-                    <img src={reactLogo} alt="React" className="technology-logo" />
+                    <a href="" className="tech-link">
+                        <img src={nextLogo} alt="Next" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={solidLogo} alt="Solid" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={reactLogo} alt="React" className="technology-logo" />
+                    </a>
                 </div>
             </div>
             <div className="tech-group">
                 <h3 className="tech-name">Backend</h3>
                 <div className="logos-group">
-                    <img src={expressLogo} alt="Express" className="technology-logo" />
-                    <img src={flaskLogo} alt="Flask" className="technology-logo" />
-                    <img src={djangoLogo} alt="DJango" className="technology-logo" />
-                    <img src={ginLogo} alt="Gin" className="technology-logo" />
+                    <a href="" className="tech-link">
+                        <img src={expressLogo} alt="Express" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={flaskLogo} alt="Flask" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={djangoLogo} alt="DJango" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={ginLogo} alt="Gin" className="technology-logo" />
+                    </a>
                 </div>
             </div>
             <div className="tech-group">
                 <h3 className="tech-name">Database</h3>
                 <div className="logos-group">
-                    <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
-                    <img src={MongoDBLogo} alt="MongoDB" className="technology-logo" />
+                    <a href="" className="tech-link">
+                        <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={MongoDBLogo} alt="MongoDB" className="technology-logo" />
+                    </a>
                 </div>
             </div>
             <div className="tech-group">
                 <h3 className="tech-name">Tools</h3>
                 <div className="logos-group">
-                    <img src={JestLogo} alt="Jest" className="technology-logo" />
-                    <img src={SassLogo} alt="Sass" className="technology-logo" />
-                    <img src={TailwindLogo} alt="Tailwind" className="technology-logo" />
-                    <img src={BootstrapLogo} alt="Bootstrap" className="technology-logo" />
-                    <img src={GitLogo} alt="Git" className="technology-logo" />
-                    <img src={DockerLogo} alt="Docker" className="technology-logo" />
-                    <img src={ViteLogo} alt="Vite" className="technology-logo" />
-                    <img src={WebpackLogo} alt="Webpack" className="technology-logo" />
+                    <a href="" className="tech-link">
+                        <img src={JestLogo} alt="Jest" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={SassLogo} alt="Sass" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={TailwindLogo} alt="Tailwind" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={BootstrapLogo} alt="Bootstrap" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={GitLogo} alt="Git" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={DockerLogo} alt="Docker" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={ViteLogo} alt="Vite" className="technology-logo" />
+                    </a>
+                    <a href="" className="tech-link">
+                        <img src={WebpackLogo} alt="Webpack" className="technology-logo" />
+                    </a>
                 </div>
             </div>
         </section>

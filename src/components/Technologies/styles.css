@@ -49,19 +49,23 @@
   flex-wrap: wrap;
   justify-content: flex-end;
 }
-.technologies .tech-group .logos-group .technology-logo {
-  max-height: 3rem;
-  max-width: 6rem;
+.technologies .tech-group .logos-group .tech-link {
   margin: 15px;
   padding: 4px;
   border: solid 4px #FCF7F8;
   border-radius: 10px;
   transition: 0.5s;
+  display: flex;
+  align-items: center;
 }
-.technologies .tech-group .logos-group .technology-logo:hover {
+.technologies .tech-group .logos-group .tech-link:hover {
   background-color: #00fefc;
   border: solid 4px #00fefc;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.technologies .tech-group .logos-group .tech-link .technology-logo {
+  max-height: 2rem;
+  max-width: 5rem;
 }
 
 @media (max-width: 600px) {
