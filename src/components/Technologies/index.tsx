@@ -33,22 +33,22 @@ export default () => {
             <div className="tech-group">
                 <h3 className="tech-name">Languages</h3>
                 <div className="logos-group">
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={jsLogo} alt="Javascript" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={tsLogo} alt="TypeScript" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={pyLogo} alt="Python" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={goLogo} alt="Go" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={htmlLogo} alt="HTML" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={cssLogo} alt="CSS" className="technology-logo" />
                     </a>
                 </div>
@@ -56,13 +56,13 @@ export default () => {
             <div className="tech-group">
                 <h3 className="tech-name">Frontend</h3>
                 <div className="logos-group">
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={nextLogo} alt="Next" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={solidLogo} alt="Solid" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={reactLogo} alt="React" className="technology-logo" />
                     </a>
                 </div>
@@ -70,16 +70,16 @@ export default () => {
             <div className="tech-group">
                 <h3 className="tech-name">Backend</h3>
                 <div className="logos-group">
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={expressLogo} alt="Express" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={flaskLogo} alt="Flask" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={djangoLogo} alt="DJango" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={ginLogo} alt="Gin" className="technology-logo" />
                     </a>
                 </div>
@@ -87,10 +87,10 @@ export default () => {
             <div className="tech-group">
                 <h3 className="tech-name">Database</h3>
                 <div className="logos-group">
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={MongoDBLogo} alt="MongoDB" className="technology-logo" />
                     </a>
                 </div>
@@ -98,28 +98,28 @@ export default () => {
             <div className="tech-group">
                 <h3 className="tech-name">Tools</h3>
                 <div className="logos-group">
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={JestLogo} alt="Jest" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={SassLogo} alt="Sass" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={TailwindLogo} alt="Tailwind" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={BootstrapLogo} alt="Bootstrap" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={GitLogo} alt="Git" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={DockerLogo} alt="Docker" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={ViteLogo} alt="Vite" className="technology-logo" />
                     </a>
-                    <a href="" className="tech-link">
+                    <a href="" className="tech-link" target="_blank">
                         <img src={WebpackLogo} alt="Webpack" className="technology-logo" />
                     </a>
                 </div>
