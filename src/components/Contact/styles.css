@@ -49,6 +49,7 @@
   color: #02223C;
   padding: 6px;
   border-radius: 30px;
+  cursor: pointer;
   transition: 0.5s;
 }
 .contact-container-white-theme .contact-buttons .contact-button:hover {

@@ -5,11 +5,31 @@ import {  } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './styles.css'
 import useTime from "../hooks/useTime";
+import { ToastContainer, toast } from "react-toastify";
+
+// import CVPDF from "../../assets/CV//static/media/gabrieltettamanti-cv.af81faf2abc23db3584c.pdf"
+
+import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
     const dayTime = useTime()
+    const handleMailTo = () => {
+        navigator.clipboard.writeText("gabrieltettamanti.dev@gmail.com");
+        toast.success("E-mail copiado!!", {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            })
+    }
+
     return (
         <footer>
+            <ToastContainer />
             <div className={`contact-container-${dayTime}`}>
                 <div className="contact-buttons">
                 </div>
@@ -17,16 +37,16 @@ function Contact() {
                     <FontAwesomeIcon icon={faArrowDown} className="arrow-down-scroller" />
                 </a>
                 <address className="contact-buttons">
-                    <a href="">
+                    <a href="/static/media/gabrieltettamanti-cv.af81faf2abc23db3584c.pdf" target="_blank">
                         <p className="contact-button cv-p">Curriculum Vitae</p>
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/gabrieltettamanti/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} className="contact-button contact-icon" />
                     </a>
-                    <a href="">
+                    <a onClick={() => handleMailTo() }>
                         <FontAwesomeIcon icon={faEnvelope} className="contact-button contact-icon" />
                     </a>
-                    <a href="">
+                    <a href="https://github.com/gabrielTettamanti" target="_blank">
                         <FontAwesomeIcon icon={faGithub} className="contact-button contact-icon" />
                     </a>
                 </address>
