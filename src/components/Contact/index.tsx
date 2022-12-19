@@ -7,8 +7,6 @@ import './styles.css'
 import useTime from "../hooks/useTime";
 import { ToastContainer, toast } from "react-toastify";
 
-// import CVPDF from "../../assets/CV//static/media/gabrieltettamanti-cv.af81faf2abc23db3584c.pdf"
-
 import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
@@ -37,7 +35,7 @@ function Contact() {
                     <FontAwesomeIcon icon={faArrowDown} className="arrow-down-scroller" />
                 </a>
                 <address className="contact-buttons">
-                    <a href="/static/media/gabrieltettamanti-cv.af81faf2abc23db3584c.pdf" target="_blank">
+                    <a href="https://drive.google.com/file/d/1jVnFkdhQ0ZwftRfHkpq6wbsa5PiVhhbf/view?usp=sharing" target="_blank">
                         <p className="contact-button cv-p">Curriculum Vitae</p>
                     </a>
                     <a href="https://www.linkedin.com/in/gabrieltettamanti/" target="_blank">
