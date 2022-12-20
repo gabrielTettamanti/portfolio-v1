@@ -38,17 +38,17 @@ const repositoriesData = [
         url: '',
         img: MyPortfolio
     },{
-        title:"Museo Paleontologico de San Pedro",
-        description:'Es el sitio oficial del Museo Paleontologico de San Pedro "Fray Manuel de Torres". En el se pueden crear, editar y eliminar noticias, sponsors y hasta los multiples administradores que puede tener el sitio. Los lectores se pueden suscribir en la web y recibiran actualizaciones periodicas con las novedades del museo. ',
-        technologies: [jsLogo, htmlLogo, SassLogo, BootstrapLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
-        url: 'https://youtu.be/8nz_pOPOKQ4',
-        img: MuseoPaleontologico
-    },{
         title:"GoodTrail",
         description:"Es un e-commerce de experiencias y aventuras, donde los usuarios pueden registrarse, ingresar y comprar u ofrecer servicios a los demas usuarios. Esta desarrollado con arquitectura MVC, tiene middlewares de seguridad y cumple la funcion de API proporcionando informacion por varios endpoints.",
         technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
         url: '',
         img: GoodTrail
+    },{
+        title:"Museo Paleontologico de San Pedro",
+        description:'Es el sitio oficial del Museo Paleontologico de San Pedro "Fray Manuel de Torres". En el se pueden crear, editar y eliminar noticias, sponsors y hasta los multiples administradores que puede tener el sitio. Los lectores se pueden suscribir en la web y recibiran actualizaciones periodicas con las novedades del museo. ',
+        technologies: [jsLogo, htmlLogo, SassLogo, BootstrapLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
+        url: 'https://youtu.be/8nz_pOPOKQ4',
+        img: MuseoPaleontologico
     },{
         title:"Video Manager",
         description:"En esta aplicacion uno encuentra un formulario donde puede ir agregando url's, titulos y descripciones de los videos que quieran guardar, estos van a ir organizandose en una lista que puede ser editada o eliminada.",
