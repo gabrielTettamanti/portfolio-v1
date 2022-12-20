@@ -5,7 +5,8 @@ interface repositoriesData {
   title: string,
   description: string,
   technologies: string[],
-  url: string
+  url: string,
+  img: string
 }
 
 export default (props: repositoriesData) => {
@@ -16,7 +17,7 @@ export default (props: repositoriesData) => {
         className="repository"
       >
         <img
-          src="/static/media/sunrise.913e3d46a8873355b5fe.jpg"
+          src={props.img}
           alt="Foto del proyecto"
           className="repository-view"
         />
