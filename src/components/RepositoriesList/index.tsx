@@ -19,6 +19,7 @@ export default () => {
             title = {data.title}
             description = {data.description}
             technologies = {data.technologies}
+            url = {data.url}
           />
         );
       })}
@@ -30,6 +31,7 @@ export default () => {
               title = {data.title}
               description = {data.description}
               technologies = {data.technologies}
+              url = {data.url}
             />
           );
         })}

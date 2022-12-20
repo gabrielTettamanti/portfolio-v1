@@ -9,6 +9,9 @@
   padding: 50px 40px;
   border-bottom: 2px solid #02223C;
 }
+.repository:hover {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .repository .repository-view {
   height: auto;
   width: 40%;

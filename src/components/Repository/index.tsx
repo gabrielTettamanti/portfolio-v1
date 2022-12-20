@@ -5,11 +5,14 @@ interface repositoriesData {
   title: string,
   description: string,
   technologies: string[],
+  url: string
 }
 
 export default (props: repositoriesData) => {
     return (
-      <div
+      <a
+        href={props.url}
+        target='_blank'
         className="repository"
       >
         <img
@@ -31,6 +34,6 @@ export default (props: repositoriesData) => {
             })}
           </div>
         </div>
-      </div>
+      </a>
     )
 }
