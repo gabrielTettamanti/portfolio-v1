@@ -191,13 +191,13 @@
   background-color: #a6cfe3;
 }
 .langs-container .langs-list-item .bar.learning::before {
-  width: calc(20% - 10px);
+  width: calc(14% - 10px);
 }
 .langs-container .langs-list-item .bar.basic::before {
-  width: calc(40% - 10px);
+  width: calc(50% - 10px);
 }
 .langs-container .langs-list-item .bar.intermediate::before {
-  width: calc(60% - 10px);
+  width: calc(70% - 10px);
 }
 .langs-container .langs-list-item .bar.advanced::before {
   width: calc(80% - 10px);

@@ -77,7 +77,7 @@ export default () => {
             <div className="education-names">
               <div className="education-institutions">
                 <p className="education-name">
-                  Universidad Nacional de La Plata | Licenciatura en Economía
+                  Universidad Nacional de La Plata | Licenciatura en Economía (60% completa)
                 </p>
                 <img
                   src={UNLPLogo}
@@ -102,11 +102,11 @@ export default () => {
         </li>
         <li className="langs-list-item">
           <p className="langs-name">Alemán</p>
-          <div className="bar back intermediate" data-skill="Intermediate"></div>
+          <div className="bar back basic" data-skill="Intermediate"></div>
         </li>
         <li className="langs-list-item">
           <p className="langs-name">Japonés</p>
-          <div className="bar learning" data-skill="Elementary"></div>
+          <div className="bar learning" data-skill="Begginer"></div>
         </li>
       </ul>
     </section>
