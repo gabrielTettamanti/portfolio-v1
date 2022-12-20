@@ -14,6 +14,7 @@ $rich-black-fogra-29: #000914
     margin: auto
     padding: 50px 40px
     border-bottom: 2px solid $oxford-blue
+    transition: .5s
     &:hover
         box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
     .repository-view
@@ -46,6 +47,8 @@ $rich-black-fogra-29: #000914
 @media (max-width: 768px)
     .repository
         flex-direction: column-reverse
+        &:hover
+            box-shadow: none
         .repository-view
             height: auto
             width: 90%
