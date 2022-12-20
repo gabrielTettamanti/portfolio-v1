@@ -26,31 +26,38 @@ const repositoriesData = [
     {
         title:"Mi portafolio digital",
         description:'Esta web esta desarrollada con el objetivo de ser una extencion a mi curriculum vitae. Donde muestro desarrollos y experimentos que he hecho, tecnologias que uso y una breve descripcion de mi persona. Cuenta con un ciclo de dia y noche que cambia el tema de la web a las 7am y 7pm.',
-        technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, JestLogo, GitLogo]
+        technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, JestLogo, GitLogo],
+        url: ''
     },{
         title:"Museo Paleontologico de San Pedro",
         description:'Es el sitio oficial del Museo Paleontologico de San Pedro "Fray Manuel de Torres". En el se pueden crear, editar y eliminar noticias, sponsors y hasta los multiples administradores que puede tener el sitio. Los lectores se pueden suscribir en la web y recibiran actualizaciones periodicas con las novedades del museo. ',
-        technologies: [jsLogo, htmlLogo, SassLogo, BootstrapLogo, cssLogo, expressLogo, MySQLLogo, GitLogo]
+        technologies: [jsLogo, htmlLogo, SassLogo, BootstrapLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
+        url: 'https://youtu.be/8nz_pOPOKQ4'
     },{
         title:"GoodTrail",
         description:"Es un e-commerce de experiencias y aventuras, donde los usuarios pueden registrarse, ingresar y comprar u ofrecer servicios a los demas usuarios. Esta desarrollado con arquitectura MVC, tiene middlewares de seguridad y cumple la funcion de API proporcionando informacion por varios endpoints.",
-        technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, MySQLLogo, GitLogo]
+        technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
+        url: ''
     },{
         title:"Video Manager",
         description:"En esta aplicacion uno encuentra un formulario donde puede ir agregando url's, titulos y descripciones de los videos que quieran guardar, estos van a ir organizandose en una lista que puede ser editada o eliminada.",
-        technologies: [reactLogo, tsLogo, htmlLogo, BootstrapLogo, cssLogo, MongoDBLogo, GitLogo]
+        technologies: [reactLogo, tsLogo, htmlLogo, BootstrapLogo, cssLogo, MongoDBLogo, GitLogo],
+        url: 'https://youtu.be/2PcWzSoBah8'
     },{
         title:"GoodTrail Dashboard",
         description:"Aprovechando las funciones de API de la web de GoodTrail desarrollamos un Dashboard que proporciona diversa informacion y estadisticas sobre usuarios y ofertas existentes, como nombres, ubicacion, fechas, entre otros datos.",
-        technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo]
+        technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
+        url: 'https://youtu.be/zClhBgmCCaI'
     },{
         title:"Lista de tareas",
         description:"Es una aplicacion web donde uno puede sumar, marcar como hechas o remover items en una lista de tareas.",
-        technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo]
+        technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
+        url: 'https://youtu.be/j66BdSCLIhE'
     },{
         title:"Calculadora",
         description:"En esta web desarrolle una calculadora utilizando los hooks de React.",
-        technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo]
+        technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
+        url: 'https://youtu.be/9ba4QWF2D0U'
     }
 ]
 
