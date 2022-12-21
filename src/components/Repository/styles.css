@@ -8,15 +8,12 @@
   margin: auto;
   padding: 50px 40px;
   border-bottom: 2px solid #02223C;
-  transition: 0.5s;
-}
-.repository:hover {
-  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .repository .repository-view {
   height: auto;
   width: 40%;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
 }
 .repository .repository-info {
   display: flex;
@@ -47,12 +44,107 @@
   margin: 5px 10px;
 }
 
+.ReactModal__Overlay {
+  z-index: 70;
+  background: radial-gradient(50% 100%, rgba(0, 9, 20, 0.5647058824), rgba(0, 9, 20, 0));
+  opacity: 0;
+  scale: 0;
+  transition: all 200ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  scale: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  position: absolute;
+}
+
+.repository-menu {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.repository-menu .repository-menu-button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FCF7F8;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  border: solid 5px #00fefc;
+  transition: 0.5s;
+}
+.repository-menu .repository-menu-button:hover {
+  -webkit-animation-name: beat;
+          animation-name: beat;
+  -webkit-animation-duration: 1500ms;
+          animation-duration: 1500ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  border: solid 5px #D025B9;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.repository-menu .no-url {
+  border-color: gray;
+  color: gray;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+.repository-menu .no-url:hover {
+  -webkit-animation: none;
+          animation: none;
+}
+.repository-menu #repository-menu-yt {
+  font-size: 32px;
+  top: 100px;
+  right: 220px;
+}
+.repository-menu #repository-menu-desktop {
+  font-size: 27px;
+  top: 70px;
+}
+.repository-menu #repository-menu-github {
+  font-size: 34px;
+  top: 100px;
+  left: 220px;
+}
+.repository-menu #repository-menu-xmark {
+  font-size: 32px;
+}
+
+@-webkit-keyframes beat {
+  0%, 50%, 100% {
+    transform: scale(1, 1);
+  }
+  30%, 80% {
+    transform: scale(1.18, 1.15);
+  }
+}
+
+@keyframes beat {
+  0%, 50%, 100% {
+    transform: scale(1, 1);
+  }
+  30%, 80% {
+    transform: scale(1.18, 1.15);
+  }
+}
 @media (max-width: 768px) {
   .repository {
     flex-direction: column-reverse;
-  }
-  .repository:hover {
-    box-shadow: none;
   }
   .repository .repository-view {
     height: auto;

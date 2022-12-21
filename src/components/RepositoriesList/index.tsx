@@ -20,6 +20,8 @@ export default () => {
             description = {data.description}
             technologies = {data.technologies}
             url = {data.url}
+            github = {data.github}
+            desktop = {data.desktop}
             img = {data.img}
           />
         );
@@ -33,6 +35,8 @@ export default () => {
               description = {data.description}
               technologies = {data.technologies}
               url = {data.url}
+              github = {data.github}
+              desktop = {data.desktop}
               img = {data.img}
             />
           );
