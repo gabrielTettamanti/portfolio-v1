@@ -55,6 +55,7 @@ export default (props: repositoriesData) => {
         }}
       >
         <div className="repository-menu">
+          <h4 className="repository-menu-title">{props.title}</h4>
           <a
             href={props.url}
             target="_blank"

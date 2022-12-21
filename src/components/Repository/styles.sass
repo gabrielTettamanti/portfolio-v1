@@ -70,6 +70,18 @@ $rich-black-fogra-29: #000914
     display: flex
     justify-content: center
     align-items: center
+    .repository-menu-title
+        position: relative
+        top: 80px
+        max-width: 300px
+        text-align: center
+        font-size: 24px
+        color: $snow
+        font-weight: 500
+        letter-spacing: 2.5px
+        word-spacing: 5px
+        text-decoration: underline $aqua
+        text-shadow: 0.1em 0.1em 0.2em $rich-black-fogra-29
     .repository-menu-button
         position: absolute
         display: flex
@@ -82,6 +94,7 @@ $rich-black-fogra-29: #000914
         border-radius: 50px
         border: solid 5px $aqua
         transition: .5s
+        color: $rich-black-fogra-29
         &:hover
             animation-name: beat
             animation-duration: 1500ms
