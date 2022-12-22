@@ -8,12 +8,15 @@
   margin: auto;
   padding: 50px 40px;
   border-bottom: 2px solid #02223C;
+  cursor: pointer;
+}
+.repository:hover {
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .repository .repository-view {
   height: auto;
   width: 40%;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  cursor: pointer;
 }
 .repository .repository-info {
   display: flex;
@@ -44,53 +47,26 @@
   margin: 5px 10px;
 }
 
-.ReactModal__Overlay {
-  z-index: 70;
-  background: radial-gradient(50% 100%, rgba(0, 9, 20, 0.5647058824), rgba(0, 9, 20, 0));
-  opacity: 0;
-  scale: 0;
-  transition: all 200ms ease-in-out;
-}
-
-.ReactModal__Overlay--after-open {
-  opacity: 1;
-  scale: 1;
-}
-
-.ReactModal__Overlay--before-close {
-  opacity: 0;
-}
-
-.ReactModal__Content {
-  position: absolute;
+.repository-menu-unactive {
+  display: none;
 }
 
 .repository-menu {
-  width: 300px;
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.repository-menu .repository-menu-title {
-  position: relative;
-  top: 80px;
-  max-width: 300px;
-  text-align: center;
-  font-size: 24px;
-  color: #FCF7F8;
-  font-weight: 500;
-  letter-spacing: 2.5px;
-  word-spacing: 5px;
-  -webkit-text-decoration: underline #00fefc;
-          text-decoration: underline #00fefc;
-  text-shadow: 0.1em 0.1em 0.2em #000914;
-}
-.repository-menu .repository-menu-button {
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  left: 0px;
+  min-width: 300px;
+  height: 300px;
+  background: radial-gradient(50% 50%, rgba(0, 9, 20, 0.5647058824), rgba(0, 9, 20, 0));
+}
+.repository-menu .repository-menu-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
   background-color: #FCF7F8;
   cursor: pointer;
   height: 50px;
@@ -124,17 +100,12 @@
 }
 .repository-menu #repository-menu-yt {
   font-size: 32px;
-  top: 100px;
-  right: 220px;
 }
 .repository-menu #repository-menu-desktop {
   font-size: 27px;
-  top: 70px;
 }
 .repository-menu #repository-menu-github {
   font-size: 34px;
-  top: 100px;
-  left: 220px;
 }
 .repository-menu #repository-menu-xmark {
   font-size: 32px;

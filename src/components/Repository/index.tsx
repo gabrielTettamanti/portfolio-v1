@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Modal from "react-modal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop, faPlay, faXmark } from "@fortawesome/free-solid-svg-icons";
 
@@ -17,45 +16,24 @@ interface repositoriesData {
 }
 
 export default (props: repositoriesData) => {
-  const [modalIsOpen, setIsOpen] = React.useState(false);
+  const [modalIsOpen, setIsOpen] = useState('repository-menu-unactive');
 
   function openModal() {
-    setIsOpen(true);
+    if(modalIsOpen == 'repository-menu-unactive') setIsOpen('repository-menu')
   }
 
   function closeModal() {
-    setIsOpen(false);
+    setIsOpen('repository-menu-unactive');
   }
 
   return (
-    <div className="repository">
+    <div className="repository" onClick={() => openModal()}>
       <img
         src={props.img}
         alt="Foto del proyecto"
         className="repository-view"
-        onClick={() => openModal()}
       />
-      <Modal
-        isOpen={modalIsOpen}
-        onRequestClose={closeModal}
-        style={{
-          content: {
-            top: "50%",
-            left: "50%",
-            right: "auto",
-            bottom: "auto",
-            marginRight: "-50%",
-            transform: "translate(-50%, -50%)",
-            background: "none",
-            border: "none",
-          },
-          overlay: {
-            backgroundColor: "none",
-          },
-        }}
-      >
-        <div className="repository-menu">
-          <h4 className="repository-menu-title">{props.title}</h4>
+        <div className={modalIsOpen}>
           <a
             href={props.url}
             target="_blank"
@@ -94,7 +72,6 @@ export default (props: repositoriesData) => {
             <FontAwesomeIcon icon={faXmark} />
           </button>
         </div>
-      </Modal>
       <div className="repository-info">
         <h3 className="repository-title">{props.title}</h3>
         <p className="repository-detail">{props.description}</p>

@@ -14,11 +14,13 @@ $rich-black-fogra-29: #000914
     margin: auto
     padding: 50px 40px
     border-bottom: 2px solid $oxford-blue
+    cursor: pointer
+    &:hover
+        box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
     .repository-view
         height: auto
         width: 40%
         box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
-        cursor: pointer
     .repository-info
         display: flex
         flex-direction: column
@@ -42,51 +44,24 @@ $rich-black-fogra-29: #000914
                 max-height: 40px
                 margin: 5px 10px
 
-.ReactModal__Overlay 
-    z-index: 70
-    background: radial-gradient(50% 100%,  #00091490, #00091400)
-    opacity: 0
-    scale: 0
-    transition: all 200ms ease-in-out
-
-.ReactModal__Overlay--after-open
-    opacity: 1
-    scale: 1
-
-.ReactModal__Overlay--before-close
-    opacity: 0
-
-.ReactModal__Content
-    position: absolute
-    // scale: 0
-    // transition: scale 750ms  ease-in-out
-    
-.ReactModal__Content--after-open
-    // scale: 1
+.repository-menu-unactive
+    display: none
 
 .repository-menu
-    width: 300px
-    height: 300px
+    position: absolute
     display: flex
     justify-content: center
     align-items: center
-    .repository-menu-title
-        position: relative
-        top: 80px
-        max-width: 300px
-        text-align: center
-        font-size: 24px
-        color: $snow
-        font-weight: 500
-        letter-spacing: 2.5px
-        word-spacing: 5px
-        text-decoration: underline $aqua
-        text-shadow: 0.1em 0.1em 0.2em $rich-black-fogra-29
+    width: 100%
+    left: 0px
+    min-width: 300px
+    height: 300px
+    background: radial-gradient(50% 50%,  #00091490, #00091400)
     .repository-menu-button
-        position: absolute
         display: flex
         justify-content: center
         align-items: center
+        margin: 10px
         background-color: $snow
         cursor: pointer
         height: 50px
@@ -111,17 +86,13 @@ $rich-black-fogra-29: #000914
             animation: none
     #repository-menu-yt
         font-size: 32px
-        top: 100px
-        right: 220px
     #repository-menu-desktop
         font-size: 27px
-        top: 70px
     #repository-menu-github
         font-size: 34px
-        top: 100px
-        left: 220px
     #repository-menu-xmark
         font-size: 32px
+
 
 @keyframes beat
     0%, 50%, 100%
