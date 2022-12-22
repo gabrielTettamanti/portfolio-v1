@@ -27,7 +27,7 @@ export default (props: repositoriesData) => {
   }
 
   return (
-    <div className="repository" onClick={() => openModal()}>
+    <div className={`repository ${modalIsOpen == 'repository-menu' ? 'unclickable' : 'clickable'}`} onClick={() => openModal()}>
       <img
         src={props.img}
         alt="Foto del proyecto"
