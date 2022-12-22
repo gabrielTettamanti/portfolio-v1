@@ -23,6 +23,7 @@ export default () => {
             github = {data.github}
             desktop = {data.desktop}
             img = {data.img}
+            key = {data.title}
           />
         );
       })}
@@ -38,6 +39,7 @@ export default () => {
               github = {data.github}
               desktop = {data.desktop}
               img = {data.img}
+              key = {data.title}
             />
           );
         })}

@@ -80,6 +80,7 @@ export default (props: repositoriesData) => {
           {props.technologies.map((tech) => {
             return (
               <img
+                key={tech}
                 src={tech}
                 alt="Tech-logo"
                 className="repository-technology"
