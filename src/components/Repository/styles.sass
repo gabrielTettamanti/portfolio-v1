@@ -45,9 +45,14 @@ $rich-black-fogra-29: #000914
                 margin: 5px 10px
 
 .repository-menu-unactive
-    display: none
-
+    position: absolute
+    scale: 0
+    opacity: 0
+    .repository-menu-button
+        scale: 0
+        opacity: 0
 .repository-menu
+    background: radial-gradient(25% 50%,  #00091490, #00091400)
     position: absolute
     display: flex
     justify-content: center
@@ -56,8 +61,11 @@ $rich-black-fogra-29: #000914
     left: 0px
     min-width: 300px
     height: 300px
-    background: radial-gradient(50% 50%,  #00091490, #00091400)
+    scale: 1
+    opacity: 1
     .repository-menu-button
+        scale: 1
+        opacity: 1
         display: flex
         justify-content: center
         align-items: center
@@ -103,6 +111,8 @@ $rich-black-fogra-29: #000914
 @media (max-width: 768px)
     .repository
         flex-direction: column-reverse
+        &:hover
+            box-shadow: none
         .repository-view
             height: auto
             width: 90%

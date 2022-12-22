@@ -48,10 +48,17 @@
 }
 
 .repository-menu-unactive {
-  display: none;
+  position: absolute;
+  scale: 0;
+  opacity: 0;
+}
+.repository-menu-unactive .repository-menu-button {
+  scale: 0;
+  opacity: 0;
 }
 
 .repository-menu {
+  background: radial-gradient(25% 50%, rgba(0, 9, 20, 0.5647058824), rgba(0, 9, 20, 0));
   position: absolute;
   display: flex;
   justify-content: center;
@@ -60,9 +67,12 @@
   left: 0px;
   min-width: 300px;
   height: 300px;
-  background: radial-gradient(50% 50%, rgba(0, 9, 20, 0.5647058824), rgba(0, 9, 20, 0));
+  scale: 1;
+  opacity: 1;
 }
 .repository-menu .repository-menu-button {
+  scale: 1;
+  opacity: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -131,6 +141,9 @@
 @media (max-width: 768px) {
   .repository {
     flex-direction: column-reverse;
+  }
+  .repository:hover {
+    box-shadow: none;
   }
   .repository .repository-view {
     height: auto;
