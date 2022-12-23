@@ -7,6 +7,7 @@ import htmlLogo from '../../assets/images/tecnologies/languages/html.png'
 import nextLogo from '../../assets/images/tecnologies/frontend/next.png'
 import solidLogo from '../../assets/images/tecnologies/frontend/solid.png'
 import reactLogo from '../../assets/images/tecnologies/frontend/react.png'
+import threeJSLogo from '../../assets/images/tecnologies/frontend/threejs.png'
 import expressLogo from '../../assets/images/tecnologies/backend/express.png'
 import flaskLogo from '../../assets/images/tecnologies/backend/flask.png'
 import djangoLogo from '../../assets/images/tecnologies/backend/django.png'
@@ -22,6 +23,7 @@ import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
 import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
 import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 
+import HelloCube from '../../assets/images/repos/hellocube.png'
 import MercadoPago from '../../assets/images/repos/mercadopago.png'
 import ClickCounter from '../../assets/images/repos/clickcounter.png'
 import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.png'
@@ -29,6 +31,14 @@ import MercadoLiebre from '../../assets/images/repos/mercadoliebre.png'
 
 const experimentsData = [
     {
+        title:"Hello Cube",
+        description:"Es mi primera prueba usando la libreria ThreeJS de Javascript. Esta es la herramienta web mas usada en el desarrollo de software 3D.",
+        technologies: [jsLogo, htmlLogo, threeJSLogo, GitLogo],
+        url: '',
+        github: "https://github.com/gabrielTettamanti/helloCubeThreeJS",
+        desktop: 'https://hellocube.tiiny.site/',
+        img: HelloCube
+    },{
         title:"TPG - MercadoPago",
         description:"Es una web que simula Mercado Libre, donde uno puede efectuar pago digitales mediante la API de Mercado Pago, la cual proporciona una gran seguridad a la hora de efectuar transacciones.",
         technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, GitLogo],
