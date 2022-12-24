@@ -68,7 +68,7 @@ const experimentsData = [
         technologies: [jsLogo, cssLogo, htmlLogo, expressLogo, GitLogo],
         url: 'https://youtu.be/_kcRMA777V4',
         github: "https://github.com/gabrielTettamanti/mercadoLiebre",
-        desktop: '',
+        desktop: 'https://mercadoliebre-production.up.railway.app/',
         img: MercadoLiebre
     }
 ]
