@@ -37,7 +37,7 @@ const repositoriesData = [
         technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, JestLogo, GitLogo],
         url: '',
         github: "https://github.com/gabrielTettamanti/gabrieltettamanti",
-        desktop: '',
+        desktop: 'https://gabrieltettamanti.vercel.app/',
         img: MyPortfolio
     },{
         title:"GoodTrail",
@@ -77,7 +77,7 @@ const repositoriesData = [
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/j66BdSCLIhE',
         github: "https://github.com/gabrielTettamanti/react-task-list",
-        desktop: '',
+        desktop: 'https://reacttasklist.vercel.app/',
         img: TaskList
     },{
         title:"Calculadora",
@@ -85,7 +85,7 @@ const repositoriesData = [
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/9ba4QWF2D0U',
         github: "https://github.com/gabrielTettamanti/react-calculator",
-        desktop: '',
+        desktop: 'https://reactcalculator-ten.vercel.app/',
         img: Calculator
     }
 ]

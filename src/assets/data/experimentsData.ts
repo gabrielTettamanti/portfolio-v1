@@ -36,7 +36,7 @@ const experimentsData = [
         technologies: [jsLogo, htmlLogo, threeJSLogo, GitLogo],
         url: '',
         github: "https://github.com/gabrielTettamanti/helloCubeThreeJS",
-        desktop: 'https://hellocube.tiiny.site/',
+        desktop: 'https://hellocube.vercel.app/',
         img: HelloCube
     },{
         title:"TPG - MercadoPago",
@@ -52,7 +52,7 @@ const experimentsData = [
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/QRZZ-RGerLo',
         github: "https://github.com/gabrielTettamanti/react-click-counter",
-        desktop: '',
+        desktop: 'https://reactclickcounter.vercel.app/',
         img: ClickCounter
     },{
         title:"Simulador de freeCodeCamp",
@@ -60,7 +60,7 @@ const experimentsData = [
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/u1RE5orD1k0',
         github: "https://github.com/gabrielTettamanti/primer-ejercicio-react",
-        desktop: '',
+        desktop: 'https://reactfreecodecampsim.vercel.app/',
         img: freeCodeCampSim
     },{
         title:"Mercado Liebre",
