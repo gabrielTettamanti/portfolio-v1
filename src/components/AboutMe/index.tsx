@@ -19,14 +19,14 @@ export default () => {
         <div>
           <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
-            Soy un emprededor de {myCurrentAge} años. Me
-            apasionan los nuevos proyectos y el trabajo en equipo para afrontar
-            los desafíos. Tengo experiencia como product owner, scrum master y
-            desarrollador; organizando equipos, creando estrategias y
-            desarrollando aplicaciones a todo nivel (back end y front end). Soy
-            ingenioso, cooperativo y previsor, siempre dispuesto a aprender
-            nuevas herramientas y técnicas de trabajo, con buen ojo para el
-            diseño y la creación de ambitos positivos de trabajo.
+            Soy un emprededor de {myCurrentAge} años. Apasionado por los nuevos
+            proyectos y el trabajo en equipo para afrontar los desafíos. Tengo
+            experiencia como product owner, scrum master y desarrollador;
+            organizando equipos, creando estrategias y desarrollando
+            aplicaciones a todo nivel (back end y front end). Soy ingenioso,
+            cooperativo y previsor, siempre dispuesto a aprender nuevas
+            herramientas y técnicas laborales, con buen ojo para el diseño y la
+            creación de ambitos positivos de trabajo.
           </p>
         </div>
       </div>
