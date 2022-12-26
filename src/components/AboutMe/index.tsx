@@ -8,25 +8,25 @@ import HarvardLogo from "../../assets/images/education/harvard.png";
 import myPhoto from "../../assets/images/me/myphoto.jpg";
 
 export default () => {
+  let date = new Date();
+  let currentYear = date.getFullYear();
+  let myCurrentAge = currentYear - 1999;
+
   return (
     <section className="about-me">
       <div className="personal-description">
-        <img
-          src={myPhoto}
-          alt=""
-          className="about-me-photo"
-        />
+        <img src={myPhoto} alt="" className="about-me-photo" />
         <div>
           <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Voluptatibus, magnam. Velit voluptatem esse nostrum consectetur
-            magnam, quo repellendus perspiciatis deserunt labore exercitationem
-            modi laudantium dignissimos sint nisi dolor? Reprehenderit, fugiat.
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque
-            sapiente ullam excepturi animi incidunt laboriosam eos, rem labore
-            quod similique saepe adipisci quia totam ab quam debitis velit,
-            omnis sunt.
+            Soy un emprededor de {myCurrentAge} años. Me
+            apasionan los nuevos proyectos y el trabajo en equipo para afrontar
+            los desafíos. Tengo experiencia como product owner, scrum master y
+            desarrollador; organizando equipos, creando estrategias y
+            desarrollando aplicaciones a todo nivel (back end y front end). Soy
+            ingenioso, cooperativo y previsor, siempre dispuesto a aprender
+            nuevas herramientas y técnicas de trabajo, con buen ojo para el
+            diseño y la creación de ambitos positivos de trabajo.
           </p>
         </div>
       </div>
@@ -77,7 +77,8 @@ export default () => {
             <div className="education-names">
               <div className="education-institutions">
                 <p className="education-name">
-                  Universidad Nacional de La Plata | Licenciatura en Economía (60% completa)
+                  Universidad Nacional de La Plata | Licenciatura en Economía
+                  (60% completa)
                 </p>
                 <img
                   src={UNLPLogo}
@@ -98,7 +99,10 @@ export default () => {
         </li>
         <li className="langs-list-item">
           <p className="langs-name">Inglés</p>
-          <div className="bar front advanced" data-skill="Upper intermediate"></div>
+          <div
+            className="bar front advanced"
+            data-skill="Upper intermediate"
+          ></div>
         </li>
         <li className="langs-list-item">
           <p className="langs-name">Alemán</p>
