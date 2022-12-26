@@ -32,6 +32,7 @@ export default () => {
 
   return (
     <ul className="navigation-menu">
+      <span id="nav-menu"></span>
       <li className="menu-option">
         <Link
           to={"/"}

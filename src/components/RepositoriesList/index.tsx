@@ -10,7 +10,6 @@ export default () => {
   return (
     <section
       className="repositories-list"
-      id="repositories-list"
     >
       <h2 className="repositories-list-title" id="developments-title">Desarrollos</h2>
       {repositoriesData.map(data => {

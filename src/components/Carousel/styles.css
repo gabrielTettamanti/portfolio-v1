@@ -24,7 +24,7 @@
 .carousel-container .carousel-text p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   color: #FCF7F8;
 }
 
@@ -39,7 +39,6 @@
   }
   .carousel-container .carousel-text p {
     font-size: 16px;
-    font-weight: 400;
   }
 }
 @media (max-width: 420px) {
