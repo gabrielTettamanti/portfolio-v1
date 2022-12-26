@@ -23,6 +23,7 @@ import DockerLogo from '../../assets/images/tecnologies/tools/docker.png'
 import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
 import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
 import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
+import ThreeJSLogo from '../../assets/images/tecnologies/tools/threejs.png'
 
 import './styles.css'
 
@@ -100,6 +101,9 @@ export default () => {
                 <div className="logos-group">
                     <a href="https://jestjs.io/" className="tech-link" target="_blank">
                         <img src={JestLogo} alt="Jest" className="technology-logo" />
+                    </a>
+                    <a href="https://threejs.org/" className="tech-link" target="_blank">
+                        <img src={ThreeJSLogo} alt="ThreeJS" className="technology-logo" />
                     </a>
                     <a href="https://sass-lang.com/" className="tech-link" target="_blank">
                         <img src={SassLogo} alt="Sass" className="technology-logo" />
