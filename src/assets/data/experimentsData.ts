@@ -34,7 +34,7 @@ const experimentsData = [
         title:"Hello Cube",
         description:"Es mi primera prueba usando la libreria ThreeJS de Javascript. Esta es la herramienta web mas usada en el desarrollo de software 3D.",
         technologies: [jsLogo, htmlLogo, threeJSLogo, GitLogo],
-        url: '',
+        url: 'https://youtu.be/uOqDkRhXWZY',
         github: "https://github.com/gabrielTettamanti/helloCubeThreeJS",
         desktop: 'https://hellocube.vercel.app/',
         img: HelloCube

@@ -29,6 +29,7 @@ import VideoManager from '../../assets/images/repos/videomanager.png'
 import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.png'
 import TaskList from '../../assets/images/repos/tasklist.png'
 import Calculator from '../../assets/images/repos/calculator.png'
+import TatetiSolidJS from '../../assets/images/repos/tatetisolid.png'
 
 const repositoriesData = [
     {
@@ -72,14 +73,6 @@ const repositoriesData = [
         desktop: '',
         img: GoodTrailDashboard
     },{
-        title:"Ta-Te-Ti",
-        description:"Es mi version del clasico juego tateti o tres en linea para navegadores, totalmente responsive y desarrollado en SolidJS.",
-        technologies: [solidLogo, jsLogo, SassLogo, cssLogo, htmlLogo, GitLogo, ViteLogo],
-        url: '',
-        github: "https://github.com/gabrielTettamanti/tateti-solidjs",
-        desktop: 'https://tateti-solidjs.vercel.app/',
-        img: GoodTrailDashboard
-    },{
         title:"Lista de tareas",
         description:"Es una aplicacion web donde uno puede sumar, marcar como hechas o remover items en una lista de tareas.",
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
@@ -87,6 +80,14 @@ const repositoriesData = [
         github: "https://github.com/gabrielTettamanti/react-task-list",
         desktop: 'https://reacttasklist.vercel.app/',
         img: TaskList
+    },{
+        title:"Ta-Te-Ti",
+        description:"Es mi version del clasico juego tateti o tres en linea para navegadores, totalmente responsive y desarrollado en SolidJS.",
+        technologies: [solidLogo, jsLogo, SassLogo, cssLogo, htmlLogo, GitLogo, ViteLogo],
+        url: 'https://youtu.be/DKR8Xa3Fqzk',
+        github: "https://github.com/gabrielTettamanti/tateti-solidjs",
+        desktop: 'https://tateti-solidjs.vercel.app/',
+        img: TatetiSolidJS
     },{
         title:"Calculadora",
         description:"En esta web desarrolle una calculadora utilizando los hooks de React.",
