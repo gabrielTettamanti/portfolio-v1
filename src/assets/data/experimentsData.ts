@@ -26,8 +26,6 @@ import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 import HelloCube from '../../assets/images/repos/hellocube.png'
 import MercadoPago from '../../assets/images/repos/mercadopago.png'
 import ClickCounter from '../../assets/images/repos/clickcounter.png'
-import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.png'
-import MercadoLiebre from '../../assets/images/repos/mercadoliebre.png'
 
 const experimentsData = [
     {
@@ -54,22 +52,6 @@ const experimentsData = [
         github: "https://github.com/gabrielTettamanti/react-click-counter",
         desktop: 'https://reactclickcounter.vercel.app/',
         img: ClickCounter
-    },{
-        title:"Simulador de freeCodeCamp",
-        description:"Es una simulacion del home de la web de freeCodeCamp. En este se muestran experiencias de sus graduados, explicando lo que les parecio la experiencia y donde estan trabajando actualmente.",
-        technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
-        url: 'https://youtu.be/u1RE5orD1k0',
-        github: "https://github.com/gabrielTettamanti/primer-ejercicio-react",
-        desktop: 'https://reactfreecodecampsim.vercel.app/',
-        img: freeCodeCampSim
-    },{
-        title:"Mercado Liebre",
-        description:"Es una simulacion de la web de Mercado Libre. Se puede ver una lista de productos que se adaptan al tamaño de la pantalla del usuario y un formulario para agregar, editar y eliminar productos. Usada de practica para aprender el correcto manejo de flex-box, animaciones y demas reglas de CSS.",
-        technologies: [jsLogo, cssLogo, htmlLogo, expressLogo, GitLogo],
-        url: 'https://youtu.be/_kcRMA777V4',
-        github: "https://github.com/gabrielTettamanti/mercadoLiebre",
-        desktop: 'https://mercadoliebre-production.up.railway.app/',
-        img: MercadoLiebre
     }
 ]
 
