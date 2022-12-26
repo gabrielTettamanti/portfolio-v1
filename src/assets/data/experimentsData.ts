@@ -26,11 +26,20 @@ import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 import HelloCube from '../../assets/images/repos/hellocube.png'
 import MercadoPago from '../../assets/images/repos/mercadopago.png'
 import ClickCounter from '../../assets/images/repos/clickcounter.png'
+import CameraThreeJS from '../../assets/images/repos/camerathreejs.png'
 
 const experimentsData = [
     {
+        title:"Camaras ThreeJS",
+        description:"Es mi primera prueba con la tecnologia de Camara de ThreeJS. Desde una perspectiva alejada se muestra una camara con un campo de visión observando un cubo y un fondo mas alejado.",
+        technologies: [jsLogo, htmlLogo, threeJSLogo, GitLogo],
+        url: '',
+        github: "https://github.com/gabrielTettamanti/cameraThreeJS",
+        desktop: 'https://camerathreejs.vercel.app/',
+        img: CameraThreeJS
+    },{
         title:"Hello Cube",
-        description:"Es mi primera prueba usando la libreria ThreeJS de Javascript. Esta es la herramienta web mas usada en el desarrollo de software 3D.",
+        description:"Es mi primera prueba usando la libreria ThreeJS de Javascript. Esta es la herramienta mas usada en el desarrollo de software 3D web.",
         technologies: [jsLogo, htmlLogo, threeJSLogo, GitLogo],
         url: 'https://youtu.be/uOqDkRhXWZY',
         github: "https://github.com/gabrielTettamanti/helloCubeThreeJS",
