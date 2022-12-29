@@ -48,7 +48,7 @@ export default () => {
           onClick={() => handleStatus("tech")}
           className={`link-option ${status.tech}`}
         >
-          Tecnologias
+          Tecnologías
         </Link>
       </li>
       <li className="menu-option">
