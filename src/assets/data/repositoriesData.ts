@@ -36,7 +36,7 @@ import MercadoLiebre from '../../assets/images/repos/mercadoliebre.png'
 const repositoriesData = [
     {
         title:"Mi portafolio digital",
-        description:'Esta web esta desarrollada con el objetivo de ser una extencion a mi curriculum vitae. Donde muestro desarrollos y experimentos que he hecho, tecnologias que uso y una breve descripcion de mi persona. Cuenta con un ciclo de dia y noche que cambia el tema de la web a las 7am y 7pm.',
+        description:'Esta web está desarrollada con el objetivo de ser una extensión a mi curriculum vitae. Donde muestro desarrollos y experimentos que he hecho, tecnologías que uso y una breve descripción de mi persona. Cuenta con un ciclo de día y noche que cambia el tema de la web a las 7am y 7pm.',
         technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, JestLogo, GitLogo],
         url: '',
         github: "https://github.com/gabrielTettamanti/gabrieltettamanti",
@@ -44,15 +44,15 @@ const repositoriesData = [
         img: MyPortfolio
     },{
         title:"GoodTrail",
-        description:"Es un e-commerce de experiencias y aventuras, donde los usuarios pueden registrarse, ingresar y comprar u ofrecer servicios a los demas usuarios. Esta desarrollado con arquitectura MVC, tiene middlewares de seguridad y cumple la funcion de API proporcionando informacion por varios endpoints.",
+        description:"Es un e-commerce de experiencias y aventuras, donde los usuarios pueden registrarse, ingresar y comprar u ofrecer servicios a los demás usuarios. Está desarrollado con arquitectura MVC, tiene middlewares de seguridad y cumple la función de API proporcionando información por varios endpoints.",
         technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
         url: '',
         github: "https://github.com/gabrielTettamanti/grupo7GoodTrail",
         desktop: '',
         img: GoodTrail
     },{
-        title:"Museo Paleontologico de San Pedro",
-        description:'Es el sitio oficial del Museo Paleontologico de San Pedro "Fray Manuel de Torres". En el se pueden crear, editar y eliminar noticias, sponsors y hasta los multiples administradores que puede tener el sitio. Los lectores se pueden suscribir en la web y recibiran actualizaciones periodicas con las novedades del museo. ',
+        title:"Museo Paleontológico de San Pedro",
+        description:'Es el sitio oficial del Museo Paleontológico de San Pedro "Fray Manuel de Torres". En él se pueden crear, editar y eliminar noticias, sponsors y hasta los múltiples administradores que puede tener el sitio. Los lectores se pueden suscribir en la web y recibirán actualizaciones periódicas con las novedades del museo.',
         technologies: [jsLogo, htmlLogo, SassLogo, BootstrapLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
         url: 'https://youtu.be/8nz_pOPOKQ4',
         github: "https://github.com/gabrielTettamanti/museoPaleontologicoDeSanPedro",
@@ -60,7 +60,7 @@ const repositoriesData = [
         img: MuseoPaleontologico
     },{
         title:"Video Manager",
-        description:"En esta aplicacion uno encuentra un formulario donde puede ir agregando url's, titulos y descripciones de los videos que quieran guardar, estos van a ir organizandose en una lista que puede ser editada o eliminada.",
+        description:"En esta aplicación uno encuentra un formulario donde puede ir agregando enlaces, títulos y descripciones de los videos que quieran guardar, estos van a ir organizándose en una lista que puede ser editada o eliminada.",
         technologies: [reactLogo, tsLogo, htmlLogo, BootstrapLogo, cssLogo, MongoDBLogo, GitLogo],
         url: 'https://youtu.be/2PcWzSoBah8',
         github: "https://github.com/gabrielTettamanti/videoManager-MERN-TS",
@@ -68,7 +68,7 @@ const repositoriesData = [
         img: VideoManager
     },{
         title:"GoodTrail Dashboard",
-        description:"Aprovechando las funciones de API de la web de GoodTrail desarrollamos un Dashboard que proporciona diversa informacion y estadisticas sobre usuarios y ofertas existentes, como nombres, ubicacion, fechas, entre otros datos.",
+        description:"Aprovechando las funciones de API de la web de GoodTrail desarrollamos un Dashboard que proporciona diversa información y estadísticas sobre usuarios y ofertas existentes, como nombres, ubicación, fechas, entre otros datos.",
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/zClhBgmCCaI',
         github: "https://github.com/gabrielTettamanti/grupo7GoodTrailDashboard",
@@ -76,7 +76,7 @@ const repositoriesData = [
         img: GoodTrailDashboard
     },{
         title:"Lista de tareas",
-        description:"Es una aplicacion web donde uno puede sumar, marcar como hechas o remover items en una lista de tareas.",
+        description:"Es una aplicación web donde uno puede sumar, marcar como hechas o remover ítems en una lista de tareas.",
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/j66BdSCLIhE',
         github: "https://github.com/gabrielTettamanti/react-task-list",
@@ -84,7 +84,7 @@ const repositoriesData = [
         img: TaskList
     },{
         title:"Ta-Te-Ti",
-        description:"Es mi version del clasico juego tateti o tres en linea para navegadores, totalmente responsive y desarrollado en SolidJS.",
+        description:"Es mi versión del clásico juego tateti o tres en línea para navegadores, totalmente responsive y desarrollado en SolidJS.",
         technologies: [solidLogo, jsLogo, SassLogo, cssLogo, htmlLogo, GitLogo, ViteLogo],
         url: 'https://youtu.be/DKR8Xa3Fqzk',
         github: "https://github.com/gabrielTettamanti/tateti-solidjs",
@@ -92,7 +92,7 @@ const repositoriesData = [
         img: TatetiSolidJS
     },{
         title:"Calculadora",
-        description:"En esta web desarrolle una calculadora utilizando los hooks de React.",
+        description:"En esta web desarrollé una calculadora utilizando los hooks de React.",
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/9ba4QWF2D0U',
         github: "https://github.com/gabrielTettamanti/react-calculator",
@@ -100,7 +100,7 @@ const repositoriesData = [
         img: Calculator
     },{
         title:"Simulador de freeCodeCamp",
-        description:"Es una simulacion del home de la web de freeCodeCamp. En este se muestran experiencias de sus graduados, explicando lo que les parecio la experiencia y donde estan trabajando actualmente.",
+        description:"Es una simulación del home de la web de freeCodeCamp. En este se muestran experiencias de sus graduados, explicando lo que les pareció la experiencia y donde están trabajando actualmente.",
         technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
         url: 'https://youtu.be/u1RE5orD1k0',
         github: "https://github.com/gabrielTettamanti/primer-ejercicio-react",
@@ -108,7 +108,7 @@ const repositoriesData = [
         img: freeCodeCampSim
     },{
         title:"Mercado Liebre",
-        description:"Es una simulacion de la web de Mercado Libre. Se puede ver una lista de productos que se adaptan al tamaño de la pantalla del usuario y un formulario para agregar, editar y eliminar productos. Usada de practica para aprender el correcto manejo de flex-box, animaciones y demas reglas de CSS.",
+        description:"Es una simulación de la web de Mercado Libre. Se puede ver una lista de productos que se adaptan al tamaño de la pantalla del usuario y un formulario para agregar, editar y eliminar productos. Usada de práctica para aprender el correcto manejo de flex-box, animaciones y demás reglas de CSS.",
         technologies: [jsLogo, cssLogo, htmlLogo, expressLogo, GitLogo],
         url: 'https://youtu.be/_kcRMA777V4',
         github: "https://github.com/gabrielTettamanti/mercadoLiebre",
