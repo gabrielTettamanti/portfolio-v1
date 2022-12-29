@@ -46,7 +46,7 @@ const repositoriesData = [
         title:"GoodTrail",
         description:"Es un e-commerce de experiencias y aventuras, donde los usuarios pueden registrarse, ingresar y comprar u ofrecer servicios a los demás usuarios. Está desarrollado con arquitectura MVC, tiene middlewares de seguridad y cumple la función de API proporcionando información por varios endpoints.",
         technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, MySQLLogo, GitLogo],
-        url: '',
+        url: 'https://youtu.be/WaB14urgPFs',
         github: "https://github.com/gabrielTettamanti/grupo7GoodTrail",
         desktop: '',
         img: GoodTrail
