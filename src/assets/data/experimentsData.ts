@@ -30,7 +30,7 @@ import CameraThreeJS from "../../assets/images/repos/camerathreejs.png";
 
 const experimentsData = [
   {
-    title: "Camaras ThreeJS",
+    title: "Cámaras ThreeJS",
     description:
       "Es mi primera prueba con la tecnología de Cámara de ThreeJS. Desde una perspectiva alejada se muestra una cámara con un campo de visión observando un cubo y un fondo más alejado.",
     technologies: [jsLogo, htmlLogo, threeJSLogo, GitLogo],
