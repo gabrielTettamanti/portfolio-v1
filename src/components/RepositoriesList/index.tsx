@@ -27,7 +27,7 @@ export default () => {
         );
       })}
       <div>
-      <h2 className="repositories-list-title" id="experiments-title">Experimentos y codigo abierto<span>Web is fun</span></h2>
+      <h2 className="repositories-list-title" id="experiments-title">Experimentos y código abierto<span>Web is fun</span></h2>
         {experimentsData.map(data => {
           return (
             <Repository
