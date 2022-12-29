@@ -30,9 +30,9 @@ import './styles.css'
 export default () => {
     return (
         <section className="technologies">
-            <h2 className="tech-section-title">Tecnologias</h2>
+            <h2 className="tech-section-title">Tecnologías</h2>
             <div className="tech-group">
-                <h3 className="tech-name">Languages</h3>
+                <h3 className="tech-name">Lenguajes</h3>
                 <div className="logos-group">
                     <a href="https://www.javascript.com/" className="tech-link" target="_blank">
                         <img src={jsLogo} alt="Javascript" className="technology-logo" />
@@ -55,7 +55,7 @@ export default () => {
                 </div>
             </div>
             <div className="tech-group">
-                <h3 className="tech-name">Frontend</h3>
+                <h3 className="tech-name">Front-end</h3>
                 <div className="logos-group">
                     <a href="https://nextjs.org/" className="tech-link" target="_blank">
                         <img src={nextLogo} alt="Next" className="technology-logo" />
@@ -69,7 +69,7 @@ export default () => {
                 </div>
             </div>
             <div className="tech-group">
-                <h3 className="tech-name">Backend</h3>
+                <h3 className="tech-name">Back-end</h3>
                 <div className="logos-group">
                     <a href="https://expressjs.com/" className="tech-link" target="_blank">
                         <img src={expressLogo} alt="Express" className="technology-logo" />
