@@ -24,9 +24,9 @@ export default () => {
             experiencia como product owner, scrum master y desarrollador;
             organizando equipos, creando estrategias y desarrollando
             aplicaciones a todo nivel (back end y front end). Soy ingenioso,
-            cooperativo y previsor, siempre dispuesto a aprender nuevas
-            herramientas y técnicas laborales, con buen ojo para el diseño y la
-            creación de ámbitos positivos de trabajo.
+            cooperativo y previsor, comprometido con el aprendizaje y la mejora
+            personal continua, con buen ojo para el diseño y la creación de
+            ámbitos positivos de trabajo.
           </p>
         </div>
       </div>
