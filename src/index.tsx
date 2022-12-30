@@ -5,7 +5,7 @@ import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
 import Contact from './components/Contact'
 import RepositoriesList from './components/RepositoriesList';
-import useScrollDetector from './components/hooks/useScrollDetector';
+import { Analytics } from '@vercel/analytics/react';
 
 import './index.css';
 import reportWebVitals from './reportWebVitals';
@@ -22,6 +22,7 @@ root.render(
     <BrowserRouter>
       <div className="App">
         <NavBar />
+        <Analytics />
         <main>
           <Carousel />
           <NavigationMenu />
