@@ -4,9 +4,11 @@ import {  } from '@fortawesome/free-solid-svg-icons'
 import { faSun, faMoon } from '@fortawesome/free-regular-svg-icons'
 import './styles.css'
 import useTime from "../hooks/useTime";
+import { inject } from '@vercel/analytics';
 
 function NavBar() {
     const dayTime = useTime()
+    inject();
     return (
         <header>
             <nav className={`nav-bar-container-${dayTime}`}>
