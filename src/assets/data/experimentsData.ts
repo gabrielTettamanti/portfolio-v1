@@ -24,7 +24,7 @@ import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
 import SassLogo from "../../assets/images/tecnologies/tools/sass.png";
 
 import HelloCube from "../../assets/images/repos/hellocube.png";
-import MercadoPago from "../../assets/images/repos/mercadopago.png";
+// import MercadoPago from "../../assets/images/repos/mercadopago.png";
 import ClickCounter from "../../assets/images/repos/clickcounter.png";
 import CameraThreeJS from "../../assets/images/repos/camerathreejs.png";
 
@@ -49,16 +49,16 @@ const experimentsData = [
     desktop: "https://hellocube.vercel.app/",
     img: HelloCube,
   },
-  {
-    title: "TPG - MercadoPago",
-    description:
-      "Es una web que simula Mercado Libre, donde uno puede efectuar pagos digitales mediante la API de Mercado Pago, la cual proporciona una gran seguridad a la hora de efectuar transacciones.",
-    technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, GitLogo],
-    url: "https://youtu.be/e9FSt28fe6I",
-    github: "https://github.com/gabrielTettamanti/TPG-MercadoPago",
-    desktop: "",
-    img: MercadoPago,
-  },
+  // {
+  //   title: "TPG - MercadoPago",
+  //   description:
+  //     "Es una web que simula Mercado Libre, donde uno puede efectuar pagos digitales mediante la API de Mercado Pago, la cual proporciona una gran seguridad a la hora de efectuar transacciones.",
+  //   technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, GitLogo],
+  //   url: "https://youtu.be/e9FSt28fe6I",
+  //   github: "https://github.com/gabrielTettamanti/TPG-MercadoPago",
+  //   desktop: "",
+  //   img: MercadoPago,
+  // },
   {
     title: "Contador de clicks",
     description:
