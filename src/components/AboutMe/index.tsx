@@ -50,17 +50,6 @@ export default () => {
               </div>
               <div className="education-institutions">
                 <p className="education-name">
-                  freeCodeCamp | Front End Development Libraries
-                </p>
-                <img
-                  src={freeCodeCampLogo}
-                  alt="freeCodeCamp logo"
-                  className="education-logo"
-                  id="freecodecamp-logo"
-                />
-              </div>
-              <div className="education-institutions">
-                <p className="education-name">
                   Digital House | Full Stack Web Development
                 </p>
                 <img
@@ -68,6 +57,17 @@ export default () => {
                   alt="Digital House logo"
                   className="education-logo"
                   id="dh-logo"
+                />
+              </div>
+              <div className="education-institutions">
+                <p className="education-name">
+                  freeCodeCamp | Front End Development Libraries
+                </p>
+                <img
+                  src={freeCodeCampLogo}
+                  alt="freeCodeCamp logo"
+                  className="education-logo"
+                  id="freecodecamp-logo"
                 />
               </div>
             </div>
