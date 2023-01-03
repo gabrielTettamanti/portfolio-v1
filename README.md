@@ -3,5 +3,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## This is my current portfolio.
-    npm install <br />
-    npm start <br />
+    npm install
+    npm start
