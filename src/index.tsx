@@ -38,24 +38,3 @@ root.render(
 );
 
 reportWebVitals();
-
-
-
-
-
-
-
-// function App() {
-
-//   useEffect(() => {
-//     AOS.init({
-//       duration : 2000
-//     });
-//     }, []);
-
-//   return (
-    
-//   );
-// }
-
-// export default App;
