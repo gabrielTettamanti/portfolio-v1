@@ -23,6 +23,8 @@ $rich-black-fogra-29: #000914
         grid-template-rows: 27px 0
         grid-gap: 20px
         align-items: center
+    .tech-section-second-title
+        padding: 0px 0 0 0
     .tech-section-title:after,.tech-section-title:before
         content: " "
         display: block
@@ -63,6 +65,38 @@ $rich-black-fogra-29: #000914
                 .technology-logo
                     max-height: 2rem
                     max-width: 5rem
+.second-technologies
+    padding: 0px 0
+    #tech-section-second-title
+        font-size: 48px
+        width: 95%
+        max-width: 1200px
+        margin: auto
+        text-align:center
+        text-transform:uppercase
+        letter-spacing:1px
+        font-weight:300
+        span
+            margin-top: 5px
+            font-size:15px
+            color:#444
+            word-spacing:1px
+            font-weight:normal
+            letter-spacing:2px
+            text-transform: uppercase
+            font-weight:500
+            display: grid
+            grid-template-columns: 1fr max-content 1fr
+            grid-template-rows: 27px 0
+            grid-gap: 20px
+            align-items: center
+        span:after, span:before
+            content: " "
+            display: block
+            border-bottom: 1px solid $aqua
+            border-top: 1px solid $aqua
+            height: 5px
+            background-color:$snow
 
 @media (max-width: 600px)
     .technologies
@@ -81,3 +115,8 @@ $rich-black-fogra-29: #000914
             .logos-group
                 justify-content: center
                 .technology-logo
+    .second-technologies
+        #tech-section-second-title
+            font-size: 28px
+            span
+                font-size: 12px
