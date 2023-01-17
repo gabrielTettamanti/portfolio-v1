@@ -127,7 +127,7 @@ export default () => {
                     </div>
                 </section>
                 <section className="technologies second-technologies">
-                <h2 id="tech-section-second-title">Conocidas<span>Vista general o en desuso</span></h2>
+                <h2 id="tech-section-second-title">Vista general o en desuso<span>software is fun</span></h2>
                 <div className="tech-group">
                     <h3 className="tech-name">Lenguajes</h3>
                     <div className="logos-group">
