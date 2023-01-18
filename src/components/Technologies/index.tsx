@@ -52,9 +52,6 @@ export default () => {
                         <a href="https://www.python.org/" className="tech-link" target="_blank">
                             <img src={pyLogo} alt="Python" className="technology-logo" />
                         </a>
-                        <a href="https://go.dev/" className="tech-link" target="_blank">
-                            <img src={goLogo} alt="Go" className="technology-logo" />
-                        </a>
                         <a href="https://html.com/" className="tech-link" target="_blank">
                             <img src={htmlLogo} alt="HTML" className="technology-logo" />
                         </a>
@@ -82,9 +79,6 @@ export default () => {
                         </a>
                         <a href="https://www.djangoproject.com/" className="tech-link" target="_blank">
                             <img src={djangoLogo} alt="DJango" className="technology-logo" />
-                        </a>
-                        <a href="https://gin-gonic.com/" className="tech-link" target="_blank">
-                            <img src={ginLogo} alt="Gin" className="technology-logo" />
                         </a>
                     </div>
                 </div>
@@ -128,6 +122,9 @@ export default () => {
                 <div className="tech-group">
                     <h3 className="tech-name">Lenguajes</h3>
                     <div className="logos-group">
+                        <a href="https://go.dev/" className="tech-link" target="_blank">
+                            <img src={goLogo} alt="Go" className="technology-logo" />
+                        </a>
                         <a href="https://www.rust-lang.org/" className="tech-link" target="_blank">
                             <img src={rustLogo} alt="Rust" className="technology-logo" />
                         </a>
@@ -153,6 +150,9 @@ export default () => {
                 <div className="tech-group">
                     <h3 className="tech-name">Back-end</h3>
                     <div className="logos-group">
+                        <a href="https://gin-gonic.com/" className="tech-link" target="_blank">
+                            <img src={ginLogo} alt="Gin" className="technology-logo" />
+                        </a>
                         <a href="https://rocket.rs/v0.4/" className="tech-link" target="_blank">
                             <img src={rocketLogo} alt="Rocket" className="technology-logo" />
                         </a>
