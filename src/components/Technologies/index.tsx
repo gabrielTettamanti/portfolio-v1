@@ -40,6 +40,7 @@ export default () => {
         <>
             <section className="technologies">
                 <h2 className="tech-section-title">Stack Actual</h2>
+                <p className="tech-section-text">Estas son las tecnologías que uso profesionalmente en el día a día. Son las que tengo una mayor experiencia y me parecen las más idóneas para el desarrollo web en la actualidad.</p>
                 <div className="tech-group">
                     <h3 className="tech-name">Lenguajes</h3>
                     <div className="logos-group">
@@ -119,6 +120,7 @@ export default () => {
             </section>
             <section className="technologies second-technologies">
                 <h2 id="tech-section-second-title">Herramientas interesantes<span>learning is fun</span></h2>
+                <p className="tech-section-text">Estas son tecnologías que me divierte usar e investigar en mi tiempo libre. Considero que algunas son el futuro del desarrollo de software y se van a ir viendo más a corto plazo. Ofrecen enfoques innovadores y mayor rendimiento que tecnologías más usadas en la actualidad.</p>
                 <div className="tech-group">
                     <h3 className="tech-name">Lenguajes</h3>
                     <div className="logos-group">
@@ -177,6 +179,7 @@ export default () => {
             </section>
             <section className="technologies">
                 <h2 className="tech-section-title">En desuso</h2>
+                <p className="tech-section-text">Son tecnologías que deje de usar en nuevos proyectos por preferencias personales y porque algunas las considero anticuadas.</p>
                 <div className="tech-group">
                     <h3 className="tech-name">Lenguajes</h3>
                     <div className="logos-group">
