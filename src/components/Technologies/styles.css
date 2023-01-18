@@ -26,6 +26,7 @@
   font-size: 18px;
   letter-spacing: 0.7px;
   width: 80%;
+  max-width: 1800px;
   margin: 5px auto;
 }
 .technologies .tech-section-title:after, .technologies .tech-section-title:before {
