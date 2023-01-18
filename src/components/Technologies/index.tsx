@@ -179,7 +179,7 @@ export default () => {
             </section>
             <section className="technologies">
                 <h2 className="tech-section-title">En desuso</h2>
-                <p className="tech-section-text">Son tecnologías que deje de usar en nuevos proyectos por preferencias personales y porque algunas las considero anticuadas.</p>
+                <p className="tech-section-text">Son tecnologías que dejé de usar en nuevos proyectos por preferencias personales y porque algunas las considero anticuadas.</p>
                 <div className="tech-group">
                     <h3 className="tech-name">Lenguajes</h3>
                     <div className="logos-group">
