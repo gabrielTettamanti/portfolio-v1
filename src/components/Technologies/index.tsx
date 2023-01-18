@@ -69,9 +69,6 @@ export default () => {
                         <a href="https://nextjs.org/" className="tech-link" target="_blank">
                             <img src={nextLogo} alt="Next" className="technology-logo" />
                         </a>
-                        <a href="https://www.solidjs.com/" className="tech-link" target="_blank">
-                            <img src={solidLogo} alt="Solid" className="technology-logo" />
-                        </a>
                         <a href="https://es.reactjs.org/" className="tech-link" target="_blank">
                             <img src={reactLogo} alt="React" className="technology-logo" />
                         </a>
@@ -114,20 +111,20 @@ export default () => {
                         <a href="https://tailwindcss.com/" className="tech-link" target="_blank">
                             <img src={TailwindLogo} alt="Tailwind" className="technology-logo" />
                         </a>
+                        <a href="https://vitejs.dev/" className="tech-link" target="_blank">
+                            <img src={ViteLogo} alt="Vite" className="technology-logo" />
+                        </a>
                         <a href="https://git-scm.com/" className="tech-link" target="_blank">
                             <img src={GitLogo} alt="Git" className="technology-logo" />
                         </a>
                         <a href="https://www.docker.com/" className="tech-link" target="_blank">
                             <img src={DockerLogo} alt="Docker" className="technology-logo" />
                         </a>
-                        <a href="https://vitejs.dev/" className="tech-link" target="_blank">
-                            <img src={ViteLogo} alt="Vite" className="technology-logo" />
-                        </a>
                     </div>
                 </div>
             </section>
             <section className="technologies second-technologies">
-                <h2 id="tech-section-second-title">Vista general o en desuso<span>software is fun</span></h2>
+                <h2 id="tech-section-second-title">Herramientas interesantes<span>learning is fun</span></h2>
                 <div className="tech-group">
                     <h3 className="tech-name">Lenguajes</h3>
                     <div className="logos-group">
@@ -139,8 +136,8 @@ export default () => {
                 <div className="tech-group">
                     <h3 className="tech-name">Front-end</h3>
                     <div className="logos-group">
-                        <a href="https://vuejs.org/" className="tech-link" target="_blank">
-                            <img src={vueLogo} alt="Vue" className="technology-logo" />
+                        <a href="https://www.solidjs.com/" className="tech-link" target="_blank">
+                            <img src={solidLogo} alt="Solid" className="technology-logo" />
                         </a>
                         <a href="https://svelte.dev/" className="tech-link" target="_blank">
                             <img src={svelteLogo} alt="Svelte" className="technology-logo" />
@@ -148,14 +145,14 @@ export default () => {
                         <a href="https://qwik.builder.io/" className="tech-link" target="_blank">
                             <img src={quikLogo} alt="Qwik" className="technology-logo" />
                         </a>
+                        <a href="https://vuejs.org/" className="tech-link" target="_blank">
+                            <img src={vueLogo} alt="Vue" className="technology-logo" />
+                        </a>
                     </div>
                 </div>
                 <div className="tech-group">
                     <h3 className="tech-name">Back-end</h3>
                     <div className="logos-group">
-                        <a href="https://palletsprojects.com/p/flask/" className="tech-link" target="_blank">
-                            <img src={flaskLogo} alt="Flask" className="technology-logo" />
-                        </a>
                         <a href="https://rocket.rs/v0.4/" className="tech-link" target="_blank">
                             <img src={rocketLogo} alt="Rocket" className="technology-logo" />
                         </a>
@@ -199,6 +196,9 @@ export default () => {
                 <div className="tech-group">
                     <h3 className="tech-name">Back-end</h3>
                     <div className="logos-group">
+                        <a href="https://palletsprojects.com/p/flask/" className="tech-link" target="_blank">
+                            <img src={flaskLogo} alt="Flask" className="technology-logo" />
+                        </a>
                         <a href="https://dotnet.microsoft.com/en-us/apps/aspnet" className="tech-link" target="_blank">
                             <img src={dotNetLogo} alt=".NET" className="technology-logo" />
                         </a>
