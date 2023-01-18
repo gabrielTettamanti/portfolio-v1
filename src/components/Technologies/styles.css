@@ -120,6 +120,7 @@
   .technologies .tech-section-text {
     font-size: 14px;
     width: 90%;
+    margin: 0px auto 10px auto;
   }
   .technologies .tech-group {
     margin: auto;
