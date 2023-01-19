@@ -79,6 +79,13 @@ export default () => {
             >
               <img src={cssLogo} alt="CSS" className="technology-logo" />
             </a>
+            <a
+              href="https://sass-lang.com/"
+              className="tech-link"
+              target="_blank"
+            >
+              <img src={SassLogo} alt="Sass" className="technology-logo" />
+            </a>
           </div>
         </div>
         <div className="tech-group">
@@ -147,13 +154,6 @@ export default () => {
           <div className="logos-group">
             <a href="https://jestjs.io/" className="tech-link" target="_blank">
               <img src={JestLogo} alt="Jest" className="technology-logo" />
-            </a>
-            <a
-              href="https://sass-lang.com/"
-              className="tech-link"
-              target="_blank"
-            >
-              <img src={SassLogo} alt="Sass" className="technology-logo" />
             </a>
             <a
               href="https://tailwindcss.com/"
