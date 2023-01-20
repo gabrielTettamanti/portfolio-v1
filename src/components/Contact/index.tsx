@@ -35,7 +35,7 @@ function Contact() {
                     <FontAwesomeIcon icon={faArrowDown} className="arrow-down-scroller" />
                 </a>
                 <address className="contact-buttons">
-                    <a href="https://drive.google.com/file/d/1fqfaUee57phLLbqhFM_-3lVCHQbEhHa_/view?usp=sharing" target="_blank">
+                    <a href="https://drive.google.com/file/d/1Vw0-ZFCLEB5ZQtZZPLaLIWL0yj8ZShHp/view?usp=sharing" target="_blank">
                         <p className="contact-button cv-p">Curriculum Vitae</p>
                     </a>
                     <a href="https://www.linkedin.com/in/gabrieltettamanti/" target="_blank">
