@@ -18,9 +18,9 @@ import jqueryLogo from "../../assets/images/tecnologies/frontend/jquery.png";
 import expressLogo from "../../assets/images/tecnologies/backend/express.png";
 import flaskLogo from "../../assets/images/tecnologies/backend/flask.png";
 import djangoLogo from "../../assets/images/tecnologies/backend/django.png";
-import ginLogo from "../../assets/images/tecnologies/backend/gin.png";
+import fiberLogo from "../../assets/images/tecnologies/backend/fiber.webp";
 import dotNetLogo from "../../assets/images/tecnologies/backend/aspnet.png";
-import rocketLogo from "../../assets/images/tecnologies/backend/rocket.png";
+import actixLogo from "../../assets/images/tecnologies/backend/actix.png";
 import MySQLLogo from "../../assets/images/tecnologies/database/mysql.webp";
 import MongoDBLogo from "../../assets/images/tecnologies/database/mongodb.png";
 import JestLogo from "../../assets/images/tecnologies/testing/jest.png";
@@ -241,18 +241,18 @@ export default () => {
           <h3 className="tech-name">Back-end</h3>
           <div className="logos-group">
             <a
-              href="https://gin-gonic.com/"
+              href="https://gofiber.io/"
               className="tech-link"
               target="_blank"
             >
-              <img src={ginLogo} alt="Gin" className="technology-logo" />
+              <img src={fiberLogo} alt="Fiber" className="technology-logo" />
             </a>
             <a
-              href="https://rocket.rs/v0.4/"
+              href="https://actix.rs/"
               className="tech-link"
               target="_blank"
             >
-              <img src={rocketLogo} alt="Rocket" className="technology-logo" />
+              <img src={actixLogo} alt="Actix" className="technology-logo" />
             </a>
           </div>
         </div>
