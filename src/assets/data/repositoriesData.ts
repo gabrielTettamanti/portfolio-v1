@@ -38,7 +38,7 @@ const repositoriesData = [
     {
         title:"Mi portafolio digital",
         description:'Esta web está desarrollada con el objetivo de ser una extensión a mi curriculum vitae. Donde muestro desarrollos y experimentos que he hecho, tecnologías que uso y una breve descripción de mi persona. Cuenta con un ciclo de día y noche que cambia el tema de la web a las 7am y 7pm.',
-        technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, JestLogo, GitLogo],
+        technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, GitLogo],
         url: 'https://youtu.be/xbJ6qDkmYC4',
         github: "https://github.com/gabrielTettamanti/gabrieltettamanti",
         desktop: 'https://gabrieltettamanti.vercel.app/',
