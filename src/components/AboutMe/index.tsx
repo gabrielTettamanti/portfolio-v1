@@ -1,4 +1,5 @@
 import React from "react";
+import useAOS from "../hooks/useAOS";
 import "./styles.css";
 
 import UNLPLogo from "../../assets/images/education/unlp.webp";
@@ -8,6 +9,7 @@ import HarvardLogo from "../../assets/images/education/harvard.png";
 import myPhoto from "../../assets/images/me/myphoto.jpg";
 
 export default () => {
+  useAOS();
   let date = new Date();
   let currentYear = date.getFullYear();
   let myCurrentAge = currentYear - 1999;
@@ -15,7 +17,7 @@ export default () => {
   return (
     <section className="about-me">
       <div className="personal-description">
-        <img src={myPhoto} alt="" className="about-me-photo" />
+        <img src={myPhoto} alt="" className="about-me-photo" data-aos="fade-in" data-aos-duration="2000" data-aos-offset="200" data-aos-once="true"/>
         <div>
           <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
@@ -46,6 +48,7 @@ export default () => {
                   alt="Harvard University logo"
                   className="education-logo"
                   id="harvard-university-logo"
+                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
@@ -57,6 +60,7 @@ export default () => {
                   alt="Digital House logo"
                   className="education-logo"
                   id="dh-logo"
+                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
@@ -68,6 +72,7 @@ export default () => {
                   alt="freeCodeCamp logo"
                   className="education-logo"
                   id="freecodecamp-logo"
+                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
                 />
               </div>
             </div>
@@ -85,6 +90,7 @@ export default () => {
                   alt="UNLP logo"
                   className="education-logo"
                   id="unlp-logo"
+                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
                 />
               </div>
             </div>
