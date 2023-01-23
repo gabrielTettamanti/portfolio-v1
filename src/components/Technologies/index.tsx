@@ -23,6 +23,8 @@ import dotNetLogo from "../../assets/images/tecnologies/backend/aspnet.png";
 import actixLogo from "../../assets/images/tecnologies/backend/actix.png";
 import MySQLLogo from "../../assets/images/tecnologies/database/mysql.webp";
 import MongoDBLogo from "../../assets/images/tecnologies/database/mongodb.png";
+import redisLogo from "../../assets/images/tecnologies/database/redis.webp";
+import graphQLLogo from "../../assets/images/tecnologies/database/graphql.webp";
 import JestLogo from "../../assets/images/tecnologies/testing/jest.png";
 import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.png";
 import BootstrapLogo from "../../assets/images/tecnologies/styles/bootstrap.webp";
@@ -256,14 +258,17 @@ export default () => {
             </a>
           </div>
         </div>
-        {/* <div className="tech-group">
-                    <h3 className="tech-name">Database</h3>
-                    <div className="logos-group">
-                        <a href="https://www.mysql.com/" className="tech-link" target="_blank">
-                            <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
-                        </a>
-                    </div>
-                </div> */}
+        <div className="tech-group">
+            <h3 className="tech-name">Database</h3>
+            <div className="logos-group">
+                <a href="https://graphql.org/" className="tech-link" target="_blank">
+                    <img src={graphQLLogo} alt="GraphQL" className="technology-logo" />
+                </a>
+                <a href="https://redis.io/" className="tech-link" target="_blank">
+                    <img src={redisLogo} alt="Redis" className="technology-logo" />
+                </a>
+            </div>
+        </div>
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
           <div className="logos-group">
