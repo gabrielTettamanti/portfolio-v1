@@ -39,7 +39,6 @@ import ThreeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
 import "./styles.css";
 
 export default () => {
-
   useAOS();
 
   return (
@@ -55,38 +54,38 @@ export default () => {
           <h3 className="tech-name">Lenguajes</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.javascript.com/"
+              href="https://www.javascript.com/"
               className="tech-link"
               target="_blank"
             >
               <img src={jsLogo} alt="Javascript" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.typescriptlang.org/"
+              href="https://www.typescriptlang.org/"
               className="tech-link"
               target="_blank"
             >
               <img src={tsLogo} alt="TypeScript" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.python.org/"
+              href="https://www.python.org/"
               className="tech-link"
               target="_blank"
             >
               <img src={pyLogo} alt="Python" className="technology-logo" />
             </a>
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://html.com/" className="tech-link" target="_blank">
+            <a href="https://html.com/" className="tech-link" target="_blank">
               <img src={htmlLogo} alt="HTML" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.w3.org/Style/CSS/"
+              href="https://www.w3.org/Style/CSS/"
               className="tech-link"
               target="_blank"
             >
               <img src={cssLogo} alt="CSS" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://sass-lang.com/"
+              href="https://sass-lang.com/"
               className="tech-link"
               target="_blank"
             >
@@ -97,11 +96,11 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
           <div className="logos-group">
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://nextjs.org/" className="tech-link" target="_blank">
+            <a href="https://nextjs.org/" className="tech-link" target="_blank">
               <img src={nextLogo} alt="Next" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://es.reactjs.org/"
+              href="https://es.reactjs.org/"
               className="tech-link"
               target="_blank"
             >
@@ -113,7 +112,7 @@ export default () => {
           <h3 className="tech-name">Back-end</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://expressjs.com/"
+              href="https://expressjs.com/"
               className="tech-link"
               target="_blank"
             >
@@ -124,7 +123,7 @@ export default () => {
               />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.djangoproject.com/"
+              href="https://www.djangoproject.com/"
               className="tech-link"
               target="_blank"
             >
@@ -136,14 +135,14 @@ export default () => {
           <h3 className="tech-name">Database</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.mysql.com/"
+              href="https://www.mysql.com/"
               className="tech-link"
               target="_blank"
             >
               <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.mongodb.com/"
+              href="https://www.mongodb.com/"
               className="tech-link"
               target="_blank"
             >
@@ -158,11 +157,11 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
           <div className="logos-group">
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://jestjs.io/" className="tech-link" target="_blank">
+            <a href="https://jestjs.io/" className="tech-link" target="_blank">
               <img src={JestLogo} alt="Jest" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://tailwindcss.com/"
+              href="https://tailwindcss.com/"
               className="tech-link"
               target="_blank"
             >
@@ -172,18 +171,18 @@ export default () => {
                 className="technology-logo"
               />
             </a>
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://vitejs.dev/" className="tech-link" target="_blank">
+            <a href="https://vitejs.dev/" className="tech-link" target="_blank">
               <img src={ViteLogo} alt="Vite" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://git-scm.com/"
+              href="https://git-scm.com/"
               className="tech-link"
               target="_blank"
             >
               <img src={GitLogo} alt="Git" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.docker.com/"
+              href="https://www.docker.com/"
               className="tech-link"
               target="_blank"
             >
@@ -206,11 +205,11 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
           <div className="logos-group">
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://go.dev/" className="tech-link" target="_blank">
+            <a href="https://go.dev/" className="tech-link" target="_blank">
               <img src={goLogo} alt="Go" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.rust-lang.org/"
+              href="https://www.rust-lang.org/"
               className="tech-link"
               target="_blank"
             >
@@ -222,23 +221,23 @@ export default () => {
           <h3 className="tech-name">Front-end</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://www.solidjs.com/"
+              href="https://www.solidjs.com/"
               className="tech-link"
               target="_blank"
             >
               <img src={solidLogo} alt="Solid" className="technology-logo" />
             </a>
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://svelte.dev/" className="tech-link" target="_blank">
+            <a href="https://svelte.dev/" className="tech-link" target="_blank">
               <img src={svelteLogo} alt="Svelte" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://qwik.builder.io/"
+              href="https://qwik.builder.io/"
               className="tech-link"
               target="_blank"
             >
               <img src={quikLogo} alt="Qwik" className="technology-logo" />
             </a>
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://vuejs.org/" className="tech-link" target="_blank">
+            <a href="https://vuejs.org/" className="tech-link" target="_blank">
               <img src={vueLogo} alt="Vue" className="technology-logo" />
             </a>
           </div>
@@ -246,38 +245,38 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Back-end</h3>
           <div className="logos-group">
-            <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://gofiber.io/"
-              className="tech-link"
-              target="_blank"
-            >
+            <a href="https://gofiber.io/" className="tech-link" target="_blank">
               <img src={fiberLogo} alt="Fiber" className="technology-logo" />
             </a>
-            <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://actix.rs/"
-              className="tech-link"
-              target="_blank"
-            >
+            <a href="https://actix.rs/" className="tech-link" target="_blank">
               <img src={actixLogo} alt="Actix" className="technology-logo" />
             </a>
           </div>
         </div>
         <div className="tech-group">
-            <h3 className="tech-name">Database</h3>
-            <div className="logos-group">
-                <a data-aos="zoom-out" data-aos-delay="1000" href="https://graphql.org/" className="tech-link" target="_blank">
-                    <img src={graphQLLogo} alt="GraphQL" className="technology-logo" />
-                </a>
-                <a data-aos="zoom-out" data-aos-delay="1000" href="https://redis.io/" className="tech-link" target="_blank">
-                    <img src={redisLogo} alt="Redis" className="technology-logo" />
-                </a>
-            </div>
+          <h3 className="tech-name">Database</h3>
+          <div className="logos-group">
+            <a
+              href="https://graphql.org/"
+              className="tech-link"
+              target="_blank"
+            >
+              <img
+                src={graphQLLogo}
+                alt="GraphQL"
+                className="technology-logo"
+              />
+            </a>
+            <a href="https://redis.io/" className="tech-link" target="_blank">
+              <img src={redisLogo} alt="Redis" className="technology-logo" />
+            </a>
+          </div>
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://threejs.org/"
+              href="https://threejs.org/"
               className="tech-link"
               target="_blank"
             >
@@ -300,7 +299,7 @@ export default () => {
           <h3 className="tech-name">Lenguajes</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://learn.microsoft.com/en-us/dotnet/csharp/"
+              href="https://learn.microsoft.com/en-us/dotnet/csharp/"
               className="tech-link"
               target="_blank"
             >
@@ -311,7 +310,7 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
           <div className="logos-group">
-            <a data-aos="zoom-out" data-aos-delay="1000" href="https://jquery.com/" className="tech-link" target="_blank">
+            <a href="https://jquery.com/" className="tech-link" target="_blank">
               <img src={jqueryLogo} alt="Jquery" className="technology-logo" />
             </a>
           </div>
@@ -320,14 +319,14 @@ export default () => {
           <h3 className="tech-name">Back-end</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://palletsprojects.com/p/flask/"
+              href="https://palletsprojects.com/p/flask/"
               className="tech-link"
               target="_blank"
             >
               <img src={flaskLogo} alt="Flask" className="technology-logo" />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://dotnet.microsoft.com/en-us/apps/aspnet"
+              href="https://dotnet.microsoft.com/en-us/apps/aspnet"
               className="tech-link"
               target="_blank"
             >
@@ -338,7 +337,7 @@ export default () => {
         {/* <div className="tech-group">
                     <h3 className="tech-name">Database</h3>
                     <div className="logos-group">
-                        <a data-aos="zoom-out" data-aos-delay="1000" href="https://www.mysql.com/" className="tech-link" target="_blank">
+                        <a href="https://www.mysql.com/" className="tech-link" target="_blank">
                             <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
                         </a>
                     </div>
@@ -347,7 +346,7 @@ export default () => {
           <h3 className="tech-name">Tools</h3>
           <div className="logos-group">
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://getbootstrap.com/"
+              href="https://getbootstrap.com/"
               className="tech-link"
               target="_blank"
             >
@@ -358,7 +357,7 @@ export default () => {
               />
             </a>
             <a
-              data-aos="zoom-out" data-aos-delay="1000" href="https://webpack.js.org/"
+              href="https://webpack.js.org/"
               className="tech-link"
               target="_blank"
             >
