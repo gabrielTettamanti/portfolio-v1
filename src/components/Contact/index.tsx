@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons'
 import {  } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './styles.css'
@@ -32,7 +32,7 @@ function Contact() {
                 <div className="contact-buttons">
                 </div>
                 <a href="#nav-menu">
-                    <FontAwesomeIcon icon={faArrowDown} className="arrow-down-scroller" />
+                    <FontAwesomeIcon icon={faBars} className="arrow-down-scroller" />
                 </a>
                 <address className="contact-buttons">
                     <a href="https://drive.google.com/file/d/1Vw0-ZFCLEB5ZQtZZPLaLIWL0yj8ZShHp/view?usp=sharing" target="_blank">
