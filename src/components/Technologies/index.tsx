@@ -53,7 +53,7 @@ export default () => {
         </p>
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://www.javascript.com/"
               className="tech-link"
@@ -96,7 +96,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a href="https://nextjs.org/" className="tech-link" target="_blank">
               <img src={nextLogo} alt="Next" className="technology-logo" />
             </a>
@@ -111,7 +111,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Back-end</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://expressjs.com/"
               className="tech-link"
@@ -134,7 +134,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Database</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://www.mysql.com/"
               className="tech-link"
@@ -157,7 +157,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a href="https://jestjs.io/" className="tech-link" target="_blank">
               <img src={JestLogo} alt="Jest" className="technology-logo" />
             </a>
@@ -205,7 +205,7 @@ export default () => {
         </p>
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a href="https://go.dev/" className="tech-link" target="_blank">
               <img src={goLogo} alt="Go" className="technology-logo" />
             </a>
@@ -220,7 +220,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://www.solidjs.com/"
               className="tech-link"
@@ -245,7 +245,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Back-end</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a href="https://gofiber.io/" className="tech-link" target="_blank">
               <img src={fiberLogo} alt="Fiber" className="technology-logo" />
             </a>
@@ -256,7 +256,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Database</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://graphql.org/"
               className="tech-link"
@@ -275,7 +275,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://threejs.org/"
               className="tech-link"
@@ -298,7 +298,7 @@ export default () => {
         </p>
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://learn.microsoft.com/en-us/dotnet/csharp/"
               className="tech-link"
@@ -310,7 +310,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a href="https://jquery.com/" className="tech-link" target="_blank">
               <img src={jqueryLogo} alt="Jquery" className="technology-logo" />
             </a>
@@ -318,7 +318,7 @@ export default () => {
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Back-end</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://palletsprojects.com/p/flask/"
               className="tech-link"
@@ -337,7 +337,7 @@ export default () => {
         </div>
         {/* <div className="tech-group">
                     <h3 className="tech-name">Database</h3>
-                    <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+                    <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
                         <a href="https://www.mysql.com/" className="tech-link" target="_blank">
                             <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
                         </a>
@@ -345,7 +345,7 @@ export default () => {
                 </div> */}
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
-          <div className="logos-group" data-aos="zoom-out" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
             <a
               href="https://getbootstrap.com/"
               className="tech-link"
