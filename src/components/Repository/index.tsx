@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faDesktop, faPlay, faXmark } from "@fortawesome/free-solid-svg-icons";
+import useAOS from "../hooks/useAOS";
 
 import "./styles.css";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -26,9 +27,12 @@ export default (props: repositoriesData) => {
     setIsOpen('repository-menu-unactive');
   }
 
+  useAOS();
+
   return (
     <div className={`repository ${modalIsOpen == 'repository-menu' ? 'unclickable' : 'clickable'}`} onClick={() => openModal()}>
       <img
+        data-aos="fade-in"
         src={props.img}
         alt="Foto del proyecto"
         className="repository-view"
