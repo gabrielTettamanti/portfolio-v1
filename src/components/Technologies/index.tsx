@@ -345,7 +345,7 @@ export default () => {
                 </div> */}
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
-          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+          <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
             <a
               href="https://getbootstrap.com/"
               className="tech-link"
