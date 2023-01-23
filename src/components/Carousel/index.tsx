@@ -10,10 +10,10 @@ function Carousel() {
   return (
     <section className={`carousel-background-${dayTime} home-intro`}>
       <div className="carousel-container">
-        <div data-aos="zoom-in">
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <AnalogClock />
         </div>
-        <div className="carousel-text" data-aos="zoom-in">
+        <div className="carousel-text" data-aos="zoom-in" data-aos-duration="2000">
           <p>
             <b>¿Para qué programamos?</b> Lo hacemos para resolver problemas
             cotidianos, facilitando la vida de la gente mediante soluciones
