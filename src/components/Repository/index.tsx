@@ -33,6 +33,8 @@ export default (props: repositoriesData) => {
     <div className={`repository ${modalIsOpen == 'repository-menu' ? 'unclickable' : 'clickable'}`} onClick={() => openModal()}>
       <img
         data-aos="fade-in"
+        data-aos-duration="2000"
+        data-aos-offset="250"
         src={props.img}
         alt="Foto del proyecto"
         className="repository-view"
