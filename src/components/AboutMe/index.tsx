@@ -6,6 +6,7 @@ import UNLPLogo from "../../assets/images/education/unlp.webp";
 import DHLogo from "../../assets/images/education/digitalhouse.svg";
 import freeCodeCampLogo from "../../assets/images/education/freecodecamp.jpg";
 import HarvardLogo from "../../assets/images/education/harvard.png";
+import VueSchoolLogo from "../../assets/images/education/vueschool.svg";
 import myPhoto from "../../assets/images/me/myphoto.jpg";
 
 export default () => {
@@ -90,6 +91,40 @@ export default () => {
                   alt="UNLP logo"
                   className="education-logo"
                   id="unlp-logo"
+                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div className="education">
+        <h3 className="education-title">Cursos</h3>
+        <ul className="education-list">
+          <li className="education-list-item">
+            <h4 className="education-years">2023</h4>
+            <div className="education-names">
+              <div className="education-institutions">
+                <p className="education-name">
+                Vue School | Nuxt.js Fundamentals
+                </p>
+                <img
+                  src={VueSchoolLogo}
+                  alt="Vue School logo"
+                  className="education-logo"
+                  id="vue-school-logo"
+                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                />
+              </div>
+              <div className="education-institutions">
+                <p className="education-name">
+                Vue School | Vue.js 3 Components Fundamentals
+                </p>
+                <img
+                  src={VueSchoolLogo}
+                  alt="Vue School logo"
+                  className="education-logo"
+                  id="vue-school-logo"
                   data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
                 />
               </div>
