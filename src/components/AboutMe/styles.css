@@ -146,6 +146,7 @@
 .about-me .education .education-list .education-list-item .education-names .education-institutions #vue-school-logo {
   background-color: #1d185e;
   padding: 5px;
+  max-height: 40px;
 }
 
 .langs-container {
