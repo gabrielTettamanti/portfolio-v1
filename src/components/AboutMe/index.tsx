@@ -99,7 +99,7 @@ export default () => {
         </ul>
       </div>
       <div className="education">
-        <h3 className="education-title">Cursos</h3>
+        <h3 className="courses-title">Cursos</h3>
         <ul className="education-list">
           <li className="education-list-item">
             <h4 className="education-years">2023</h4>
