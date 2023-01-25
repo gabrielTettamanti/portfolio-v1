@@ -7,6 +7,7 @@ import htmlLogo from "../../assets/images/tecnologies/languages/html.png";
 import nextLogo from "../../assets/images/tecnologies/frontend/next.png";
 import solidLogo from "../../assets/images/tecnologies/frontend/solid.png";
 import reactLogo from "../../assets/images/tecnologies/frontend/react.png";
+import vueLogo from "../../assets/images/tecnologies/frontend/vue.png";
 import expressLogo from "../../assets/images/tecnologies/backend/express.png";
 import flaskLogo from "../../assets/images/tecnologies/backend/flask.png";
 import djangoLogo from "../../assets/images/tecnologies/backend/django.png";
@@ -27,8 +28,20 @@ import HelloCube from "../../assets/images/repos/hellocube.png";
 // import MercadoPago from "../../assets/images/repos/mercadopago.png";
 import ClickCounter from "../../assets/images/repos/clickcounter.png";
 import CameraThreeJS from "../../assets/images/repos/camerathreejs.png";
+import CalculatorPy from "../../assets/images/repos/pythoncalculator.png";
+import VueClickCounter from "../../assets/images/repos/vueclickcounter.png";
 
 const experimentsData = [
+  {
+      title: "Calculadora con Python",
+      description:
+        "Es una calculadora desarrollada con python que cuenta con un cliente para usarse como aplicación de escritorio.",
+      technologies: [pyLogo],
+      url: "",
+      github: "https://github.com/gabrielTettamanti/python-calculator",
+      desktop: "",
+      img: CalculatorPy,
+  },
   {
     title: "Cámaras ThreeJS",
     description:
@@ -49,18 +62,18 @@ const experimentsData = [
     desktop: "https://hellocube.vercel.app/",
     img: HelloCube,
   },
-  // {
-  //   title: "TPG - MercadoPago",
-  //   description:
-  //     "Es una web que simula Mercado Libre, donde uno puede efectuar pagos digitales mediante la API de Mercado Pago, la cual proporciona una gran seguridad a la hora de efectuar transacciones.",
-  //   technologies: [jsLogo, htmlLogo, cssLogo, expressLogo, GitLogo],
-  //   url: "https://youtu.be/e9FSt28fe6I",
-  //   github: "https://github.com/gabrielTettamanti/TPG-MercadoPago",
-  //   desktop: "",
-  //   img: MercadoPago,
-  // },
   {
-    title: "Contador de clicks",
+    title: "Vue Click Counter",
+    description:
+    "Es un contador de clicks que va reaccionando a los click que se dan a los botones sumando y restando el número en el recuadro. Es mi primer acercamiento al framework frontend VueJS.",
+    technologies: [vueLogo, tsLogo, htmlLogo, SassLogo, cssLogo, ViteLogo, GitLogo],
+    url: "",
+    github: "https://github.com/gabrielTettamanti/vue-click-counter",
+    desktop: "https://vue-click-counter.vercel.app/",
+    img: VueClickCounter,
+  },
+  {
+    title: "React Click Counter",
     description:
       "Es un contador de clicks que va sumando y restando el número del recuadro. El objetivo era aprender los nuevos hooks de React, siendo estos el useEffect y el useState.",
     technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],

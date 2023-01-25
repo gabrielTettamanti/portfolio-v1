@@ -32,7 +32,6 @@ import Calculator from '../../assets/images/repos/calculator.png'
 import TatetiSolidJS from '../../assets/images/repos/tatetisolid.png'
 import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.png'
 import MercadoLiebre from '../../assets/images/repos/mercadoliebre.png'
-import CalculatorPy from "../../assets/images/repos/pythoncalculator.png";
 
 const repositoriesData = [
     {
@@ -115,16 +114,6 @@ const repositoriesData = [
         github: "https://github.com/gabrielTettamanti/mercadoLiebre",
         desktop: 'https://mercadoliebre-production.up.railway.app/',
         img: MercadoLiebre
-    },
-    {
-        title: "Calculadora con Python",
-        description:
-          "Es una calculadora desarrollada con python que cuenta con un cliente para usarse como aplicación de escritorio.",
-        technologies: [pyLogo],
-        url: "",
-        github: "https://github.com/gabrielTettamanti/python-calculator",
-        desktop: "",
-        img: CalculatorPy,
     }
 ]
 
