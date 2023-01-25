@@ -33,6 +33,26 @@ import VueClickCounter from "../../assets/images/repos/vueclickcounter.png";
 
 const experimentsData = [
   {
+    title: "Vue Click Counter",
+    description:
+    "Es un contador de clicks que va reaccionando a los click que se dan a los botones sumando y restando el número en el recuadro. Es mi primer acercamiento al framework frontend VueJS.",
+    technologies: [vueLogo, tsLogo, htmlLogo, SassLogo, cssLogo, ViteLogo, GitLogo],
+    url: "",
+    github: "https://github.com/gabrielTettamanti/vue-click-counter",
+    desktop: "https://vue-click-counter.vercel.app/",
+    img: VueClickCounter,
+  },
+  {
+    title: "React Click Counter",
+    description:
+    "Es un contador de clicks que va sumando y restando el número del recuadro. El objetivo era aprender los nuevos hooks de React, siendo estos el useEffect y el useState.",
+    technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
+    url: "https://youtu.be/QRZZ-RGerLo",
+    github: "https://github.com/gabrielTettamanti/react-click-counter",
+    desktop: "https://reactclickcounter.vercel.app/",
+    img: ClickCounter,
+  },
+  {
       title: "Calculadora con Python",
       description:
         "Es una calculadora desarrollada con python que cuenta con un cliente para usarse como aplicación de escritorio.",
@@ -61,27 +81,7 @@ const experimentsData = [
     github: "https://github.com/gabrielTettamanti/helloCubeThreeJS",
     desktop: "https://hellocube.vercel.app/",
     img: HelloCube,
-  },
-  {
-    title: "Vue Click Counter",
-    description:
-    "Es un contador de clicks que va reaccionando a los click que se dan a los botones sumando y restando el número en el recuadro. Es mi primer acercamiento al framework frontend VueJS.",
-    technologies: [vueLogo, tsLogo, htmlLogo, SassLogo, cssLogo, ViteLogo, GitLogo],
-    url: "",
-    github: "https://github.com/gabrielTettamanti/vue-click-counter",
-    desktop: "https://vue-click-counter.vercel.app/",
-    img: VueClickCounter,
-  },
-  {
-    title: "React Click Counter",
-    description:
-      "Es un contador de clicks que va sumando y restando el número del recuadro. El objetivo era aprender los nuevos hooks de React, siendo estos el useEffect y el useState.",
-    technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
-    url: "https://youtu.be/QRZZ-RGerLo",
-    github: "https://github.com/gabrielTettamanti/react-click-counter",
-    desktop: "https://reactclickcounter.vercel.app/",
-    img: ClickCounter,
-  },
+  }
 ];
 
 export default experimentsData;
