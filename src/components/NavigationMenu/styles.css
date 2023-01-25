@@ -10,7 +10,10 @@
 }
 .navigation-menu #nav-menu {
   position: absolute;
-  bottom: 98px;
+  top: 84vh;
+  width: 10px;
+  height: 10px;
+  background-color: red;
 }
 .navigation-menu .menu-option {
   list-style: none;
