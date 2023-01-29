@@ -8,6 +8,7 @@ import nextLogo from "../../assets/images/tecnologies/frontend/next.png";
 import solidLogo from "../../assets/images/tecnologies/frontend/solid.png";
 import reactLogo from "../../assets/images/tecnologies/frontend/react.png";
 import vueLogo from "../../assets/images/tecnologies/frontend/vue.png";
+import svelteLogo from "../../assets/images/tecnologies/frontend/svelte.png";
 import expressLogo from "../../assets/images/tecnologies/backend/express.png";
 import flaskLogo from "../../assets/images/tecnologies/backend/flask.png";
 import djangoLogo from "../../assets/images/tecnologies/backend/django.png";
@@ -30,8 +31,19 @@ import ClickCounter from "../../assets/images/repos/clickcounter.png";
 import CameraThreeJS from "../../assets/images/repos/camerathreejs.png";
 import CalculatorPy from "../../assets/images/repos/pythoncalculator.png";
 import VueClickCounter from "../../assets/images/repos/vueclickcounter.png";
+import ClicksSpeedTest from "../../assets/images/repos/clickspeedtest.png";
 
 const experimentsData = [
+  {
+    title: "Svelte Click Speed Test",
+    description:
+    "Es un programa que prueba tu velocidad de clicks por minuto. Está desarrollado en el framework front end de Javascript Svelte. Lo hice como un primer contacto a esta tecnología.",
+    technologies: [svelteLogo, tsLogo, htmlLogo, SassLogo, cssLogo, ViteLogo, GitLogo],
+    url: "",
+    github: "https://github.com/gabrielTettamanti/svelte-clicks-speed-test",
+    desktop: "https://svelte-clicks-speed-test.vercel.app/",
+    img: ClicksSpeedTest,
+  },
   {
     title: "Vue Click Counter",
     description:
