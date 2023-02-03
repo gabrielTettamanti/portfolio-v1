@@ -118,6 +118,18 @@ export default () => {
               </div>
               <div className="education-institutions">
                 <p className="education-name">
+                Vue School | JavaScript Testing Fundamentals
+                </p>
+                <img
+                  src={VueSchoolLogo}
+                  alt="Vue School logo"
+                  className="education-logo"
+                  id="vue-school-logo"
+                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                />
+              </div>
+              <div className="education-institutions">
+                <p className="education-name">
                 Vue School | Vue.js 3 Components Fundamentals
                 </p>
                 <img
