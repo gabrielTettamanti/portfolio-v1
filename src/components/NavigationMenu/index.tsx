@@ -14,20 +14,20 @@ export default () => {
 
   useEffect(() => {
     let path = window.location.pathname.replace('/','');
-    if(path == '') setStatus({ project: "project", tech: "unactive", aboutme: "unactive" });
-    if(path == 'technologies') setStatus({ project: "unactive", tech: "tech", aboutme: "unactive" });
-    if(path == 'aboutme') setStatus({ project: "unactive", tech: "unactive", aboutme: "aboutme" });
-    if(path != '' && path != 'technologies' && path != 'aboutme') setStatus({ project: "unactive", tech: "unactive", aboutme: "unactive" });
+    if(path === '') setStatus({ project: "project", tech: "unactive", aboutme: "unactive" });
+    if(path === 'technologies') setStatus({ project: "unactive", tech: "tech", aboutme: "unactive" });
+    if(path === 'aboutme') setStatus({ project: "unactive", tech: "unactive", aboutme: "aboutme" });
+    if(path !== '' && path !== 'technologies' && path !== 'aboutme') setStatus({ project: "unactive", tech: "unactive", aboutme: "unactive" });
   }, []);
 
   const handleStatus = (option: string) => {
-    if (option == "porject") {
+    if (option === "porject") {
       setStatus({ project: "project", tech: "unactive", aboutme: "unactive" });
     }
-    if (option == "tech") {
+    if (option === "tech") {
       setStatus({ project: "unactive", tech: "tech", aboutme: "unactive" });
     }
-    if (option == "aboutme") {
+    if (option === "aboutme") {
       setStatus({ project: "unactive", tech: "unactive", aboutme: "aboutme" });
     }
   };
