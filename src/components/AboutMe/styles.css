@@ -1,6 +1,8 @@
 .about-me {
   padding: 60px 0;
   min-height: 80vh;
+  background-color: #FCF7F8;
+  color: #000914;
 }
 .about-me .personal-description {
   max-width: 1150px;
