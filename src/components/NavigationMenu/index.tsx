@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable import/no-anonymous-default-export */
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Technologies from "../Technologies";

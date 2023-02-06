@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import React from "react";
 import useAOS from "../hooks/useAOS";
 
@@ -38,7 +39,7 @@ import ThreeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
 
 import "./styles.css";
 
-export default () => {
+export default function () {
 
   useAOS();
 
@@ -57,38 +58,38 @@ export default () => {
             <a
               href="https://www.javascript.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={jsLogo} alt="Javascript" className="technology-logo" />
             </a>
             <a
               href="https://www.typescriptlang.org/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={tsLogo} alt="TypeScript" className="technology-logo" />
             </a>
             <a
               href="https://www.python.org/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={pyLogo} alt="Python" className="technology-logo" />
             </a>
-            <a href="https://html.com/" className="tech-link" target="_blank">
+            <a href="https://html.com/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={htmlLogo} alt="HTML" className="technology-logo" />
             </a>
             <a
               href="https://www.w3.org/Style/CSS/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={cssLogo} alt="CSS" className="technology-logo" />
             </a>
             <a
               href="https://sass-lang.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={SassLogo} alt="Sass" className="technology-logo" />
             </a>
@@ -97,13 +98,13 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
           <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
-            <a href="https://nextjs.org/" className="tech-link" target="_blank">
+            <a href="https://nextjs.org/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={nextLogo} alt="Next" className="technology-logo" />
             </a>
             <a
               href="https://es.reactjs.org/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={reactLogo} alt="React" className="technology-logo" />
             </a>
@@ -115,18 +116,17 @@ export default () => {
             <a
               href="https://expressjs.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src={expressLogo}
                 alt="Express"
-                className="technology-logo"
-              />
+                className="technology-logo" />
             </a>
             <a
               href="https://www.djangoproject.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={djangoLogo} alt="DJango" className="technology-logo" />
             </a>
@@ -138,54 +138,52 @@ export default () => {
             <a
               href="https://www.mysql.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
             </a>
             <a
               href="https://www.mongodb.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src={MongoDBLogo}
                 alt="MongoDB"
-                className="technology-logo"
-              />
+                className="technology-logo" />
             </a>
           </div>
         </div>
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
           <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
-            <a href="https://jestjs.io/" className="tech-link" target="_blank">
+            <a href="https://jestjs.io/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={JestLogo} alt="Jest" className="technology-logo" />
             </a>
             <a
               href="https://tailwindcss.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src={TailwindLogo}
                 alt="Tailwind"
-                className="technology-logo"
-              />
+                className="technology-logo" />
             </a>
-            <a href="https://vitejs.dev/" className="tech-link" target="_blank">
+            <a href="https://vitejs.dev/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={ViteLogo} alt="Vite" className="technology-logo" />
             </a>
             <a
               href="https://git-scm.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={GitLogo} alt="Git" className="technology-logo" />
             </a>
             <a
               href="https://www.docker.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={DockerLogo} alt="Docker" className="technology-logo" />
             </a>
@@ -206,13 +204,13 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
           <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
-            <a href="https://go.dev/" className="tech-link" target="_blank">
+            <a href="https://go.dev/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={goLogo} alt="Go" className="technology-logo" />
             </a>
             <a
               href="https://www.rust-lang.org/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={rustLogo} alt="Rust" className="technology-logo" />
             </a>
@@ -224,21 +222,21 @@ export default () => {
             <a
               href="https://www.solidjs.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={solidLogo} alt="Solid" className="technology-logo" />
             </a>
-            <a href="https://svelte.dev/" className="tech-link" target="_blank">
+            <a href="https://svelte.dev/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={svelteLogo} alt="Svelte" className="technology-logo" />
             </a>
             <a
               href="https://qwik.builder.io/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={quikLogo} alt="Qwik" className="technology-logo" />
             </a>
-            <a href="https://vuejs.org/" className="tech-link" target="_blank">
+            <a href="https://vuejs.org/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={vueLogo} alt="Vue" className="technology-logo" />
             </a>
           </div>
@@ -246,10 +244,10 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Back-end</h3>
           <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
-            <a href="https://gofiber.io/" className="tech-link" target="_blank">
+            <a href="https://gofiber.io/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={fiberLogo} alt="Fiber" className="technology-logo" />
             </a>
-            <a href="https://actix.rs/" className="tech-link" target="_blank">
+            <a href="https://actix.rs/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={actixLogo} alt="Actix" className="technology-logo" />
             </a>
           </div>
@@ -260,15 +258,14 @@ export default () => {
             <a
               href="https://graphql.org/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src={graphQLLogo}
                 alt="GraphQL"
-                className="technology-logo"
-              />
+                className="technology-logo" />
             </a>
-            <a href="https://redis.io/" className="tech-link" target="_blank">
+            <a href="https://redis.io/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={redisLogo} alt="Redis" className="technology-logo" />
             </a>
           </div>
@@ -279,13 +276,12 @@ export default () => {
             <a
               href="https://threejs.org/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src={ThreeJSLogo}
                 alt="ThreeJS"
-                className="technology-logo"
-              />
+                className="technology-logo" />
             </a>
           </div>
         </div>
@@ -302,7 +298,7 @@ export default () => {
             <a
               href="https://learn.microsoft.com/en-us/dotnet/csharp/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={cSharpLogo} alt="C#" className="technology-logo" />
             </a>
@@ -311,7 +307,7 @@ export default () => {
         <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
           <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
-            <a href="https://jquery.com/" className="tech-link" target="_blank">
+            <a href="https://jquery.com/" className="tech-link" target="_blank" rel="noreferrer">
               <img src={jqueryLogo} alt="Jquery" className="technology-logo" />
             </a>
           </div>
@@ -322,51 +318,49 @@ export default () => {
             <a
               href="https://palletsprojects.com/p/flask/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={flaskLogo} alt="Flask" className="technology-logo" />
             </a>
             <a
               href="https://dotnet.microsoft.com/en-us/apps/aspnet"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img src={dotNetLogo} alt=".NET" className="technology-logo" />
             </a>
           </div>
         </div>
         {/* <div className="tech-group">
-                    <h3 className="tech-name">Database</h3>
-                    <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
-                        <a href="https://www.mysql.com/" className="tech-link" target="_blank">
-                            <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
-                        </a>
-                    </div>
-                </div> */}
+                        <h3 className="tech-name">Database</h3>
+                        <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
+                            <a href="https://www.mysql.com/" className="tech-link" target="_blank">
+                                <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
+                            </a>
+                        </div>
+                    </div> */}
         <div className="tech-group">
           <h3 className="tech-name">Tools</h3>
           <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true">
             <a
               href="https://getbootstrap.com/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src={BootstrapLogo}
                 alt="Bootstrap"
-                className="technology-logo"
-              />
+                className="technology-logo" />
             </a>
             <a
               href="https://webpack.js.org/"
               className="tech-link"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               <img
                 src={WebpackLogo}
                 alt="Webpack"
-                className="technology-logo"
-              />
+                className="technology-logo" />
             </a>
           </div>
         </div>
