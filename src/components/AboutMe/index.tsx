@@ -18,7 +18,15 @@ export default () => {
   return (
     <section className="about-me">
       <div className="personal-description">
-        <img src={myPhoto} alt="" className="about-me-photo" data-aos="fade-in" data-aos-duration="2000" data-aos-offset="200" data-aos-once="true"/>
+        <img
+          src={myPhoto}
+          alt=""
+          className="about-me-photo"
+          data-aos="fade-in"
+          data-aos-duration="2000"
+          data-aos-offset="200"
+          data-aos-once="true"
+        />
         <div>
           <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
@@ -49,7 +57,9 @@ export default () => {
                   alt="Harvard University logo"
                   className="education-logo"
                   id="harvard-university-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
@@ -61,7 +71,9 @@ export default () => {
                   alt="Digital House logo"
                   className="education-logo"
                   id="dh-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
@@ -73,7 +85,9 @@ export default () => {
                   alt="freeCodeCamp logo"
                   className="education-logo"
                   id="freecodecamp-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
             </div>
@@ -91,7 +105,9 @@ export default () => {
                   alt="UNLP logo"
                   className="education-logo"
                   id="unlp-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
             </div>
@@ -106,62 +122,86 @@ export default () => {
             <div className="education-names">
               <div className="education-institutions">
                 <p className="education-name">
-                Vue School | Nuxt.js Fundamentals
+                  Vue School | Nuxt.js Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
                   className="education-logo"
                   id="vue-school-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
                 <p className="education-name">
-                Vue School | JavaScript Testing Fundamentals
+                  Vue School | JavaScript Testing Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
                   className="education-logo"
                   id="vue-school-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
                 <p className="education-name">
-                Vue School | Vue.js 3 Components Fundamentals
+                  Vue School | Vue.js 3 Components Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
                   className="education-logo"
                   id="vue-school-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
                 <p className="education-name">
-                Vue School | Vue.js 3 Fundamentals with the Composition APIs
+                  Vue School | Vue.js 3 Fundamentals with the Composition APIs
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
                   className="education-logo"
                   id="vue-school-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
               <div className="education-institutions">
                 <p className="education-name">
-                Vue School | Vue.js 3 Fundamentals with the Options API
+                  Vue School | Vue.js 3 Fundamentals with the Options API
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
                   className="education-logo"
                   id="vue-school-logo"
-                  data-aos="zoom-out" data-aos-duration="1000" data-aos-once="true"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                />
+              </div>
+              <div className="education-institutions">
+                <p className="education-name">
+                  Vue School | Visual Studio Code for Vue.js Developers
+                </p>
+                <img
+                  src={VueSchoolLogo}
+                  alt="Vue School logo"
+                  className="education-logo"
+                  id="vue-school-logo"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
                 />
               </div>
             </div>
