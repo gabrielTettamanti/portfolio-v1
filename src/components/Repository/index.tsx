@@ -22,7 +22,7 @@ export default (props: repositoriesData) => {
   const [modalIsOpen, setIsOpen] = useState('repository-menu-unactive');
 
   function openModal() {
-    if(modalIsOpen == 'repository-menu-unactive') setIsOpen('repository-menu')
+    if(modalIsOpen === 'repository-menu-unactive') setIsOpen('repository-menu')
   }
 
   function closeModal() {
@@ -32,7 +32,7 @@ export default (props: repositoriesData) => {
   useAOS();
 
   return (
-    <div className={`repository ${modalIsOpen == 'repository-menu' ? 'unclickable' : 'clickable'}`} onClick={() => openModal()}>
+    <div className={`repository ${modalIsOpen === 'repository-menu' ? 'unclickable' : 'clickable'}`} onClick={() => openModal()}>
       <img
         data-aos="fade-in"
         data-aos-duration="2000"
@@ -47,7 +47,7 @@ export default (props: repositoriesData) => {
             href={props.url}
             target="_blank"
             className={`repository-menu-button ${
-              props.url == "" ? "no-url" : null
+              props.url === "" ? "no-url" : null
             }`}
             id="repository-menu-yt"
           >
@@ -57,7 +57,7 @@ export default (props: repositoriesData) => {
             href={props.desktop}
             target="_blank"
             className={`repository-menu-button ${
-              props.desktop == "" ? "no-url" : null
+              props.desktop === "" ? "no-url" : null
             }`}
             id="repository-menu-desktop"
           >
@@ -67,7 +67,7 @@ export default (props: repositoriesData) => {
             href={props.github}
             target="_blank"
             className={`repository-menu-button ${
-              props.github == "" ? "no-url" : null
+              props.github === "" ? "no-url" : null
             }`}
             id="repository-menu-github"
           >
