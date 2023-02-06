@@ -121,98 +121,98 @@ export default () => {
           <li className="education-list-item">
             <h4 className="education-years">2023</h4>
             <div className="education-names">
-              <div className="education-institutions">
-                <p className="education-name">
-                  Vue School | Nuxt.js Fundamentals
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
+                  Nuxt.js Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
-                  className="education-logo"
+                  className="education-logo course-logo"
                   id="vue-school-logo"
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-once="true"
                 />
               </div>
-              <div className="education-institutions">
-                <p className="education-name">
-                  Vue School | GraphQL Fundamentals
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
+                  GraphQL Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
-                  className="education-logo"
+                  className="education-logo course-logo"
                   id="vue-school-logo"
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-once="true"
                 />
               </div>
-              <div className="education-institutions">
-                <p className="education-name">
-                  Vue School | JavaScript Testing Fundamentals
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
+                  JavaScript Testing Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
-                  className="education-logo"
+                  className="education-logo course-logo"
                   id="vue-school-logo"
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-once="true"
                 />
               </div>
-              <div className="education-institutions">
-                <p className="education-name">
-                  Vue School | Vue.js 3 Components Fundamentals
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
+                  Vue.js 3 Components Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
-                  className="education-logo"
+                  className="education-logo course-logo"
                   id="vue-school-logo"
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-once="true"
                 />
               </div>
-              <div className="education-institutions">
-                <p className="education-name">
-                  Vue School | Vue.js 3 Fundamentals with the Composition APIs
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
+                  Vue.js 3 Fundamentals with the Composition APIs
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
-                  className="education-logo"
+                  className="education-logo course-logo"
                   id="vue-school-logo"
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-once="true"
                 />
               </div>
-              <div className="education-institutions">
-                <p className="education-name">
-                  Vue School | Vue.js 3 Fundamentals with the Options API
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
+                  Vue.js 3 Fundamentals with the Options API
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
-                  className="education-logo"
+                  className="education-logo course-logo"
                   id="vue-school-logo"
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-once="true"
                 />
               </div>
-              <div className="education-institutions">
-                <p className="education-name">
-                  Vue School | Visual Studio Code for Vue.js Developers
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
+                  Visual Studio Code for Vue.js Developers
                 </p>
                 <img
                   src={VueSchoolLogo}
                   alt="Vue School logo"
-                  className="education-logo"
+                  className="education-logo course-logo"
                   id="vue-school-logo"
                   data-aos="zoom-out"
                   data-aos-duration="1000"

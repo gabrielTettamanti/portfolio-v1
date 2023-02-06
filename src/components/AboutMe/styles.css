@@ -146,7 +146,19 @@
 .about-me .education .education-list .education-list-item .education-names .education-institutions #vue-school-logo {
   background-color: #1d185e;
   padding: 5px;
-  max-height: 40px;
+  max-height: 30px;
+}
+.about-me .education .education-list .education-list-item .education-names .course-item {
+  flex-direction: row-reverse;
+  height: 50px;
+}
+.about-me .education .education-list .education-list-item .education-names .course-item .course-name {
+  font-size: 16px;
+  width: 60%;
+  text-align: left;
+}
+.about-me .education .education-list .education-list-item .education-names .course-item .course-logo {
+  margin: 0px 0px;
 }
 
 .langs-container {
@@ -371,5 +383,12 @@
   }
   .about-me .education .education-list .education-list-item .education-names .education-institutions .education-name {
     margin: 0 0 5px 0;
+  }
+  .about-me .education .education-list .education-list-item .education-names .course-item {
+    flex-direction: row-reverse;
+    margin: 10px 0px;
+  }
+  .about-me .education .education-list .education-list-item .education-names .course-item .course-name {
+    margin: 0 0 0px 0;
   }
 }/*# sourceMappingURL=styles.css.map */
