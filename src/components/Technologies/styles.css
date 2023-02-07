@@ -14,7 +14,6 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   display: grid;
-  grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 27px 0;
   grid-gap: 20px;
@@ -98,7 +97,6 @@
   text-transform: uppercase;
   font-weight: 500;
   display: grid;
-  grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   grid-template-rows: 27px 0;
   grid-gap: 20px;

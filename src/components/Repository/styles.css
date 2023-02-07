@@ -95,14 +95,10 @@
   color: #000914;
 }
 .repository-menu .repository-menu-button:hover {
-  -webkit-animation-name: beat;
-          animation-name: beat;
-  -webkit-animation-duration: 1500ms;
-          animation-duration: 1500ms;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation-name: beat;
+  animation-duration: 1500ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
   border: solid 5px #D025B9;
   box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -113,8 +109,7 @@
   pointer-events: none;
 }
 .repository-menu .no-url:hover {
-  -webkit-animation: none;
-          animation: none;
+  animation: none;
 }
 .repository-menu #repository-menu-yt {
   font-size: 32px;
@@ -127,15 +122,6 @@
 }
 .repository-menu #repository-menu-xmark {
   font-size: 32px;
-}
-
-@-webkit-keyframes beat {
-  0%, 50%, 100% {
-    transform: scale(1, 1);
-  }
-  30%, 80% {
-    transform: scale(1.18, 1.15);
-  }
 }
 
 @keyframes beat {

@@ -174,7 +174,6 @@
   margin: 10px auto;
   font-size: 28px;
   text-transform: uppercase;
-  width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   width: 160px;
@@ -249,11 +248,6 @@
     width: 0%;
   }
 }
-@-webkit-keyframes load {
-  from {
-    width: 0%;
-  }
-}
 @media (max-width: 880px) {
   .about-me .personal-description .about-me-text {
     width: 95%;
@@ -285,7 +279,6 @@
     margin: 10px auto;
     font-size: 28px;
     text-transform: uppercase;
-    width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     width: 160px;
@@ -347,6 +340,9 @@
     padding: 5px;
     max-width: 160px;
   }
+  .about-me .education .education-list .education-list-item .education-names .course-item .course-name {
+    font-size: 13px;
+  }
   .langs-container .langs-title {
     font-size: 22px;
   }
@@ -378,7 +374,6 @@
   }
   .about-me .education .education-list .education-list-item .education-names .education-institutions {
     flex-direction: column;
-    height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
     margin: 20px;
