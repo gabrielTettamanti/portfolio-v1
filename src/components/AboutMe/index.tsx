@@ -123,6 +123,20 @@ export default () => {
             <div className="education-names">
               <div className="education-institutions course-item">
                 <p className="education-name course-name">
+                  Vue.js + Firebase Authentication
+                </p>
+                <img
+                  src={VueSchoolLogo}
+                  alt="Vue School logo"
+                  className="education-logo course-logo"
+                  id="vue-school-logo"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                />
+              </div>
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
                   Nuxt.js Fundamentals
                 </p>
                 <img
