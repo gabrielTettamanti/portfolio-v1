@@ -221,6 +221,20 @@ export default () => {
               </div>
               <div className="education-institutions course-item">
                 <p className="education-name course-name">
+                  Vue 3 Single File Components
+                </p>
+                <img
+                  src={VueSchoolLogo}
+                  alt="Vue School logo"
+                  className="education-logo course-logo"
+                  id="vue-school-logo"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                />
+              </div>
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
                   Vue.js 3 Components Fundamentals
                 </p>
                 <img
