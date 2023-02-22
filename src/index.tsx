@@ -27,18 +27,24 @@ root.render(
         <main>
           <Carousel />
           <NavigationMenu />
-          <Suspense fallback={<div>Loading...</div>}>
+          <Suspense
+            fallback={
+              <div className="suspense-fallback">
+                <h1>Loading...</h1>
+              </div>
+            }
+          >
             <Routes>
-              <Route path='/' element={<RepositoriesList />} />
-              <Route path='/technologies' element={<Technologies />} />
-              <Route path='/aboutme' element={<AboutMe />} />
-              <Route path='*' element={<ErrorPage />} />
+              <Route path="/" element={<RepositoriesList />} />
+              <Route path="/technologies" element={<Technologies />} />
+              <Route path="/aboutme" element={<AboutMe />} />
+              <Route path="*" element={<ErrorPage />} />
             </Routes>
           </Suspense>
         </main>
         <Contact />
       </div>
-      </BrowserRouter>
+    </BrowserRouter>
   </React.StrictMode>
 );
 
