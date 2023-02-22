@@ -44,6 +44,10 @@
   }
 }
 
+.loading-body{
+  height: 100vh;
+}
+
 .wrapper {
   @include on-circle($circle-size: 15rem, $item-size: 3rem); 
   margin: 5em auto 0;

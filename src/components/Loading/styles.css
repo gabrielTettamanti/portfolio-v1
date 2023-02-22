@@ -11,6 +11,10 @@
     transform: scale(1.2);
   }
 }
+.loading-body {
+  height: 100vh;
+}
+
 .wrapper {
   position: relative;
   width: 15rem;

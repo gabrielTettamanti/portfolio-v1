@@ -3,7 +3,7 @@ import './styles.css'
 
 export default () => {
     return (
-        <>
+        <div className='loading-body'>
             <div className="wrapper">
             <div className="bubbleWrap">
                 <div className="bubble"></div>
@@ -51,6 +51,6 @@ export default () => {
                 </filter>
             </defs>
             </svg>
-        </>
+        </div>
     )
 };
