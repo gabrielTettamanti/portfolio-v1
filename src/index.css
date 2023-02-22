@@ -25,11 +25,3 @@ a {
 body::-webkit-scrollbar {
   width: 0em;
 }
-
-.suspense-fallback {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #00fefc;
-  height: 100vh;
-}

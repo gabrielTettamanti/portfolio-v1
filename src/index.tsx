@@ -10,6 +10,7 @@ import NavBar from './components/NavBar';
 import Carousel from './components/Carousel';
 import Contact from './components/Contact'
 import NavigationMenu from './components/NavigationMenu';
+import Loading from './components/Loading';
 
 const RepositoriesList = lazy(() => import('./components/RepositoriesList'));
 const Technologies = lazy(() => import('./components/Technologies'));
@@ -28,11 +29,7 @@ root.render(
           <Carousel />
           <NavigationMenu />
           <Suspense
-            fallback={
-              <div className="suspense-fallback">
-                <h1>Loading...</h1>
-              </div>
-            }
+            fallback={<Loading />}
           >
             <Routes>
               <Route path="/" element={<RepositoriesList />} />
