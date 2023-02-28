@@ -179,7 +179,7 @@ export default () => {
               </div>
               <div className="education-institutions course-item">
                 <p className="education-name course-name">
-                  Nuxt.js Fundamentals
+                  Nuxt.js 3 Fundamentals
                 </p>
                 <img
                   src={VueSchoolLogo}
