@@ -151,6 +151,20 @@ export default () => {
               </div>
               <div className="education-institutions course-item">
                 <p className="education-name course-name">
+                  Build a Drag-and-Drop Trello Board with Vue.js
+                </p>
+                <img
+                  src={VueSchoolLogo}
+                  alt="Vue School logo"
+                  className="education-logo course-logo"
+                  id="vue-school-logo"
+                  data-aos="zoom-out"
+                  data-aos-duration="1000"
+                  data-aos-once="true"
+                />
+              </div>
+              <div className="education-institutions course-item">
+                <p className="education-name course-name">
                   Web Accessibility Fundamentals
                 </p>
                 <img
