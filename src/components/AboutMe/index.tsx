@@ -115,6 +115,28 @@ export default () => {
           </li>
         </ul>
       </div>
+      <ul className="langs-container">
+        <h3 className="langs-title">Idiomas</h3>
+        <li className="langs-list-item">
+          <p className="langs-name">Español</p>
+          <div className="bar front expert" data-skill="Native"></div>
+        </li>
+        <li className="langs-list-item">
+          <p className="langs-name">Inglés</p>
+          <div
+            className="bar front advanced"
+            data-skill="Upper intermediate"
+          ></div>
+        </li>
+        <li className="langs-list-item">
+          <p className="langs-name">Alemán</p>
+          <div className="bar back basic" data-skill="Intermediate"></div>
+        </li>
+        <li className="langs-list-item">
+          <p className="langs-name">Japonés</p>
+          <div className="bar learning" data-skill="Begginer"></div>
+        </li>
+      </ul>
       <div className="education">
         <h3 className="courses-title">Cursos</h3>
         <ul className="education-list">
@@ -363,28 +385,6 @@ export default () => {
           </li>
         </ul>
       </div>
-      <ul className="langs-container">
-        <h3 className="langs-title">Idiomas</h3>
-        <li className="langs-list-item">
-          <p className="langs-name">Español</p>
-          <div className="bar front expert" data-skill="Native"></div>
-        </li>
-        <li className="langs-list-item">
-          <p className="langs-name">Inglés</p>
-          <div
-            className="bar front advanced"
-            data-skill="Upper intermediate"
-          ></div>
-        </li>
-        <li className="langs-list-item">
-          <p className="langs-name">Alemán</p>
-          <div className="bar back basic" data-skill="Intermediate"></div>
-        </li>
-        <li className="langs-list-item">
-          <p className="langs-name">Japonés</p>
-          <div className="bar learning" data-skill="Begginer"></div>
-        </li>
-      </ul>
     </section>
   );
 };
