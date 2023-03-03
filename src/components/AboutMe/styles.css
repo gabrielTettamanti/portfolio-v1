@@ -164,11 +164,13 @@
 }
 
 .langs-container {
+  padding: 0 0 30px 0;
   max-width: 1150px;
   width: 90%;
   margin: 0 auto;
   text-align: left;
   list-style: none;
+  border-bottom: 2px solid #02223C;
 }
 .langs-container .langs-title {
   margin: 10px auto;
