@@ -49,7 +49,7 @@ export default function () {
         <h2 className="tech-section-title">{text.es.currentStackTitle}</h2>
         <p className="tech-section-text">{text.es.currentStackText}</p>
         <div className="tech-group">
-          <h3 className="tech-name">Lenguajes</h3>
+          <h3 className="tech-name">Languages</h3>
           <div
             className="logos-group"
             data-aos="fade-in"
@@ -259,7 +259,7 @@ export default function () {
         </h2>
         <p className="tech-section-text">{text.es.interestingTechText}</p>
         <div className="tech-group">
-          <h3 className="tech-name">Lenguajes</h3>
+          <h3 className="tech-name">Languages</h3>
           <div
             className="logos-group"
             data-aos="fade-in"
@@ -406,7 +406,7 @@ export default function () {
         <h2 className="tech-section-title">{text.es.disuseTechTitle}</h2>
         <p className="tech-section-text">{text.es.disuseTechText}</p>
         <div className="tech-group">
-          <h3 className="tech-name">Lenguajes</h3>
+          <h3 className="tech-name">Languages</h3>
           <div
             className="logos-group"
             data-aos="fade-in"
