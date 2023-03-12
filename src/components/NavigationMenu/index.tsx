@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Technologies from "../Technologies";
 import "./styles.css";
 
+const text = require("./../../assets/data/indexTexts.json");
+
 export default () => {
   const [status, setStatus] = useState({
     project: "project",
@@ -41,7 +43,7 @@ export default () => {
           onClick={() => handleStatus("porject")}
           className={`link-option ${status.project}`}
         >
-          Proyectos
+          {text.es.navbarProjects}
         </Link>
       </li>
       <li className="menu-option">
@@ -50,7 +52,7 @@ export default () => {
           onClick={() => handleStatus("tech")}
           className={`link-option ${status.tech}`}
         >
-          Tecnologías
+          {text.es.navbarTechnologies}
         </Link>
       </li>
       <li className="menu-option">
@@ -59,7 +61,7 @@ export default () => {
           onClick={() => handleStatus("aboutme")}
           className={`link-option ${status.aboutme}`}
         >
-          Sobre mi
+          {text.es.navbarAboutme}
         </Link>
       </li>
     </ul>

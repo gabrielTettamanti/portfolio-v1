@@ -4,7 +4,7 @@ import AnalogClock from "../AnalogClock";
 import useTime from "../hooks/useTime";
 import useAOS from "../hooks/useAOS";
 
-let text = require('./../../assets/data/indexTexts.json')
+const text = require('./../../assets/data/indexTexts.json')
 
 function Carousel() {
   const dayTime = useTime();
