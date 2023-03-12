@@ -123,10 +123,7 @@ export default () => {
         </li>
         <li className="langs-list-item">
           <p className="langs-name">Inglés</p>
-          <div
-            className="bar front advanced"
-            data-skill="Upper intermediate"
-          ></div>
+          <div className="bar front advanced" data-skill="Advanced"></div>
         </li>
         <li className="langs-list-item">
           <p className="langs-name">Alemán</p>
