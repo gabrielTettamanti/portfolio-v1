@@ -5,6 +5,10 @@
 
     "navbarProjects": "Proyectos",
     "navbarTechnologies": "Tecnologías",
-    "navbarAboutme": "Sobre mi"
+    "navbarAboutme": "Sobre mi",
+
+    "repositoriesListTitle": "Desarrollos",
+    "experimentsTitle": "Experimentos y código abierto",
+    "experimentsSubtitle": "Web is fun"
   }
 }
