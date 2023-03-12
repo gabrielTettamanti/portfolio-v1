@@ -38,18 +38,16 @@ import ThreeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
 
 import "./styles.css";
 
+const text = require("./../../assets/data/techTexts.json");
+
 export default function () {
   useAOS();
 
   return (
     <>
       <section className="technologies">
-        <h2 className="tech-section-title">Stack Actual</h2>
-        <p className="tech-section-text">
-          Estas son las tecnologías que uso profesionalmente en el día a día.
-          Son aquellas con las que tengo mayor experiencia y las que me parecen
-          más idóneas para el desarrollo web en la actualidad.
-        </p>
+        <h2 className="tech-section-title">{text.es.currentStackTitle}</h2>
+        <p className="tech-section-text">{text.es.currentStackText}</p>
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
           <div
@@ -256,15 +254,10 @@ export default function () {
       </section>
       <section className="technologies second-technologies">
         <h2 id="tech-section-second-title">
-          Herramientas interesantes<span>learning is fun</span>
+          {text.es.interestingTechTitle}
+          <span>{text.es.interestingTechSubtitle}</span>
         </h2>
-        <p className="tech-section-text">
-          Estas son tecnologías que me divierte usar e investigar en mi tiempo
-          libre. Considero que algunas de ellas son el futuro del desarrollo de
-          software y se van a ir viendo cada vez más en el corto plazo. Ofrecen
-          enfoques innovadores y mayor rendimiento que ciertas tecnologías más
-          usadas en la actualidad.
-        </p>
+        <p className="tech-section-text">{text.es.interestingTechText}</p>
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
           <div
@@ -410,11 +403,8 @@ export default function () {
         </div>
       </section>
       <section className="technologies">
-        <h2 className="tech-section-title">En desuso</h2>
-        <p className="tech-section-text">
-          Son tecnologías que dejé de usar en nuevos proyectos por preferencias
-          personales o porque encuentro mejores opciones.
-        </p>
+        <h2 className="tech-section-title">{text.es.disuseTechTitle}</h2>
+        <p className="tech-section-text">{text.es.disuseTechText}</p>
         <div className="tech-group">
           <h3 className="tech-name">Lenguajes</h3>
           <div
