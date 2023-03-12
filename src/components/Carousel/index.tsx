@@ -4,6 +4,8 @@ import AnalogClock from "../AnalogClock";
 import useTime from "../hooks/useTime";
 import useAOS from "../hooks/useAOS";
 
+let text = require('./../../assets/data/indexTexts.json')
+
 function Carousel() {
   const dayTime = useTime();
   useAOS();
@@ -13,11 +15,14 @@ function Carousel() {
         <div data-aos="zoom-in" data-aos-duration="2000">
           <AnalogClock />
         </div>
-        <div className="carousel-text" data-aos="zoom-in" data-aos-duration="2000">
+        <div
+          className="carousel-text"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
           <p>
-            <b>¿Para qué programamos?</b> Lo hacemos para resolver problemas
-            cotidianos, facilitando la vida de la gente mediante soluciones
-            innovadoras, buscando una transformación tecnológica del día a día.
+            <b>{text.es.welcomeQuestion} </b>
+            {text.es.welcomeAnswer}
           </p>
         </div>
       </div>
