@@ -33,12 +33,14 @@ export default () => {
         <div>
           <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
-            {text.es.aboutmeTextFirstPart + myCurrentAge + text.es.aboutmeTextSecondPart}
+            {text.es.aboutmeTextFirstPart +
+              myCurrentAge +
+              text.es.aboutmeTextSecondPart}
           </p>
         </div>
       </div>
       <div className="education">
-        <h3 className="education-title">Estudios</h3>
+        <h3 className="education-title">{text.es.studies}</h3>
         <ul className="education-list">
           <li className="education-list-item">
             <h4 className="education-years">2022</h4>
@@ -111,26 +113,26 @@ export default () => {
         </ul>
       </div>
       <ul className="langs-container">
-        <h3 className="langs-title">Idiomas</h3>
+        <h3 className="langs-title">{text.es.languages}</h3>
         <li className="langs-list-item">
-          <p className="langs-name">Español</p>
+          <p className="langs-name">{text.es.spanish}</p>
           <div className="bar front expert" data-skill="Native"></div>
         </li>
         <li className="langs-list-item">
-          <p className="langs-name">Inglés</p>
+          <p className="langs-name">{text.es.english}</p>
           <div className="bar front advanced" data-skill="Advanced"></div>
         </li>
         <li className="langs-list-item">
-          <p className="langs-name">Alemán</p>
+          <p className="langs-name">{text.es.german}</p>
           <div className="bar back basic" data-skill="Intermediate"></div>
         </li>
         <li className="langs-list-item">
-          <p className="langs-name">Japonés</p>
+          <p className="langs-name">{text.es.japanese}</p>
           <div className="bar learning" data-skill="Begginer"></div>
         </li>
       </ul>
       <div className="education">
-        <h3 className="courses-title">Cursos</h3>
+        <h3 className="courses-title">{text.es.courses}</h3>
         <ul className="education-list">
           <li className="education-list-item">
             <h4 className="education-years">2023</h4>
