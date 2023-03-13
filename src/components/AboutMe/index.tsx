@@ -10,6 +10,8 @@ import HarvardLogo from "../../assets/images/education/harvard.png";
 import VueSchoolLogo from "../../assets/images/education/vueschool.svg";
 import myPhoto from "../../assets/images/me/myphoto.jpg";
 
+const text = require("./../../assets/data/aboutmeTexts.json");
+
 export default () => {
   useAOS();
   let date = new Date();
@@ -31,14 +33,7 @@ export default () => {
         <div>
           <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
-            Soy un emprendedor de {myCurrentAge} años. Apasionado por los nuevos
-            proyectos y el trabajo en equipo para afrontar los desafíos. Tengo
-            experiencia como product owner, scrum master y desarrollador;
-            organizando equipos, creando estrategias y desarrollando
-            aplicaciones a todo nivel (back end y front end). Soy ingenioso,
-            cooperativo y previsor, comprometido con el aprendizaje y la mejora
-            personal continua, con buen ojo para el diseño y la creación de
-            ámbitos positivos de trabajo.
+            {text.es.aboutmeTextFirstPart + myCurrentAge + text.es.aboutmeTextSecondPart}
           </p>
         </div>
       </div>
