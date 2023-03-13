@@ -9,5 +9,16 @@
 
     "disuseTechTitle": "En desuso",
     "disuseTechText": "Son tecnologías que dejé de usar en nuevos proyectos por preferencias personales o porque encuentro mejores opciones."
+  },
+  "en": {
+    "currentStackTitle": "Current Stack",
+    "currentStackText": "This are the technologies I use in my daily work. I have more experience with them and I think they are suitable for the currently web development.",
+
+    "interestingTechTitle": "Cool tools",
+    "interestingTechSubtitle": "learning is fun",
+    "interestingTechText": "I think, they are fun tools who I learn in my free time. In my opinion, some of them are the future of software development and we will see them more in short term. They offer innovative approaches and higher performance than others technologies currently most used.",
+
+    "disuseTechTitle": "Disuse",
+    "disuseTechText": "They are technologies I don't use in new projects for personal preferences or because I found better options."
   }
 }
