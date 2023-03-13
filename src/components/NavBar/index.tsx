@@ -11,26 +11,7 @@ function NavBar() {
                 <div>
                     <h1 className="title-nav-bar">Gabriel Tettamanti</h1>
                 </div>
-                {/* <div
-                    className="theme-switch"
-                >
-                    <button
-                        className="theme-key"
-                    >
-                        <FontAwesomeIcon 
-                            icon={faSun}
-                            className='switch-theme-icon actived-theme'
-                        />
-                    </button>
-                    <button
-                        className="theme-key"
-                    >
-                        <FontAwesomeIcon 
-                            icon={faMoon}
-                            className='switch-theme-icon off-theme'
-                        />
-                    </button>
-                </div> */}
+                
             </nav>
             <div className="background-header-filling"/>
         </header>
