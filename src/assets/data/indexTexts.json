@@ -10,5 +10,17 @@
     "repositoriesListTitle": "Desarrollos",
     "experimentsTitle": "Experimentos y código abierto",
     "experimentsSubtitle": "Web is fun"
+  },
+  "en": {
+    "welcomeQuestion": "Why do we program?",
+    "welcomeAnswer": "We do it for solve everyday problems, making easier the people's life using innovative solutions, looking for a day-by-day technology transformation.",
+
+    "navbarProjects": "Projects",
+    "navbarTechnologies": "Technologies",
+    "navbarAboutme": "About me",
+
+    "repositoriesListTitle": "Developments",
+    "experimentsTitle": "Experiments and open source",
+    "experimentsSubtitle": "Web is fun"
   }
 }
