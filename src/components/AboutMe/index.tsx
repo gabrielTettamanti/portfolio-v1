@@ -95,8 +95,7 @@ export default () => {
             <div className="education-names">
               <div className="education-institutions">
                 <p className="education-name">
-                  Universidad Nacional de La Plata | Licenciatura en Economía
-                  (60% completa)
+                  Universidad Nacional de La Plata | Economics (60% completed)
                 </p>
                 <img
                   src={UNLPLogo}
