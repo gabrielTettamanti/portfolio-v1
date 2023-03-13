@@ -1,6 +1,6 @@
 {
   "es": {
-    "welcomeQuestion": "¿Para qué programamos?",
+    "welcomeQuestion": "¿Para qué programamos? ",
     "welcomeAnswer": "Lo hacemos para resolver problemas cotidianos, facilitando la vida de la gente mediante soluciones innovadoras, buscando una transformación tecnológica del día a día.",
 
     "navbarProjects": "Proyectos",
@@ -12,7 +12,7 @@
     "experimentsSubtitle": "Web is fun"
   },
   "en": {
-    "welcomeQuestion": "Why do we program?",
+    "welcomeQuestion": "Why do we program? ",
     "welcomeAnswer": "We do it for solve everyday problems, making easier the people's life using innovative solutions, looking for a day-by-day technology transformation.",
 
     "navbarProjects": "Projects",

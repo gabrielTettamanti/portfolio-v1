@@ -1,4 +1,3 @@
-import React from "react";
 import "./styles.css";
 import AnalogClock from "../AnalogClock";
 import useTime from "../hooks/useTime";
@@ -7,6 +6,7 @@ import useAOS from "../hooks/useAOS";
 const text = require('./../../assets/data/indexTexts.json')
 
 function Carousel() {
+  let lang = sessionStorage.getItem("lang");
   const dayTime = useTime();
   useAOS();
   return (
@@ -21,8 +21,12 @@ function Carousel() {
           data-aos-duration="2000"
         >
           <p>
-            <b>{text.es.welcomeQuestion} </b>
-            {text.es.welcomeAnswer}
+            <b>
+              {lang === "en"
+                ? text.en.welcomeQuestion
+                : text.es.welcomeQuestion}
+            </b>
+            {lang === "en" ? text.en.welcomeAnswer : text.es.welcomeAnswer}
           </p>
         </div>
       </div>

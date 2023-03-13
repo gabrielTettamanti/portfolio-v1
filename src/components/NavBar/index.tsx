@@ -5,6 +5,10 @@ import { inject } from '@vercel/analytics';
 function NavBar() {
     const dayTime = useTime()
     inject();
+    const setLang = (lang: string) => {
+        sessionStorage.setItem("lang", lang);
+        window.location.reload();
+    }
     return (
       <header>
         <nav className={`nav-bar-container-${dayTime}`}>
@@ -12,11 +16,11 @@ function NavBar() {
             <h1 className="title-nav-bar">Gabriel Tettamanti</h1>
           </div>
           <div>
-            <button>
-              <a href='/en'>EN</a>
+            <button onClick={() => setLang('en')}>
+              EN
             </button>
-            <button>
-              <a href='/es'>ES</a>
+            <button onClick={() => setLang('es')}>
+              ES
             </button>
           </div>
         </nav>
