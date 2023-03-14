@@ -8,6 +8,7 @@ import "./styles.css";
 const text = require("./../../assets/data/indexTexts.json");
 
 export default () => {
+  let lang = sessionStorage.getItem("lang");
   const [status, setStatus] = useState({
     project: "project",
     tech: "tech",
@@ -43,7 +44,7 @@ export default () => {
           onClick={() => handleStatus("porject")}
           className={`link-option ${status.project}`}
         >
-          {text.es.navbarProjects}
+          {lang === "en" ? text.en.navbarProjects : text.es.navbarProjects}
         </Link>
       </li>
       <li className="menu-option">
@@ -52,7 +53,7 @@ export default () => {
           onClick={() => handleStatus("tech")}
           className={`link-option ${status.tech}`}
         >
-          {text.es.navbarTechnologies}
+          {lang === "en" ? text.en.navbarTechnologies : text.es.navbarTechnologies}
         </Link>
       </li>
       <li className="menu-option">
@@ -61,7 +62,7 @@ export default () => {
           onClick={() => handleStatus("aboutme")}
           className={`link-option ${status.aboutme}`}
         >
-          {text.es.navbarAboutme}
+          {lang === "en" ? text.en.navbarAboutme : text.es.navbarAboutme}
         </Link>
       </li>
     </ul>
