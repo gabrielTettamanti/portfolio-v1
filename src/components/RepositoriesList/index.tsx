@@ -9,10 +9,11 @@ import experimentsData from '../../assets/data/experimentsData'
 const text = require("./../../assets/data/indexTexts.json");
 
 export default () => {
+  let lang = sessionStorage.getItem("lang");
   return (
     <section className="repositories-list">
       <h2 className="repositories-list-title" id="developments-title">
-        {text.es.repositoriesListTitle}
+        {lang === "en" ? text.en.repositoriesListTitle : text.es.repositoriesListTitle}
       </h2>
       {repositoriesData.map((data) => {
         return (
@@ -30,8 +31,8 @@ export default () => {
       })}
       <div>
         <h2 className="repositories-list-title" id="experiments-title">
-          {text.es.experimentsTitle}
-          <span>{text.es.experimentsSubtitle}</span>
+          {lang === "en" ? text.en.experimentsTitle : text.es.experimentsTitle}
+          <span>{lang === "en" ? text.en.experimentsSubtitle : text.es.experimentsSubtitle}</span>
         </h2>
         {experimentsData.map((data) => {
           return (
