@@ -1,5 +1,4 @@
 /* eslint-disable import/no-anonymous-default-export */
-import React from "react";
 import useAOS from "../hooks/useAOS";
 
 import jsLogo from "../../assets/images/tecnologies/languages/javascript.png";
@@ -41,13 +40,20 @@ import "./styles.css";
 const text = require("./../../assets/data/techTexts.json");
 
 export default function () {
+  let lang = sessionStorage.getItem("lang");
   useAOS();
 
   return (
     <>
       <section className="technologies">
-        <h2 className="tech-section-title">{text.es.currentStackTitle}</h2>
-        <p className="tech-section-text">{text.es.currentStackText}</p>
+        <h2 className="tech-section-title">
+          {lang === "en"
+            ? text.en.currentStackTitle
+            : text.es.currentStackTitle}
+        </h2>
+        <p className="tech-section-text">
+          {lang === "en" ? text.en.currentStackText : text.es.currentStackText}
+        </p>
         <div className="tech-group">
           <h3 className="tech-name">Languages</h3>
           <div
@@ -254,10 +260,20 @@ export default function () {
       </section>
       <section className="technologies second-technologies">
         <h2 id="tech-section-second-title">
-          {text.es.interestingTechTitle}
-          <span>{text.es.interestingTechSubtitle}</span>
+          {lang === "en"
+            ? text.en.interestingTechTitle
+            : text.es.interestingTechTitle}
+          <span>
+            {lang === "en"
+              ? text.en.interestingTechSubtitle
+              : text.es.interestingTechSubtitle}
+          </span>
         </h2>
-        <p className="tech-section-text">{text.es.interestingTechText}</p>
+        <p className="tech-section-text">
+          {lang === "en"
+            ? text.en.interestingTechText
+            : text.es.interestingTechText}
+        </p>
         <div className="tech-group">
           <h3 className="tech-name">Languages</h3>
           <div
@@ -403,8 +419,12 @@ export default function () {
         </div>
       </section>
       <section className="technologies">
-        <h2 className="tech-section-title">{text.es.disuseTechTitle}</h2>
-        <p className="tech-section-text">{text.es.disuseTechText}</p>
+        <h2 className="tech-section-title">
+          {lang === "en" ? text.en.disuseTechTitle : text.es.disuseTechTitle}
+        </h2>
+        <p className="tech-section-text">
+          {lang === "en" ? text.en.disuseTechText : text.es.disuseTechText}
+        </p>
         <div className="tech-group">
           <h3 className="tech-name">Languages</h3>
           <div
