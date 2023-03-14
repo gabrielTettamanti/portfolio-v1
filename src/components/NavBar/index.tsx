@@ -16,10 +16,10 @@ function NavBar() {
             <h1 className="title-nav-bar">Gabriel Tettamanti</h1>
           </div>
           <div>
-            <button onClick={() => setLang('en')}>
+            <button className='lang-switch-button' onClick={() => setLang('en')}>
               EN
             </button>
-            <button onClick={() => setLang('es')}>
+            <button className='lang-switch-button' onClick={() => setLang('es')}>
               ES
             </button>
           </div>

@@ -40,30 +40,6 @@ $roboto: 'Roboto', sans-serif
         font-size: 35px
         font-weight: 500
         margin: 0px 0px 0px 40px
-    .theme-switch
-        margin: 0px 40px 0px 0px
-        display: flex
-        justify-content: space-between
-        border: solid 3px $oxford-blue
-        border-radius: 50px
-        background-color: $oxford-blue
-        width: 140px
-        height: 50px
-        .theme-key
-            all: unset
-            .switch-theme-icon
-                margin:  0px 0px
-                cursor: pointer
-                font-size: 32px
-                padding: 5px
-                color: $snow
-                border-radius: 50px
-            .actived-theme
-                background-color: $aqua
-                width: 60px
-                cursor: not-allowed
-            .off-theme
-                @include background-aqua-hover
                 
 
 .nav-bar-container-dark-theme
@@ -85,30 +61,6 @@ $roboto: 'Roboto', sans-serif
         font-weight: 500
         margin: 0px 0px 0px 40px
         color: $snow
-    .theme-switch
-        margin: 0px 40px 0px 0px
-        display: flex
-        justify-content: space-between
-        border: solid 3px $snow
-        border-radius: 50px
-        background-color: $snow
-        width: 140px
-        height: 50px
-        .theme-key
-            all: unset
-            .switch-theme-icon
-                margin:  0px 0px
-                cursor: pointer
-                font-size: 32px
-                padding: 5px
-                color: $rich-black-fogra-29
-                border-radius: 50px
-            .actived-theme
-                background-color: $steel-pink
-                width: 60px
-                cursor: not-allowed
-            .off-theme
-                @include background-pink-hover
 
 @media (max-width: 768px)
     .background-header-filling
@@ -120,11 +72,6 @@ $roboto: 'Roboto', sans-serif
         .title-nav-bar
             font-size: 28px
             margin: 0
-        .theme-switch
-            .theme-key
-                .switch-theme-icon
-                .actived-theme
-                .off-theme
     .nav-bar-container-dark-theme
         height: 7vh
         flex-direction: column
@@ -132,8 +79,3 @@ $roboto: 'Roboto', sans-serif
         .title-nav-bar
             font-size: 28px
             margin: 0
-        .theme-switch
-            .theme-key
-                .switch-theme-icon
-                .actived-theme
-                .off-theme
