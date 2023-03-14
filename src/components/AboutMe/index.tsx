@@ -13,6 +13,7 @@ import myPhoto from "../../assets/images/me/myphoto.jpg";
 const text = require("./../../assets/data/aboutmeTexts.json");
 
 export default () => {
+  let lang = sessionStorage.getItem("lang");
   useAOS();
   let date = new Date();
   let currentYear = date.getFullYear();
@@ -33,14 +34,20 @@ export default () => {
         <div>
           <h2 className="about-me-title">Full-Stack Developer</h2>
           <p className="about-me-text">
-            {text.es.aboutmeTextFirstPart +
-              myCurrentAge +
-              text.es.aboutmeTextSecondPart}
+            {lang === "en"
+              ? text.en.aboutmeTextFirstPart +
+                myCurrentAge +
+                text.en.aboutmeTextSecondPart
+              : text.es.aboutmeTextFirstPart +
+                myCurrentAge +
+                text.es.aboutmeTextSecondPart}
           </p>
         </div>
       </div>
       <div className="education">
-        <h3 className="education-title">{text.es.studies}</h3>
+        <h3 className="education-title">
+          {lang === "en" ? text.en.studies : text.es.studies}
+        </h3>
         <ul className="education-list">
           <li className="education-list-item">
             <h4 className="education-years">2022</h4>
@@ -112,7 +119,9 @@ export default () => {
         </ul>
       </div>
       <ul className="langs-container">
-        <h3 className="langs-title">{text.es.languages}</h3>
+        <h3 className="langs-title">
+          {lang === "en" ? text.en.languages : text.es.languages}
+        </h3>
         <li className="langs-list-item">
           <p className="langs-name">{text.es.spanish}</p>
           <div className="bar front expert" data-skill="Native"></div>
