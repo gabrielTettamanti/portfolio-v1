@@ -12,13 +12,13 @@
   },
   "en": {
     "currentStackTitle": "Current Stack",
-    "currentStackText": "This are the technologies I use in my daily work. I have more experience with them and I think they are suitable for the currently web development.",
+    "currentStackText": "These are the technologies I use the most and I am more familiar with in my daily work and I think they are really suitable for the current web development.",
 
     "interestingTechTitle": "Cool tools",
     "interestingTechSubtitle": "learning is fun",
-    "interestingTechText": "I think, they are fun tools who I learn in my free time. In my opinion, some of them are the future of software development and we will see them more in short term. They offer innovative approaches and higher performance than others technologies currently most used.",
+    "interestingTechText": "I truly enjoy using and looking these technologies in my free time. I consider some of them to be the future of the software development and they will become more visible shortly. They offer innovative approaches and a performance which is better than the technologies more commonly used nowadays.",
 
-    "disuseTechTitle": "Disuse",
-    "disuseTechText": "They are technologies I don't use in new projects for personal preferences or because I found better options."
+    "disuseTechTitle": "Less used",
+    "disuseTechText": "These are technologies I don't use in new projects due to personal preferences or because I found better options."
   }
 }
