@@ -26,6 +26,27 @@
   font-weight: 500;
   margin: 0px 0px 0px 40px;
 }
+.nav-bar-container-white-theme .lang-switch {
+  margin: 0 40px 0 0;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar-container-white-theme .lang-switch .lang-switch-button {
+  background: none;
+  border: none;
+}
+.nav-bar-container-white-theme .lang-switch .lang-switch-button .lang-switch-button-flag {
+  height: 5vh;
+}
+.nav-bar-container-white-theme .lang-switch .lang-switch-button:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+.nav-bar-container-white-theme .lang-switch .lang-switch-button .active {
+  filter: grayscale(100%);
+  cursor: default;
+}
 
 .nav-bar-container-dark-theme {
   position: fixed;
@@ -47,6 +68,27 @@
   font-weight: 500;
   margin: 0px 0px 0px 40px;
   color: #FCF7F8;
+}
+.nav-bar-container-dark-theme .lang-switch {
+  margin: 0 40px 0 0;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar-container-dark-theme .lang-switch .lang-switch-button {
+  background: none;
+  border: none;
+}
+.nav-bar-container-dark-theme .lang-switch .lang-switch-button .lang-switch-button-flag {
+  height: 5vh;
+}
+.nav-bar-container-dark-theme .lang-switch .lang-switch-button:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+.nav-bar-container-dark-theme .lang-switch .lang-switch-button .active {
+  filter: grayscale(100%);
+  cursor: default;
 }
 
 @media (max-width: 768px) {

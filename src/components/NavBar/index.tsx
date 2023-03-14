@@ -2,7 +2,11 @@ import './styles.css'
 import useTime from "../hooks/useTime";
 import { inject } from '@vercel/analytics';
 
+import ukFlag from "./../../assets/images/uk.png";
+import spanishFlag from "./../../assets/images/spanish.png";
+
 function NavBar() {
+  let lang = sessionStorage.getItem("lang");
     const dayTime = useTime()
     inject();
     const setLang = (lang: string) => {
@@ -15,12 +19,30 @@ function NavBar() {
           <div>
             <h1 className="title-nav-bar">Gabriel Tettamanti</h1>
           </div>
-          <div>
-            <button className='lang-switch-button' onClick={() => setLang('en')}>
-              EN
+          <div className="lang-switch">
+            <button
+              className="lang-switch-button"
+              onClick={() => setLang("en")}
+            >
+              <img
+                className={`lang-switch-button-flag${
+                  lang === "en" ? " active" : ""
+                }`}
+                src={ukFlag}
+                alt="EN"
+              />
             </button>
-            <button className='lang-switch-button' onClick={() => setLang('es')}>
-              ES
+            <button
+              className="lang-switch-button"
+              onClick={() => setLang("es")}
+            >
+              <img
+                className={`lang-switch-button-flag${
+                  lang === "es" ? " active" : ""
+                }`}
+                src={spanishFlag}
+                alt="ES"
+              />
             </button>
           </div>
         </nav>

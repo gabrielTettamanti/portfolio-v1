@@ -40,6 +40,22 @@ $roboto: 'Roboto', sans-serif
         font-size: 35px
         font-weight: 500
         margin: 0px 0px 0px 40px
+    .lang-switch
+        margin: 0 40px 0 0
+        width: 100px
+        display: flex
+        justify-content: space-between
+        .lang-switch-button
+            background: none
+            border: none
+            .lang-switch-button-flag
+                height: 5vh
+            &:hover
+                cursor: pointer
+                filter: grayscale(0%)
+            .active
+                filter: grayscale(100%)
+                cursor: default
                 
 
 .nav-bar-container-dark-theme
@@ -61,6 +77,22 @@ $roboto: 'Roboto', sans-serif
         font-weight: 500
         margin: 0px 0px 0px 40px
         color: $snow
+    .lang-switch
+        margin: 0 40px 0 0
+        width: 100px
+        display: flex
+        justify-content: space-between
+        .lang-switch-button
+            background: none
+            border: none
+            .lang-switch-button-flag
+                height: 5vh
+            &:hover
+                cursor: pointer
+                filter: grayscale(0%)
+            .active
+                filter: grayscale(100%)
+                cursor: default
 
 @media (max-width: 768px)
     .background-header-filling
