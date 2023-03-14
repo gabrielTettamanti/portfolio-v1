@@ -123,24 +123,34 @@ export default () => {
           {lang === "en" ? text.en.languages : text.es.languages}
         </h3>
         <li className="langs-list-item">
-          <p className="langs-name">{text.es.spanish}</p>
+          <p className="langs-name">
+            {lang === "en" ? text.en.spanish : text.es.spanish}
+          </p>
           <div className="bar front expert" data-skill="Native"></div>
         </li>
         <li className="langs-list-item">
-          <p className="langs-name">{text.es.english}</p>
+          <p className="langs-name">
+            {lang === "en" ? text.en.english : text.es.english}
+          </p>
           <div className="bar front advanced" data-skill="Advanced"></div>
         </li>
         <li className="langs-list-item">
-          <p className="langs-name">{text.es.german}</p>
+          <p className="langs-name">
+            {lang === "en" ? text.en.german : text.es.german}
+          </p>
           <div className="bar back basic" data-skill="Intermediate"></div>
         </li>
         <li className="langs-list-item">
-          <p className="langs-name">{text.es.japanese}</p>
+          <p className="langs-name">
+            {lang === "en" ? text.en.japanese : text.es.japanese}
+          </p>
           <div className="bar learning" data-skill="Begginer"></div>
         </li>
       </ul>
       <div className="education">
-        <h3 className="courses-title">{text.es.courses}</h3>
+        <h3 className="courses-title">
+          {lang === "en" ? text.en.courses : text.es.courses}
+        </h3>
         <ul className="education-list">
           <li className="education-list-item">
             <h4 className="education-years">2023</h4>
