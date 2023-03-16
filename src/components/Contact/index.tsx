@@ -12,18 +12,27 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function Contact() {
     const dayTime = useTime()
+    let lang = sessionStorage.getItem("lang");
     const handleMailTo = () => {
+        let toastMessage = () => {
+            if (lang === 'en') {
+                return 'Email copied!!'
+            }
+            if (lang === "es" || lang === null) {
+              return "Email copiado!!";
+            }
+        }
         navigator.clipboard.writeText("gabrieltettamanti.dev@gmail.com");
-        toast.success("E-mail copiado!!", {
-            position: "top-right",
-            autoClose: 5000,
-            hideProgressBar: false,
-            closeOnClick: true,
-            pauseOnHover: true,
-            draggable: true,
-            progress: undefined,
-            theme: "colored",
-            })
+        toast.success(toastMessage, {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "colored",
+        });
     }
 
     return (
