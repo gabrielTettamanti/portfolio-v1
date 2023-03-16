@@ -42,9 +42,9 @@ function Contact() {
                     <a href="https://www.linkedin.com/in/gabrieltettamanti/" target="_blank">
                         <FontAwesomeIcon icon={faLinkedin} className="contact-button contact-icon" />
                     </a>
-                    <a onClick={() => handleMailTo() }>
+                    <button className="mail-button" onClick={() => handleMailTo() }>
                         <FontAwesomeIcon icon={faEnvelope} className="contact-button contact-icon" />
-                    </a>
+                    </button>
                     <a href="https://github.com/gabrielTettamanti" target="_blank">
                         <FontAwesomeIcon icon={faGithub} className="contact-button contact-icon" />
                     </a>

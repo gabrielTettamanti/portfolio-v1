@@ -64,6 +64,10 @@
   font-size: 20px;
   font-weight: 500;
 }
+.contact-container-white-theme .contact-buttons .mail-button {
+  background: none;
+  border: none;
+}
 
 .contact-container-dark-theme {
   position: fixed;
@@ -120,6 +124,10 @@
 .contact-container-dark-theme .contact-buttons .cv-p {
   font-size: 18px;
   font-weight: 500;
+}
+.contact-container-dark-theme .contact-buttons .mail-button {
+  background: none;
+  border: none;
 }
 
 @media (max-width: 1024px) {
