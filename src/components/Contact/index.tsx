@@ -1,8 +1,6 @@
 /* eslint-disable react/jsx-no-target-blank */
-import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faBars } from '@fortawesome/free-solid-svg-icons'
-import {  } from '@fortawesome/free-regular-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import './styles.css'
 import useTime from "../hooks/useTime";
