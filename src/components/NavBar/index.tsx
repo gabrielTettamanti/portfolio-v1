@@ -41,7 +41,7 @@ function NavBar() {
             >
               <img
                 className={`lang-switch-button-flag${
-                  lang === "es" ? " active" : ""
+                  lang === "es" || lang === null ? " active" : ""
                 }`}
                 src={spanishFlag}
                 alt="ES"
