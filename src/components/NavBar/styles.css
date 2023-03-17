@@ -39,14 +39,22 @@
 .nav-bar-container-white-theme .lang-switch .lang-switch-button .lang-switch-button-flag {
   height: 5vh;
   max-height: 47px;
+  border-radius: 50px;
+  transition: 0.5s;
+  filter: grayscale(5%);
 }
-.nav-bar-container-white-theme .lang-switch .lang-switch-button:hover {
+.nav-bar-container-white-theme .lang-switch .lang-switch-button .lang-switch-button-flag:hover {
   cursor: pointer;
   filter: grayscale(0%);
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .nav-bar-container-white-theme .lang-switch .lang-switch-button .active {
   filter: grayscale(100%);
+}
+.nav-bar-container-white-theme .lang-switch .lang-switch-button .active:hover {
   cursor: default;
+  filter: grayscale(100%);
+  box-shadow: none;
 }
 
 .nav-bar-container-dark-theme {
