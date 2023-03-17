@@ -10,8 +10,11 @@ function NavBar() {
     const dayTime = useTime()
     inject();
     const setLang = (lang: string) => {
-        sessionStorage.setItem("lang", lang);
-        window.location.reload();
+      sessionStorage.setItem("lang", lang);
+      if (lang === 'en') {
+        alert("WORKING IN PROGRESS!! The english version is in beta.");
+      }
+      window.location.reload();
     }
     return (
       <header>
