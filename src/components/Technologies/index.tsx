@@ -12,6 +12,7 @@ import htmlLogo from "../../assets/images/tecnologies/languages/html.png";
 import nextLogo from "../../assets/images/tecnologies/frontend/next.png";
 import solidLogo from "../../assets/images/tecnologies/frontend/solid.png";
 import reactLogo from "../../assets/images/tecnologies/frontend/react.png";
+import nuxtLogo from "../../assets/images/tecnologies/frontend/nuxt.png";
 import vueLogo from "../../assets/images/tecnologies/frontend/vue.png";
 import svelteLogo from "../../assets/images/tecnologies/frontend/svelte.png";
 import quikLogo from "../../assets/images/tecnologies/frontend/qwik.png";
@@ -333,6 +334,14 @@ export default function () {
               rel="noreferrer"
             >
               <img src={quikLogo} alt="Qwik" className="technology-logo" />
+            </a>
+            <a
+              href="https://nuxt.com/blog/v3"
+              className="tech-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={nuxtLogo} alt="Nuxt" className="technology-logo" />
             </a>
             <a
               href="https://vuejs.org/"
