@@ -58,6 +58,8 @@ $roboto: 'Roboto', sans-serif
                     cursor: pointer
                     filter: grayscale(0%)
                     box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+        .button-selected
+            pointer-events: none
             .active
                 filter: grayscale(100%)
                 &:hover
@@ -96,12 +98,21 @@ $roboto: 'Roboto', sans-serif
             .lang-switch-button-flag
                 height: 5vh
                 max-height: 47px
-            &:hover
-                cursor: pointer
-                filter: grayscale(0%)
+                border-radius: 50px
+                transition: 0.5s
+                filter: grayscale(5%)
+                &:hover
+                    cursor: pointer
+                    filter: grayscale(0%)
+                    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%)
+        .button-selected
+            pointer-events: none
             .active
                 filter: grayscale(100%)
-                cursor: default
+                &:hover
+                    cursor: default
+                    filter: grayscale(100%)
+                    box-shadow: none
 
 @media (max-width: 768px)
     .background-header-filling

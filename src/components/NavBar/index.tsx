@@ -24,7 +24,9 @@ function NavBar() {
           </div>
           <div className="lang-switch">
             <button
-              className="lang-switch-button"
+              className={`lang-switch-button${
+                  lang === "en" ? " button-selected" : ""
+                }`}
               onClick={() => setLang("en")}
             >
               <img
@@ -36,7 +38,9 @@ function NavBar() {
               />
             </button>
             <button
-              className="lang-switch-button"
+              className={`lang-switch-button${
+                  lang === "es" || lang === null ? " button-selected" : ""
+                }`}
               onClick={() => setLang("es")}
             >
               <img
