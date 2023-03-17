@@ -42,28 +42,6 @@
   top: 25px;
   transform: none;
 }
-.navigation-menu .menu-option .project::before {
-  content: "";
-  position: absolute;
-  top: 4%;
-  left: -18%;
-  width: 20px;
-  height: 20px;
-  background-color: #02223C;
-  border-bottom-right-radius: 20px;
-  box-shadow: 0px 10px 0px 0px #FCF7F8;
-}
-.navigation-menu .menu-option .project::after {
-  content: "";
-  position: absolute;
-  top: 4%;
-  right: -18%;
-  width: 20px;
-  height: 20px;
-  background-color: #02223C;
-  border-bottom-left-radius: 20px;
-  box-shadow: 0px 10px 0px 0px #FCF7F8;
-}
 .navigation-menu .menu-option .tech {
   background-color: #00fefc;
   border: 6px solid #FCF7F8;
@@ -73,28 +51,6 @@
   top: 25px;
   transform: none;
 }
-.navigation-menu .menu-option .tech::before {
-  content: "";
-  position: absolute;
-  top: 4%;
-  left: -15%;
-  width: 20px;
-  height: 20px;
-  background-color: #02223C;
-  border-bottom-right-radius: 20px;
-  box-shadow: 0px 10px 0px 0px #FCF7F8;
-}
-.navigation-menu .menu-option .tech::after {
-  content: "";
-  position: absolute;
-  top: 4%;
-  right: -15%;
-  width: 20px;
-  height: 20px;
-  background-color: #02223C;
-  border-bottom-left-radius: 20px;
-  box-shadow: 0px 10px 0px 0px #FCF7F8;
-}
 .navigation-menu .menu-option .aboutme {
   background-color: #00fefc;
   border: 6px solid #FCF7F8;
@@ -103,28 +59,6 @@
   z-index: 50;
   top: 25px;
   transform: none;
-}
-.navigation-menu .menu-option .aboutme::before {
-  content: "";
-  position: absolute;
-  top: 4%;
-  left: -20%;
-  width: 20px;
-  height: 20px;
-  background-color: #02223C;
-  border-bottom-right-radius: 20px;
-  box-shadow: 0px 10px 0px 0px #FCF7F8;
-}
-.navigation-menu .menu-option .aboutme::after {
-  content: "";
-  position: absolute;
-  top: 4%;
-  right: -20%;
-  width: 20px;
-  height: 20px;
-  background-color: #02223C;
-  border-bottom-left-radius: 20px;
-  box-shadow: 0px 10px 0px 0px #FCF7F8;
 }
 
 @media (max-width: 1024px) {
@@ -142,30 +76,6 @@
   }
   .navigation-menu .menu-option .project {
     top: 19px;
-  }
-  .navigation-menu .menu-option .project::before {
-    display: none;
-  }
-  .navigation-menu .menu-option .project::after {
-    display: none;
-  }
-  .navigation-menu .menu-option .tech {
-    top: 19px;
-  }
-  .navigation-menu .menu-option .tech::before {
-    display: none;
-  }
-  .navigation-menu .menu-option .tech::after {
-    display: none;
-  }
-  .navigation-menu .menu-option .aboutme {
-    top: 19px;
-  }
-  .navigation-menu .menu-option .aboutme::before {
-    display: none;
-  }
-  .navigation-menu .menu-option .aboutme::after {
-    display: none;
   }
 }
 @media (max-width: 320px) {
