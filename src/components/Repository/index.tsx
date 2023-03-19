@@ -36,7 +36,7 @@ export default (props: repositoriesData) => {
       <img
         data-aos="fade-in"
         data-aos-duration="2000"
-        data-aos-offset="240"
+        data-aos-offset="200"
         data-aos-once="true"
         src={props.img}
         alt="Foto del proyecto"
