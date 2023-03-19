@@ -34,7 +34,7 @@ export default function () {
   useAOS();
 
   return (
-    <>
+    <div className="technologies-container">
       <section className="technologies">
         <h2 className="tech-section-title">
           {lang === "en"
@@ -339,6 +339,6 @@ export default function () {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

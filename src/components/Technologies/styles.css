@@ -1,3 +1,7 @@
+.technologies-container {
+  min-height: 80.3vh;
+}
+
 .technologies {
   background-color: #FCF7F8;
   color: #000914;
