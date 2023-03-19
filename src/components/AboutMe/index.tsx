@@ -391,6 +391,7 @@ export default () => {
                   data-aos="zoom-out"
                   data-aos-duration="1000"
                   data-aos-once="true"
+                  data-aos-offset='100'
                 />
               </div>
             </div>
