@@ -276,33 +276,6 @@ export default function () {
             : text.es.interestingTechText}
         </p>
         <div className="tech-group">
-          <h3 className="tech-name">Languages</h3>
-          <div
-            className="logos-group"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-offset="217"
-            data-aos-once="true"
-          >
-            <a
-              href="https://go.dev/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={goLogo} alt="Go" className="technology-logo" />
-            </a>
-            <a
-              href="https://www.rust-lang.org/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={rustLogo} alt="Rust" className="technology-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="tech-group">
           <h3 className="tech-name">Front-end</h3>
           <div
             className="logos-group"
@@ -354,39 +327,12 @@ export default function () {
           </div>
         </div>
         <div className="tech-group">
-          <h3 className="tech-name">Back-end</h3>
-          <div
-            className="logos-group"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-offset="217"
-            data-aos-once="true"
-          >
-            <a
-              href="https://gofiber.io/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={fiberLogo} alt="Fiber" className="technology-logo" />
-            </a>
-            <a
-              href="https://actix.rs/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={actixLogo} alt="Actix" className="technology-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="tech-group">
           <h3 className="tech-name">Database</h3>
           <div
             className="logos-group"
             data-aos="fade-in"
             data-aos-duration="1000"
-            data-aos-offset="217"
+            data-aos-offset="120"
             data-aos-once="true"
           >
             <a
@@ -398,144 +344,6 @@ export default function () {
               <img
                 src={graphQLLogo}
                 alt="GraphQL"
-                className="technology-logo"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="tech-group">
-          <h3 className="tech-name">Tools</h3>
-          <div
-            className="logos-group"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-offset="217"
-            data-aos-once="true"
-          >
-            <a
-              href="https://threejs.org/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={ThreeJSLogo}
-                alt="ThreeJS"
-                className="technology-logo"
-              />
-            </a>
-          </div>
-        </div>
-      </section>
-      <section className="technologies">
-        <h2 className="tech-section-title">
-          {lang === "en" ? text.en.disuseTechTitle : text.es.disuseTechTitle}
-        </h2>
-        <p className="tech-section-text">
-          {lang === "en" ? text.en.disuseTechText : text.es.disuseTechText}
-        </p>
-        <div className="tech-group">
-          <h3 className="tech-name">Languages</h3>
-          <div
-            className="logos-group"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-offset="217"
-            data-aos-once="true"
-          >
-            <a
-              href="https://learn.microsoft.com/en-us/dotnet/csharp/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={cSharpLogo} alt="C#" className="technology-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="tech-group">
-          <h3 className="tech-name">Front-end</h3>
-          <div
-            className="logos-group"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-offset="217"
-            data-aos-once="true"
-          >
-            <a
-              href="https://jquery.com/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={jqueryLogo} alt="Jquery" className="technology-logo" />
-            </a>
-          </div>
-        </div>
-        <div className="tech-group">
-          <h3 className="tech-name">Back-end</h3>
-          <div
-            className="logos-group"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-offset="217"
-            data-aos-once="true"
-          >
-            <a
-              href="https://palletsprojects.com/p/flask/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={flaskLogo} alt="Flask" className="technology-logo" />
-            </a>
-            <a
-              href="https://dotnet.microsoft.com/en-us/apps/aspnet"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={dotNetLogo} alt=".NET" className="technology-logo" />
-            </a>
-          </div>
-        </div>
-        {/* <div className="tech-group">
-                        <h3 className="tech-name">Database</h3>
-                        <div className="logos-group" data-aos="fade-in" data-aos-duration="1000" data-aos-offset="217" data-aos-once="true">
-                            <a href="https://www.mysql.com/" className="tech-link" target="_blank">
-                                <img src={MySQLLogo} alt="MySQL" className="technology-logo" />
-                            </a>
-                        </div>
-                    </div> */}
-        <div className="tech-group">
-          <h3 className="tech-name">Tools</h3>
-          <div
-            className="logos-group"
-            data-aos="fade-in"
-            data-aos-duration="1000"
-            data-aos-once="true"
-          >
-            <a
-              href="https://getbootstrap.com/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={BootstrapLogo}
-                alt="Bootstrap"
-                className="technology-logo"
-              />
-            </a>
-            <a
-              href="https://webpack.js.org/"
-              className="tech-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                src={WebpackLogo}
-                alt="Webpack"
                 className="technology-logo"
               />
             </a>
