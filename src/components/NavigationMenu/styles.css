@@ -61,11 +61,6 @@
   transform: none;
 }
 
-@media (max-width: 1024px) {
-  #nav-menu {
-    display: none;
-  }
-}
 @media (max-width: 600px) {
   .navigation-menu {
     height: 40px;
