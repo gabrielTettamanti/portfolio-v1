@@ -106,4 +106,10 @@
   background: #D025B9;
   width: 45%;
   height: 2px;
+}
+
+@media (max-height: 450px) {
+  .clock {
+    display: none;
+  }
 }/*# sourceMappingURL=styles.css.map */
