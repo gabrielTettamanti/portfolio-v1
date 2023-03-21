@@ -202,4 +202,12 @@
     font-size: 16px;
     font-weight: 500;
   }
+}
+@media (max-height: 450px) {
+  .background-footer-filling {
+    display: none;
+  }
+  .contact-container-dark-theme {
+    position: static;
+  }
 }/*# sourceMappingURL=styles.css.map */
