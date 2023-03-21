@@ -249,6 +249,16 @@
     width: 0%;
   }
 }
+@media (max-width: 1024px) {
+  .about-me {
+    padding: 60px 0 125px 0;
+  }
+}
+@media (max-width: 600px) {
+  .about-me {
+    padding: 60px 0 100px 0;
+  }
+}
 @media (max-width: 880px) {
   .about-me .personal-description .about-me-text {
     width: 95%;
