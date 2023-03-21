@@ -56,7 +56,15 @@
   background-color: #FCF7F8;
 }
 
+@media (max-width: 1024px) {
+  .repositories-list {
+    padding: 0 0 125px 0;
+  }
+}
 @media (max-width: 600px) {
+  .repositories-list {
+    padding: 0 0 100px 0;
+  }
   .repositories-list .repositories-list-title {
     font-size: 28px;
   }
