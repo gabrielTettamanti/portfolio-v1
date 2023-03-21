@@ -176,6 +176,9 @@
   .background-header-filling {
     display: none;
   }
+  .nav-bar-container-white-theme {
+    position: static;
+  }
   .nav-bar-container-dark-theme {
     position: static;
   }

@@ -207,6 +207,9 @@
   .background-footer-filling {
     display: none;
   }
+  .contact-container-white-theme {
+    position: static;
+  }
   .contact-container-dark-theme {
     position: static;
   }
