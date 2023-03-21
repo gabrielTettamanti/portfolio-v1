@@ -159,6 +159,7 @@
     min-width: 40px;
     min-height: 40px;
     background-color: #000914;
+    box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   }
   .contact-container-dark-theme .contact-buttons {
     margin: 0px 40px 0px 0px;
