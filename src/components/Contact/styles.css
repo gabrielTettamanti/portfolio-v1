@@ -141,7 +141,8 @@
     height: 5vw;
     min-width: 40px;
     min-height: 40px;
-    background-color: #00fefc;
+    background-color: #FCF7F8;
+    box-shadow: 10px 0 16px 0 rgba(0, 0, 0, 0.2), 6px 0 20px 0 rgba(0, 0, 0, 0.19);
   }
   .contact-container-white-theme .contact-buttons {
     margin: 0px 40px 0px 0px;
