@@ -7,8 +7,7 @@
     "navbarTechnologies": "Tecnologías",
     "navbarAboutme": "Sobre mi",
 
-    "repositoriesListTitle": "Desarrollos",
-    "experimentsTitle": "Experimentos y código abierto",
+    "repositoriesListTitle": "Desarrollos y código abierto",
     "experimentsSubtitle": "Web is fun"
   },
   "en": {
@@ -19,8 +18,7 @@
     "navbarTechnologies": "Technologies",
     "navbarAboutme": "About me",
 
-    "repositoriesListTitle": "Developments",
-    "experimentsTitle": "Experiments and open source",
+    "repositoriesListTitle": "Developments and open source",
     "experimentsSubtitle": "Web is fun"
   }
 }
