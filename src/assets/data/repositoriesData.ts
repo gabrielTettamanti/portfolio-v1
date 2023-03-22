@@ -80,7 +80,7 @@ const repositoriesData = [
     img: MuseoPaleontologico,
   },
   {
-    title: "My Movie Site | Working in prosses",
+    title: "My Movie Site | Working in progress",
     description:
       "Esta app sirve para hacer búsquedas de películas y series, pudiendo entrar en cada una y ver una pequeña sinopsis, portada, nota de IMDB de la película. Además puedes iniciar sesión y cerrarla. Proximamente agregaré más funciones.",
     technologies: [
