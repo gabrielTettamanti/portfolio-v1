@@ -21,6 +21,7 @@ import VideoManager from '../../assets/images/repos/videomanager.png'
 import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.png'
 import TaskList from '../../assets/images/repos/tasklist.png'
 import Calculator from '../../assets/images/repos/calculator.png'
+import KittensApp from "../../assets/images/repos/kittensapp.png";
 import TatetiSolidJS from '../../assets/images/repos/tatetisolid.png'
 import freeCodeCampSim from '../../assets/images/repos/freecodecampsimulation.png'
 import MercadoLiebre from '../../assets/images/repos/mercadoliebre.png'
@@ -150,6 +151,16 @@ const repositoriesData = [
     github: "https://github.com/gabrielTettamanti/react-calculator",
     desktop: "https://reactcalculator-ten.vercel.app/",
     img: Calculator,
+  },
+  {
+    title: "Kittens App",
+    description:
+      "Es una app que dice un dato curioso y una imagen aleatoria sobre gatitos. El valor de esta web radica en que llama a una primera API que da datos random y se hace una segunda llamada, a otra API, que devuelve una imagen aleatoria con las tres primeras palabras que le pasamos de la API anterior.",
+    technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, ViteLogo],
+    url: "",
+    github: "https://github.com/gabrielTettamanti/kittens-app",
+    desktop: "https://kittens-app.vercel.app/",
+    img: KittensApp,
   },
   {
     title: "Simulador de freeCodeCamp",
