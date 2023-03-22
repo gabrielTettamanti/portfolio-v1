@@ -4,11 +4,14 @@ import cssLogo from '../../assets/images/tecnologies/languages/css.png'
 import htmlLogo from '../../assets/images/tecnologies/languages/html.png'
 import svelteLogo from "../../assets/images/tecnologies/frontend/svelte.png";
 import solidLogo from '../../assets/images/tecnologies/frontend/solid.png'
-import reactLogo from '../../assets/images/tecnologies/frontend/react.png'
+import reactLogo from "../../assets/images/tecnologies/frontend/react.png";
+import vueLogo from "../../assets/images/tecnologies/frontend/vue.png";
+import nuxtLogo from "../../assets/images/tecnologies/frontend/nuxt.png";
 import expressLogo from '../../assets/images/tecnologies/backend/express.png'
 import MySQLLogo from '../../assets/images/tecnologies/database/mysql.webp'
 import MongoDBLogo from '../../assets/images/tecnologies/database/mongodb.png'
-import BootstrapLogo from '../../assets/images/tecnologies/styles/bootstrap.webp'
+import BootstrapLogo from "../../assets/images/tecnologies/styles/bootstrap.webp";
+import TailwindLogo from "../../assets/images/tecnologies/styles/tailwind.png";
 import GitLogo from '../../assets/images/tecnologies/tools/git.png'
 import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
 import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
@@ -17,6 +20,7 @@ import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 import MyPortfolio from '../../assets/images/repos/myportfolio.png'
 import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.png'
 import GoodTrail from '../../assets/images/repos/goodtrail.png'
+import MyMovieSite from "../../assets/images/repos/mymoviesite.png";
 import VideoManager from '../../assets/images/repos/videomanager.png'
 import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.png'
 import TaskList from '../../assets/images/repos/tasklist.png'
@@ -67,6 +71,25 @@ const repositoriesData = [
       "https://github.com/gabrielTettamanti/museoPaleontologicoDeSanPedro",
     desktop: "",
     img: MuseoPaleontologico,
+  },
+  {
+    title: "My Movie Site | Working in prosses",
+    description:
+      "Esta app sirve para hacer búsquedas de películas y series, pudiendo entrar en cada una y ver una pequeña sinopsis, portada, nota de IMDB de la película. Además puedes iniciar sesión y cerrarla. Proximamente agregaré más funciones.",
+    technologies: [
+      nuxtLogo,
+      vueLogo,
+      jsLogo,
+      htmlLogo,
+      cssLogo,
+      TailwindLogo,
+      GitLogo,
+      ViteLogo,
+    ],
+    url: "",
+    github: "https://github.com/gabrielTettamanti/my-movie-site",
+    desktop: "https://my-movie-site.vercel.app/movies",
+    img: MyMovieSite,
   },
   {
     title: "Video Manager",
