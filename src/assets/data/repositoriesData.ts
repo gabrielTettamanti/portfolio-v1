@@ -82,14 +82,14 @@ const repositoriesData = [
   {
     title: "My Movie Site",
     description:
-      "Esta app sirve para hacer búsquedas de películas y series, pudiendo entrar en cada una y ver una pequeña sinopsis, portada, nota de IMDB de la película. Además puedes iniciar sesión y cerrarla. Proximamente agregaré más funciones.",
+      "Esta app sirve para hacer búsquedas de películas y series, pudiendo entrar en cada una y ver una pequeña sinopsis, portada de la película. Además puedes iniciar sesión y cerrarla. Proximamente agregaré más funciones.",
     technologies: [
       nuxtLogo,
       vueLogo,
       jsLogo,
       htmlLogo,
       cssLogo,
-      TailwindLogo,
+      SassLogo,
       GitLogo,
       ViteLogo,
     ],
