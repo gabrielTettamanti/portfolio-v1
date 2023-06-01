@@ -18,12 +18,14 @@ import ViteLogo from '../../assets/images/tecnologies/tools/vite.png'
 import WebpackLogo from '../../assets/images/tecnologies/tools/webpack.png'
 import SassLogo from '../../assets/images/tecnologies/tools/sass.png'
 import threeJSLogo from "../../assets/images/tecnologies/tools/threejs.png";
+import piniaLogo from "../../assets/images/tecnologies/tools/piniaLogo.png";
 
 import MyPortfolio from '../../assets/images/repos/myportfolio.png'
 import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.png'
 import GoodTrail from '../../assets/images/repos/goodtrail.png'
 import MyMovieSite from "../../assets/images/repos/mymoviesite.png";
 import VideoManager from '../../assets/images/repos/videomanager.png'
+import PiniaVueStore from "../../assets/images/repos/piniaVueStore.png";
 import GoodTrailDashboard from '../../assets/images/repos/goodtraildashboard.png'
 import TaskList from '../../assets/images/repos/tasklist.png'
 import Calculator from '../../assets/images/repos/calculator.png'
@@ -115,6 +117,25 @@ const repositoriesData = [
     github: "https://github.com/gabrielTettamanti/videoManager-MERN-TS",
     desktop: "",
     img: VideoManager,
+  },
+  {
+    title: "Pinia Vue Store",
+    description:
+      "Ésta es una aplicación donde puedes elegir entre una selección de productos e ir guardandolos con sus cantidades específicas en el carrito de compra. En él puede cambiar cantidades o eliminar productos. La tienda cuenta con dos botones capaces de cambiar a estados anteriores o posteriores si existen.",
+    technologies: [
+      vueLogo,
+      jsLogo,
+      htmlLogo,
+      TailwindLogo,
+      cssLogo,
+      piniaLogo,
+      ViteLogo,
+      GitLogo,
+    ],
+    url: "",
+    github: "https://github.com/gabrielTettamanti/pinia-vue-store",
+    desktop: "https://pinia-vue-store.vercel.app/",
+    img: PiniaVueStore,
   },
   {
     title: "GoodTrail Dashboard",
