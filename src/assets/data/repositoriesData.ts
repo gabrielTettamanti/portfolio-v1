@@ -23,6 +23,7 @@ import piniaLogo from "../../assets/images/tecnologies/tools/piniaLogo.png";
 import MyPortfolio from '../../assets/images/repos/myportfolio.png'
 import MuseoPaleontologico from '../../assets/images/repos/museopaleontologico.png'
 import GoodTrail from '../../assets/images/repos/goodtrail.png'
+import TrelloBoardVue from "../../assets/images/repos/trelloboardvue.png";
 import MyMovieSite from "../../assets/images/repos/mymoviesite.png";
 import VideoManager from '../../assets/images/repos/videomanager.png'
 import PiniaVueStore from "../../assets/images/repos/piniaVueStore.png";
@@ -44,7 +45,7 @@ const repositoriesData = [
   {
     title: "Mi portafolio digital",
     description:
-      "Esta web está desarrollada con el objetivo de ser una extensión a mi curriculum vitae. Donde muestro desarrollos y experimentos que he hecho, tecnologías que uso y una breve descripción de mi persona. Cuenta con un ciclo de día y noche que cambia el tema de la web a las 7am y 7pm.",
+      "Ésta web está desarrollada con el objetivo de ser una extensión a mi curriculum vitae. Donde muestro desarrollos y experimentos que he hecho, tecnologías que uso y una breve descripción de mi persona. Cuenta con un ciclo de día y noche que cambia el tema de la web a las 7am y 7pm.",
     technologies: [reactLogo, tsLogo, htmlLogo, SassLogo, cssLogo, GitLogo],
     url: "https://youtu.be/xbJ6qDkmYC4",
     github: "https://github.com/gabrielTettamanti/gabrieltettamanti",
@@ -82,9 +83,28 @@ const repositoriesData = [
     img: MuseoPaleontologico,
   },
   {
+    title: "Trello Board",
+    description:
+      "Ésta aplicación cumple las funciones de un tablero de tareas como la famosa app de Trello. En ésta puedes crear columnas y tareas, e ir moviendolas a medida que lo necesites.",
+    technologies: [
+      nuxtLogo,
+      vueLogo,
+      jsLogo,
+      htmlLogo,
+      TailwindLogo,
+      cssLogo,
+      GitLogo,
+      ViteLogo,
+    ],
+    url: "",
+    github: "https://github.com/gabrielTettamanti/TrelloBoardVue",
+    desktop: "https://trello-board-vue.vercel.app/",
+    img: TrelloBoardVue,
+  },
+  {
     title: "My Movie Site",
     description:
-      "Esta app sirve para hacer búsquedas de películas y series, pudiendo entrar en cada una y ver una pequeña sinopsis, portada de la película. Además puedes iniciar sesión y cerrarla. Proximamente agregaré más funciones.",
+      "Ésta app sirve para hacer búsquedas de películas y series, pudiendo entrar en cada una y ver una pequeña sinopsis, portada de la película. Además puedes iniciar sesión y cerrarla. Proximamente agregaré más funciones.",
     technologies: [
       nuxtLogo,
       vueLogo,
@@ -103,7 +123,7 @@ const repositoriesData = [
   {
     title: "Video Manager",
     description:
-      "En esta aplicación uno encuentra un formulario donde puede ir agregando enlaces, títulos y descripciones de los videos que quieran guardar, estos van a ir organizándose en una lista que puede ser editada o eliminada.",
+      "En ésta aplicación uno encuentra un formulario donde puede ir agregando enlaces, títulos y descripciones de los videos que quieran guardar, estos van a ir organizándose en una lista que puede ser editada o eliminada.",
     technologies: [
       reactLogo,
       tsLogo,
@@ -150,7 +170,7 @@ const repositoriesData = [
   {
     title: "Svelte Click Speed Test",
     description:
-      "Es un programa que prueba tu velocidad de clicks por minuto. Está desarrollado en el framework front end de Javascript Svelte. Lo hice como un primer contacto a esta tecnología.",
+      "Es un programa que prueba tu velocidad de clicks por minuto. Está desarrollado en el framework front end de Javascript Svelte. Lo hice como un primer contacto a ésta tecnología.",
     technologies: [
       svelteLogo,
       tsLogo,
@@ -196,7 +216,7 @@ const repositoriesData = [
   {
     title: "Calculadora",
     description:
-      "En esta web desarrollé una calculadora utilizando los hooks de React.",
+      "En ésta web desarrollé una calculadora utilizando los hooks de React.",
     technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, WebpackLogo],
     url: "https://youtu.be/9ba4QWF2D0U",
     github: "https://github.com/gabrielTettamanti/react-calculator",
@@ -206,7 +226,7 @@ const repositoriesData = [
   {
     title: "Kittens App",
     description:
-      "Es una app que dice un dato curioso y una imagen aleatoria sobre gatitos. El valor de esta web radica en que llama a una primera API que da datos random y se hace una segunda llamada, a otra API, que devuelve una imagen aleatoria con las tres primeras palabras que le pasamos de la API anterior.",
+      "Es una app que dice un dato curioso y una imagen aleatoria sobre gatitos. El valor de ésta web radica en que llama a una primera API que da datos random y se hace una segunda llamada, a otra API, que devuelve una imagen aleatoria con las tres primeras palabras que le pasamos de la API anterior.",
     technologies: [reactLogo, jsLogo, cssLogo, htmlLogo, GitLogo, ViteLogo],
     url: "",
     github: "https://github.com/gabrielTettamanti/kittens-app",
@@ -284,7 +304,7 @@ const repositoriesData = [
   {
     title: "Hello Cube",
     description:
-      "Es mi primera prueba usando la librería ThreeJS de Javascript. Esta es la herramienta más usada en el desarrollo de software 3D web.",
+      "Es mi primera prueba usando la librería ThreeJS de Javascript. Ésta es la herramienta más usada en el desarrollo de software 3D web.",
     technologies: [jsLogo, htmlLogo, threeJSLogo, GitLogo],
     url: "https://youtu.be/uOqDkRhXWZY",
     github: "https://github.com/gabrielTettamanti/helloCubeThreeJS",
